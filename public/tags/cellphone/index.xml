@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Cellphone on Ryan Clarke </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/cellphone/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 04 Oct 2012 00:00:00 UTC</updated>
+    
+    <item>
+      <title>How to join T-Mobile&#39;s Monthly4G prepaid service with a micro-SIM phone</title>
+      <link>http://localhost:1313/post/how-to-join-t-mobile-monthly4g</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/how-to-join-t-mobile-monthly4g</guid>
+      <description>
+
+&lt;p&gt;T-Mobile is offering customers an incredible catch-22&amp;hellip; I mean, deal. I have wanted a Windows Phone for a year now but could not justify paying a smartphone-priced cell plan. So when I saw T-Mobile&amp;rsquo;s $30 per month online-only plan I pounced. My Windows Phone dreams would happen–and all while saving $20 over my current Verizon plan.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s all a cruel trick and the system is broken. You see, the deal is only on the web, so I couldn&amp;rsquo;t buy the $20 in-store SIM card kit since they don&amp;rsquo;t let SIM kits walk out inactivated. No problem, that&amp;rsquo;s what e-commerce is for. So I got my card online and only paid $1.06 with shipping. Feel the savings!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34; alt=&#34;T-Mobile SIM Card&#34; title=&#34;T-Mobile SIM Card&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But on arrival, it turned out to be the full half-acre: way too big to fit the cute little slot in my Nokia Lumia 710. I need micro-SIM, not full SIM. I went back online to get the other kit. Wait a minute, there is no other kit. Yes, I called and no, they do not sell micro-SIMs online at this time.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s the T-Mobile Web/Store Deadlock™: the website won&amp;rsquo;t provide micro-SIM,the  store won&amp;rsquo;t provide the deal. I won&amp;rsquo;t retell the full three-day saga of phone calls and web searches, but I tried everything and even considered buying a &lt;a href=&#34;http://www.amazon.com/gp/product/B004FQUWKS/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B004FQUWKS&amp;amp;linkCode=as2&amp;amp;tag=ryanclanet-20&#34;&gt;SIM cutter&lt;/a&gt; (it&amp;rsquo;s always amazing how manythings there really are to buy). The system was completely broken and I couldn&amp;rsquo;t figure out why. The frustrating thing was the thought that there&amp;rsquo;s no way I&amp;rsquo;m the only one trying to do this.&lt;/p&gt;
+
+&lt;p&gt;In the end I didn&amp;rsquo;t buy the tool, as cool as it looks. Turns out you can simply go into any T-Mobile store and get an activated SIM card switched out for a micro-SIM. Activation involved entering long serial numbers from both SIM and phone into the website and doesn&amp;rsquo;t involve turning the phone on. So I activated the big card online without it ever touching my phone and got the deal. Then went into the store and asked for a switch-out to micro-SIM. Total price: free.&lt;/p&gt;
+
+&lt;p&gt;The system is not broken; instead it is simple and friendly. Too bad they never say how to do it! So I&amp;rsquo;m putting it here so that the world might know.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Steps to get a T-Mobile Monthly4G micro-SIM phone running:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Buy SIM Activation kit on &lt;a href=&#34;http://prepaid-phones.t-mobile.com&#34; title=&#34;prepaid-phones.t-mobile.com&#34;&gt;prepaid-phones.t-mobile.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Activate online at the same site, remember to record the SIM serial number (helpful for step 4)&lt;/li&gt;
+&lt;li&gt;Go to a T-Mobile store and have them switch the full-size SIM for micro-SIM&lt;/li&gt;
+&lt;li&gt;Call T-Mobile customer service and make sure the new micro-SIM serial number is on your account (ensures the store representative did it right)&lt;/li&gt;
+&lt;li&gt;Wait for confirmation text&lt;/li&gt;
+&lt;li&gt;Fill account with enough money to get the first month started&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If this saves even one person 1) from emotional stress or 2) overspending for a smartphone plan then I will be happy. I&amp;rsquo;m happy anyway because I now have a Windows Phone 7.5 and it&amp;rsquo;s connected: what a great experience.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on Ryan Clarke </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/post/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 23 Jun 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Creating a Pinned Site Live Tile easily and without pain</title>
+      <link>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</guid>
+      <description>
+
+&lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
+
+&lt;p&gt;And now there&amp;rsquo;s another one: Pinned Site Live Tiles as implemented by IE11 in Windows 8.1 and Windows Phone 8.1. Pinned SLTs (which I call &amp;ldquo;slivets&amp;rdquo;) allows a website to have a series of beautiful images for the different sizes of Windows tiles and even allows the display of website information using some lovely built-in tile templates using a simple xml schema.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34;&gt;Pinned Sites&lt;/a&gt; - This the jumping off place to explore the Microsoft API documentation for pinned sites including schemas for the browser config, for html meta tags, and the complete list of properties, methods and events used by the browser. This is really helpful for pulling off some cool and crazy website-to-slivet interactions with the variety of available javascript hooks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.telerik.com/fiddler&#34; title=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; - While we are on the topic of debugging, you pretty much have to have Fiddler to monitor the network traffic. This will tell you if the endpoints you defined are even being hit. I wasted a couple hours trying to solve a seemingly impossible problem with my slivets, but after I used Fiddler I solved the problem in minutes.&lt;/p&gt;
+
+&lt;p&gt;If you need any more help feel free to contact me. Of course, if you&amp;rsquo;d like to talk to someone who actually knows something, I&amp;rsquo;ve found Microsoft Program Managers &lt;a href=&#34;https://twitter.com/MattHidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;MattHidinger&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jacobrossi&#34; title=&#34;Twitter @jacobrossi&#34;&gt;Jacob Rossi&lt;/a&gt; to be quick, friendly and very helpful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pinned Site Live Tiles belong on all sites</title>
+      <link>http://localhost:1313/post/pinned-site-live-tiles-belong-on-all-sites</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/pinned-site-live-tiles-belong-on-all-sites</guid>
+      <description>
+
+&lt;p&gt;Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that&amp;rsquo;s impossible. But you &lt;em&gt;can&lt;/em&gt; get 75%* of the way there with an awesome new Internet Explorer feature I recently implemented on one of SEP&amp;rsquo;s sites called Pinned Site Live Tiles.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;What are Pinned Site Live Tiles?&lt;/h3&gt;
+
+&lt;p&gt;I am sure you are familiar with live tiles. They first came with the launch of Windows Phone and now are a defining feature of Windows 8+ as well. Live tiles allow apps that have been pinned to the user&amp;rsquo;s start screen to update their tile with dynamically generated and presumably relevant information. Pinned SLTs (which I will now call slivets) bring that feature to Windows 8.1&amp;rsquo;s IE11 when you pin a web link to the start screen. They basically transform a simple bookmark with a blurry favicon into something almost indistinguishable from a real app. Scott Hanselman wrote an &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&#34;&gt;easy how-to guide&lt;/a&gt; on his blog.&lt;/p&gt;
+
+&lt;p&gt;But things just got better. Nestled deep within &lt;a href=&#34;https://twitter.com/matthidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;Matt Hidinger&lt;/a&gt;&amp;rsquo;s interesting &amp;ldquo;&lt;a href=&#34;http://channel9.msdn.com/Events/Build/2014/2-523&#34; title=&#34;MSDN Channel9&#34;&gt;Live Tiles Enhancements&lt;/a&gt;&amp;rdquo; talk from Microsoft&amp;rsquo;s BUILD conference was a cool little revelation: slivets work on Windows Phone 8.1 as well as Windows 8.1. So now they work on all of Microsoft&amp;rsquo;s desktop, tablet, and phone platforms.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;A Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;I guess it&amp;rsquo;s worth mentioning that slivets only work when IE11 is the default browser. But that limitation doesn&amp;rsquo;t matter since it won&amp;rsquo;t affect your target audience. Anyone interested in apps, namely users of Windows tablets and Windows Phones, are almost certain to have IE as their default browser. And frankly, many desktop users never change their default browser away from IE.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;The Case for Pinned Site Live Tiles&lt;/h3&gt;
+
+&lt;p&gt;Slivets work for almost the entire the app-inclined Windows user base and for all of Windows Phone users. This is a large market, and although currently perched at third place in worldwide market share, it is an underserved market too. Some may scoff at the size of this user base in comparison with Android and iOS. But anyone with a great website who wants apps is likely already going the Android/iOS route since they give the most bang for the many bucks it takes to build an app. That leaves just the Windows platforms in need of apps, and slivets fills those exact markets.&lt;/p&gt;
+
+&lt;p&gt;You can enable one of the signature Windows platforms&amp;rsquo; features just by adding a couple meta tags to your header and a few xml files. Who cares about bang vs. buck when the price is nearly free. In fact, it&amp;rsquo;s so easy that even if you don&amp;rsquo;t have iOS/Android apps you should still enable slivets, the same way you would be silly not to include an apple-touch-icon.&lt;/p&gt;
+
+&lt;p&gt;From now on, I plan to add slivets to all the websites I build unless it&amp;rsquo;s unnecessary or technically impossible.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Adding slivets to your site is not difficult, but there are some tricky situations that can waste your time if you don&amp;rsquo;t know where to look for answers. I&amp;rsquo;ve included some more technical information and helpful tips in my companion article, &amp;ldquo;&lt;a href=&#34;http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/&#34; title=&#34;How to create a Pinned Site Live Tile without pain&#34;&gt;How to create a Pinned Site Live Tile without pain&lt;/a&gt;.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;*Disclaimer: invented number.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
+      <link>http://localhost:1313/post/checked-multi-choice-listviews</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/checked-multi-choice-listviews</guid>
+      <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
+
+&lt;p&gt;Here is the getView method on my adapter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public View getView(int position, View convertView, ViewGroup parent) {
+    AccountSummary account = getItemAt(position);
+
+    if (convertView == null) {
+        convertView = getInflater().inflate(R.layout.account_multi_choice_dialog_item, null);
+    }
+
+    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // Set the CheckedTextView to checked if its a default here
+
+    return convertView;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Everything is standard except for the need to potentially set the item as checked. You would think this would be very simple, just take the CheckedTextView and set it to checked.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // This does not work
+    text.setChecked(account.isDefault);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This does not work.&lt;/strong&gt; For some reason you can set CheckedTextView to checked for an hour&amp;rsquo;s worth on mintues in a row (I sure did) but it will never be remembered. In fact, I even tried checking the TextView from the &amp;lsquo;outside&amp;rsquo; by accessing the ListView from my activity, grabbing the correct CheckedTextView, and setting checked there. And that didn&amp;rsquo;t work either.&lt;/p&gt;
+
+&lt;p&gt;It turns out, as I understand it, that the ListView maintains the checked state of its list items and ignores the state that item says it should have. The following small change in the code makes everything work charmingly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // This, quite charmingly, works
+    ((ListView) parent).setItemChecked(position, account.isDefault);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Instead of checking the item, I tell the ListView to set checked on the correct item. According to the Android source, AbsListView keeps all the checked state in a SparseBooleanArray so the checked state in the TextView goes nowhere and has no effect. I&amp;rsquo;m not sure I understand the full picture, but just set the checked state on the ListView, not the list item.&lt;/p&gt;
+
+&lt;p&gt;So now you know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using factories for cleanliness in Android testing</title>
+      <link>http://localhost:1313/post/using-factories-for-cleanliness-in-android-testing</link>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/using-factories-for-cleanliness-in-android-testing</guid>
+      <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
+
+&lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
+
+&lt;p&gt;Java is fairly verbose. Factories allow us to hide that boring instantiation and assignment snooze-festing in a separate place from the main test function.&lt;/p&gt;
+
+&lt;p&gt;Take this example from a bit of code I&amp;rsquo;ve been working on recently. I&amp;rsquo;ve added some Arrange, Act, Assert comments to make this easier to follow.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
+public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
+
+    public AccountsListActivityTest() {
+        super(AccountsListActivity.class);
+    }
+
+    @Test
+    public void selectingAccountListItemLaunchesAccountDetail() {
+
+        // Arrange account
+        Account account = new Account();
+        account.id = &amp;quot;checking-account-id&amp;quot;;
+        account.name = &amp;quot;CHECKING&amp;quot;;
+        account.isInCashFlow = false;
+        account.isFavorite = false;
+
+        // Arrange group
+        AccountGroup group = new AccountGroup();
+        group.id = &amp;quot;group-id&amp;quot;;
+        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
+        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
+
+        // Arrange group account
+        group.accounts.add(account);
+
+        // Arrange list item
+        AccountListItem accountListItem = new AccountListItem();
+        accountListItem.build(group, account);
+
+        // Act
+        activity.onItemSelected(accountListItem);
+
+        // Assert
+        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
+        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT, account);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not very thrilling? At least it is straightforward, especially since you can see exactly what state is necessary to build make this action work. But why do we care that you can only build an accountListItem from a group and an account? Why do we care that account.isFavorite is required? &amp;ldquo;isFavorite = false&amp;rdquo; is my motto when it comes to this load of excess. All of the necessary state arrangements are clear, necessary, and completely irrelevant to what we&amp;rsquo;re testing. The boring explicitness makes the thing we care about hard to find. I told you this was a snooze-fest.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m going to take all the arrange stuff out and make a private method on my test class to hide all the boring setup.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
+public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
+
+    public AccountsListActivityTest() {
+        super(AccountsListActivity.class);
+    }
+
+    @Test
+    public void selectingAccountListItemLaunchesAccountDetail() {
+        // Arrange
+        AccountListItem accountListItem = setupState();
+
+        // Act
+        activity.onItemSelected(accountListItem);
+
+        // Assert
+        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
+        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT, account);
+    }
+
+    private AccountListItem setupState() {
+        // Arrange account
+        Account account = new Account();
+        account.id = &amp;quot;checking-account-id&amp;quot;;
+        account.name = &amp;quot;CHECKING&amp;quot;;
+        account.isInCashFlow = false;
+        account.isFavorite = false;
+
+        // Arrange group
+        AccountGroup group = new AccountGroup();
+        group.id = &amp;quot;group-id&amp;quot;;
+        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
+        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
+
+        // Arrange group account
+        group.accounts.add(account);
+
+        // Arrange list item
+        AccountListItem accountListItem = new AccountListItem();
+        accountListItem.build(group, account);
+    } 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The setupState() method is still pretty overwhelming, but we can ignore it when we read the test method and that is an instant readability win.&lt;/p&gt;
+
+&lt;p&gt;Now comes the point of this article. Since we don&amp;rsquo;t care about the details of the state setup for this test and the (redacted) others in this class, we can move all this out into a factory that will build the objects we need for us. Now other test classes that will need similar state just say &amp;ldquo;give me one&amp;rdquo; and no fuss will ensue. The reusability aspect is really nice. The test is now looking clean.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
+public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
+
+    public AccountsListActivityTest() {
+        super(AccountsListActivity.class);
+    }
+
+    @Test
+    public void selectingAccountListItemLaunchesAccountDetail() {
+        activity.onItemSelected(basicAccountListItem());
+
+        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
+        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT_account, account);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my factory I&amp;rsquo;ve refactored the state into a few simple, reusable methods that I can mix and match. This arrangement grew out of the needs of the various tests as we wrote them and needed different pieces of data.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class AccountsFactory {
+
+    private static AccountGroup emptyGroup() {
+        AccountGroup group = new AccountGroup();
+        group.id = &amp;quot;group-id&amp;quot;;
+        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
+        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
+
+        return group;
+    }
+
+    public static AccountGroup groupWithAccount(Account account) {
+        AccountGroup group = emptyGroup();
+        group.accounts.add(basicAccount());
+
+        return group;
+    }
+
+    public static Account basicAccount() {
+        Account account = new Account();
+        account.id = &amp;quot;checking-account-id&amp;quot;;
+        account.name = &amp;quot;CHECKING&amp;quot;;
+        account.isInCashFlow = false;
+        account.isFavorite = false;
+
+        return account;
+    }
+
+    public static AccountListItem basicAccountListItem() {
+        AccountListItem accountListItem = new AccountListItem();
+        accountListItem.build(groupWithAccount(), basicAccount());
+
+        return accountListItem;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The Aesop-approved moral to this story is to only put the relevant stuff in the test and hide the rest of the boring state-making in a convenient spot for reuse. On this current project we call them factories, and they work great.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You have to start somewhere</title>
+      <link>http://localhost:1313/post/you-have-to-start-somewhere</link>
+      <pubDate>Fri, 07 Jun 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/you-have-to-start-somewhere</guid>
+      <description>
+
+&lt;p&gt;I started fresh in at SEP on Monday and by Tuesday the bananas were fresh out.&lt;/p&gt;
+
+&lt;p&gt;Fellow new guy Jackson and I were tasked with our first project on Monday just before quittin&amp;rsquo; time: update the internal résumé reporting website from &amp;lsquo;ancient&amp;rsquo; to &amp;lsquo;tomorrow.&amp;rsquo; It currently runs on a mid-2006 vintage copy of Ruby on Rails (version 1.1.6). We&amp;rsquo;re supposed to be bringing it up to Rails 4 (coming soon, 2013) but some fundamental pieces of its inner-working were axed from Rails by the end of 2006. We&amp;rsquo;re not supposed to rewrite the project, just bring it up to date, but many important pieces cannot be upgraded.&lt;/p&gt;
+
+&lt;p&gt;Full disclosure: I&amp;rsquo;m fresh in when it comes to Rails (&amp;ldquo;never touched the stuff&amp;rdquo;), so by Tuesday afternoon my brains were fresh out. And, as I said before, so were the bananas.&lt;/p&gt;
+
+&lt;p&gt;As we passed through The Commons during the first-day tour, Laura from HR said &amp;ldquo;there shall be fruit&amp;rdquo; and, unfortunately, there was no fruit. In my hour of need: fresh out. To quote the great Barney Fife, &amp;ldquo;Well, Andy, a slender high-spirited person needs a sugar pick-me-up late in the day.&amp;rdquo; I had to settle for a cup of ice. Just then, something happened…&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_0&#34;&gt;Chapter 2&lt;/h5&gt;
+
+&lt;p&gt;&lt;em&gt;Just when hope is almost lost, things start to look brighter for our young heroes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A remarkable thing about SEP: everyone is willing to help. Not to be too self-critical (and Jackson&amp;rsquo;s effort, to be fair, was nothing short of heroic), but we needed help.
+There are many things I don&amp;rsquo;t know. Rails is not the only thing on that list. Here are a few others to get you started. I don&amp;rsquo;t know:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The name of the git server (easy to guess)&lt;/li&gt;
+&lt;li&gt;The name of the TFS server (impossible to guess, sounds more like a band name)&lt;/li&gt;
+&lt;li&gt;The name of the database server (easy, but after the TFS server I was expecting anything)&lt;/li&gt;
+&lt;li&gt;The name of the project (five-digit number starting with 06)&lt;/li&gt;
+&lt;li&gt;The name of the guy in the next cube (I love the three-monitor setup)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also don&amp;rsquo;t know about many company policies. For instance, do lowly developers need an official sanction from IT to brazenly install Ubuntu VMs on our machines (no). And I haven&amp;rsquo;t even started on all the questions we had about the résumé website&amp;rsquo;s architecture and history.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_1&#34;&gt;Chapter 3&lt;/h5&gt;
+
+&lt;p&gt;&lt;em&gt;Sorry about chapter 2, this is where things actually get better.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Matt Swanson. He has worked on the résumé system. We asked him a lot of dumb questions and he gave us a lot of good answers. He helped us a ton and he&amp;rsquo;s given the project a fresh start.&lt;/p&gt;
+
+&lt;p&gt;I would like to give a You Rock™ card to Matt (like they told us about in orientation), but I don&amp;rsquo;t know where they are.&lt;/p&gt;
+
+&lt;p&gt;P.S. For non-SEPeers: if you are given two You Rock™ cards of the same color or one each of both colors, you can turn them in to receive Good Stuff™.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6 Tips for Maximum Adventure Between 20 and 28</title>
+      <link>http://localhost:1313/post/6-tips-for-maximum-adventure-between-20-and-28</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/6-tips-for-maximum-adventure-between-20-and-28</guid>
+      <description>
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Advice on Your 20th Birthday from the Perspective of 28 Years&lt;/h3&gt;
+
+&lt;p&gt;Dear Friend,&lt;/p&gt;
+
+&lt;p&gt;The decade which you now commence is fraught with adventure.&lt;/p&gt;
+
+&lt;p&gt;When I was 20, I had lived my entire life in a conservative Christian environment. I was homeschooled, and I earned my bachelor&amp;rsquo;s at Verity Institute. I was a well-learned kid.&lt;/p&gt;
+
+&lt;p&gt;Since then I have held 8 job titles at 5 departments of 3 companies in 3 states. I&amp;rsquo;ve been on three international business trips. I&amp;rsquo;ve taken 20 church youth group kids to &lt;a href=&#34;http://www.ryanclarke.net/post/thursday-october-12-2006-2/&#34; title=&#34;Magic Mountain in L.A.&#34;&gt;Magic Mountain in L.A.&lt;/a&gt; I&amp;rsquo;ve been turned down by the girl I loved. I&amp;rsquo;ve &lt;a href=&#34;http://www.ryanclarke.net/post/tuesday-september-5-2006/&#34; title=&#34;Surfing in San Diego&#34;&gt;taught Austrian tourists how to surf&lt;/a&gt;. I&amp;rsquo;ve been &lt;a href=&#34;http://www.ryanclarke.net/post/this-is-my-thanksgiving/&#34; title=&#34;This is My Thanksgiving&#34;&gt;let go from my job&lt;/a&gt;. I&amp;rsquo;ve eaten from street vendor carts in Mexico. I&amp;rsquo;ve been in 6 weddings: thrice as groomsman, twice as best man, and once as groom. I&amp;rsquo;ve been &lt;a href=&#34;http://www.ryanclarke.net/post/thursday-september-6-2007/&#34; title=&#34;Thursday September 6, 2007&#34;&gt;lost in the&lt;/a&gt; &lt;a href=&#34;http://www.ryanclarke.net/post/thursday-september-13-2007/&#34; title=&#34;Thursday September 13, 2007&#34;&gt;desert for two days&lt;/a&gt; waiting for a helicopter to find us. I&amp;rsquo;ve moved 6 times. I&amp;rsquo;ve had a daughter (another one on is the way). I&amp;rsquo;ve laughed a lot.&lt;/p&gt;
+
+&lt;p&gt;Life goes crazy after you turn twenty: after you leave schooling behind and start doing. There are lots of things to do and lots of things to have happen. Embrace it. Here are a few tips to get you started.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_1&#34;&gt;Don&amp;rsquo;t Live Temporarily.&lt;/h5&gt;
+
+&lt;p&gt;We often say &amp;ldquo;I&amp;rsquo;m just doing this for now&amp;rdquo; we don&amp;rsquo;t think we&amp;rsquo;ll be doing it for &amp;ldquo;the rest of my life.&amp;rdquo; Mortal life by its very nature is not permanent, why dwell on the fact? Live whole-heartedly where ever you are (Psalm 1:3). Who cares if you only &amp;lsquo;plan&amp;rsquo; to be somewhere for 1 year? Get state residency, join a local church, attend a weekly/monthly group of your interest and settle in. You may only be there for a year, but at least you enjoyed it and belonged. If you end up staying for 20 years, at least you didn&amp;rsquo;t wake up 14 years in and realize you have been living like a homeless nomad, minus the change of scenery. Bloom where you are planted, and if you move, start blooming there too. of course, this principle applies to more than just locations, but jobs, etc. too.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_2&#34;&gt;Avoid Debt.&lt;/h5&gt;
+
+&lt;p&gt;Debt is slavery: don&amp;rsquo;t go there. If you only spend less than what you have you will never be short of money (although you not have many things). A person in debt cannot live more cheaply because they have obligations they cannot refuse.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_3&#34;&gt;Don&amp;rsquo;t Avoid Responsibility.&lt;/h5&gt;
+
+&lt;p&gt;Responsibility is power. Responsibility is the voluntary acceptance of the important things in life inspiring you to govern your behavior for the good of others. Irresponsibility seems like more freedom, but in the end you&amp;rsquo;ll feel like a kid, and that is not fun when you are an adult. In the end, irresponsibility makes you feel worthless, but responsibility makes you feel needed, important, and satisfied with the good things you create.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_4&#34;&gt;Be Involved&lt;/h5&gt;
+
+&lt;p&gt;A good marriage is the best thing in life, and children are a close second. The people around us are what make life fun. Don&amp;rsquo;t do it alone. Don&amp;rsquo;t be stingy with who you like, like as many people as possible. Try to help them, good deeds have a way of making their way around, helping everyone, and often helping you in return.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_5&#34;&gt;Become Really Good At Something&lt;/h5&gt;
+
+&lt;p&gt;If you start now, you will be really good at it in 10 years. Pick something you like doing; something that almost makes you feel more energized when you&amp;rsquo;re done with it then when you started, but be sure it&amp;rsquo;s something that someone might pay you for.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_6&#34;&gt;Make People Happy.&lt;/h5&gt;
+
+&lt;p&gt;Jesus said, &amp;ldquo;Sufficient for the day is the evil thereof.&amp;rdquo; (Matt. 6:24) Sometimes the word evil sounds like the simplest description. People live with hearts full of hurt, pain, disappointment (or in the words of &lt;em&gt;Les Miserables&lt;/em&gt; &amp;ldquo;Life has killed the dream I dreamed&amp;rdquo;): Help ease other&amp;rsquo;s burdens being bring a wee bit o&amp;rsquo; joy where ever possible. A merry heart is so powerful the FDA should regulate it (Prov. 17:22). This decade is &lt;a href=&#34;http://www.ryanclarke.net/post/true-adventure/&#34; title=&#34;True Adventure&#34;&gt;fraught with adventure&lt;/a&gt;. If you live according to my advice, and even more so if you follow the Bible&amp;rsquo;s wisdom, you can experience much adventure. A word of warning, adventure is sometimes difficult, but it&amp;rsquo;s always rewarding. May God&amp;rsquo;s ample blessings comfort you and bring you joy and peace. Ryan&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bending Linq-to-Entities to my will</title>
+      <link>http://localhost:1313/post/bending-linq-to-entities-to-my-will</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/bending-linq-to-entities-to-my-will</guid>
+      <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story. I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship. Unit -1:N- Module -N:1- ModuleInstructor -1:N- Instructor EntityFramework has these for objects [unnecessary properties trimmed for brevity]:
+Anyway, I wanted to display: UnitName, ModuleDate, Instructor(s) in a comma-separated list. My problem was that I had the hardest time getting Linq to get the Instructors, all I could retrieve was the ModuleInstructors which didn&amp;rsquo;t have any of the Instructor information loaded.
+My first solution was to modify the Module class to add another collection:
+In the ModuleController I got everything except the Instructors, then the Instructors separately and for looped through inserting them into the collection.
+According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s not that much of strain on the server either because I don&amp;rsquo;t have many Instructors and there are only 20 Modules being shown at any one time. However, I figured there must be a way to do it in one database call. Here&amp;rsquo;s my new solution. I still loop through inserting Instructors into the Modules object&amp;rsquo;s Instructor collection, but I get all the Instructors with everything else.   According to LinqPad it takes only SQL statement and it performs slightly faster that the first method. To be perfectly honest, I have trouble picturing exactly how this works and why, but it does. I am very happy that I stuck with the problem, coming back to it several times more until I got it &amp;ldquo;just right.&amp;rdquo; My one question: is this the best way to do this or is there a still better way? Maybe I&amp;rsquo;ll never know, but at least it&amp;rsquo;s better that it was before. See &lt;a href=&#34;http://stackoverflow.com/questions/14742145/linq-to-entities-with-a-many-to-many-relationship&#34; title=&#34;Linq-to-Entities with a many to many relationship - StackOverflow&#34;&gt;Linq-to-Entities with a many to many relationship&lt;/a&gt; on StackOverflow for more discussion regarding this problem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to join T-Mobile&#39;s Monthly4G prepaid service with a micro-SIM phone</title>
+      <link>http://localhost:1313/post/how-to-join-t-mobile-monthly4g</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/how-to-join-t-mobile-monthly4g</guid>
+      <description>
+
+&lt;p&gt;T-Mobile is offering customers an incredible catch-22&amp;hellip; I mean, deal. I have wanted a Windows Phone for a year now but could not justify paying a smartphone-priced cell plan. So when I saw T-Mobile&amp;rsquo;s $30 per month online-only plan I pounced. My Windows Phone dreams would happen–and all while saving $20 over my current Verizon plan.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s all a cruel trick and the system is broken. You see, the deal is only on the web, so I couldn&amp;rsquo;t buy the $20 in-store SIM card kit since they don&amp;rsquo;t let SIM kits walk out inactivated. No problem, that&amp;rsquo;s what e-commerce is for. So I got my card online and only paid $1.06 with shipping. Feel the savings!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34; alt=&#34;T-Mobile SIM Card&#34; title=&#34;T-Mobile SIM Card&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But on arrival, it turned out to be the full half-acre: way too big to fit the cute little slot in my Nokia Lumia 710. I need micro-SIM, not full SIM. I went back online to get the other kit. Wait a minute, there is no other kit. Yes, I called and no, they do not sell micro-SIMs online at this time.&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s the T-Mobile Web/Store Deadlock™: the website won&amp;rsquo;t provide micro-SIM,the  store won&amp;rsquo;t provide the deal. I won&amp;rsquo;t retell the full three-day saga of phone calls and web searches, but I tried everything and even considered buying a &lt;a href=&#34;http://www.amazon.com/gp/product/B004FQUWKS/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B004FQUWKS&amp;amp;linkCode=as2&amp;amp;tag=ryanclanet-20&#34;&gt;SIM cutter&lt;/a&gt; (it&amp;rsquo;s always amazing how manythings there really are to buy). The system was completely broken and I couldn&amp;rsquo;t figure out why. The frustrating thing was the thought that there&amp;rsquo;s no way I&amp;rsquo;m the only one trying to do this.&lt;/p&gt;
+
+&lt;p&gt;In the end I didn&amp;rsquo;t buy the tool, as cool as it looks. Turns out you can simply go into any T-Mobile store and get an activated SIM card switched out for a micro-SIM. Activation involved entering long serial numbers from both SIM and phone into the website and doesn&amp;rsquo;t involve turning the phone on. So I activated the big card online without it ever touching my phone and got the deal. Then went into the store and asked for a switch-out to micro-SIM. Total price: free.&lt;/p&gt;
+
+&lt;p&gt;The system is not broken; instead it is simple and friendly. Too bad they never say how to do it! So I&amp;rsquo;m putting it here so that the world might know.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Steps to get a T-Mobile Monthly4G micro-SIM phone running:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Buy SIM Activation kit on &lt;a href=&#34;http://prepaid-phones.t-mobile.com&#34; title=&#34;prepaid-phones.t-mobile.com&#34;&gt;prepaid-phones.t-mobile.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Activate online at the same site, remember to record the SIM serial number (helpful for step 4)&lt;/li&gt;
+&lt;li&gt;Go to a T-Mobile store and have them switch the full-size SIM for micro-SIM&lt;/li&gt;
+&lt;li&gt;Call T-Mobile customer service and make sure the new micro-SIM serial number is on your account (ensures the store representative did it right)&lt;/li&gt;
+&lt;li&gt;Wait for confirmation text&lt;/li&gt;
+&lt;li&gt;Fill account with enough money to get the first month started&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If this saves even one person 1) from emotional stress or 2) overspending for a smartphone plan then I will be happy. I&amp;rsquo;m happy anyway because I now have a Windows Phone 7.5 and it&amp;rsquo;s connected: what a great experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Every screen is a touch screen</title>
+      <link>http://localhost:1313/post/every-screen-is-a-touch-screen</link>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/every-screen-is-a-touch-screen</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/every-screen-is-a-touch-screen/babiesbelieveintouchscreens/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; title=&#34;Babies believe in touch screens&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is much talk and controversy in the tech world surrounding Windows 8. One consistant charge is that it might be fine for a tablet, but nobody wants a a touch screen for a &amp;ldquo;serious&amp;rdquo; work computer like a laptop or desktop. I disagree.&lt;/p&gt;
+
+&lt;p&gt;Steven Sinofsky, President of Microsoft&amp;rsquo;s Windows Division, mentioned it a talk how strange it is that we have come to expect touch screens on every electronic device except the most expensive and powerful one we have. Why shouldn&amp;rsquo;t laptops and desktops have touch screens too? Even babies think laptops should have touch screens.&lt;/p&gt;
+
+&lt;p&gt;Power user types like to say that keyboard and mouse is better, but how can simply lacking touch be better? Keyboard, mouse AND touch seems like a clear improvement. More options. In fact, as a power user myself, I try to avoid the mouse all the time in favor of the keyboard but there are times when you need a pointing device. I would much rather just use my finger than having to fiddle with a mouse for those brief interactions.&lt;/p&gt;
+
+&lt;p&gt;One day I will have a multiple touch screen desktop, and every screen will be a touch screen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the other side of childhood</title>
+      <link>http://localhost:1313/post/on-the-other-side-of-childhood</link>
+      <pubDate>Wed, 07 Mar 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/on-the-other-side-of-childhood</guid>
+      <description>&lt;p&gt;On the other side of childhood&lt;br /&gt;
+When youth’s young bud has grown&lt;br /&gt;
+And some flowers it has bloomed produce&lt;br /&gt;
+A sprout to call their own,&lt;br /&gt;
+May the length of ages not induce&lt;br /&gt;
+What often it has wrought&lt;br /&gt;
+In accum&amp;rsquo;lative forgetfulness&lt;br /&gt;
+And stiffening of thought:&lt;br /&gt;
+Don’t ignore the lofty joy and stress&lt;br /&gt;
+A juvenile knows,&lt;br /&gt;
+But with lavish love fulfill the needs—&lt;br /&gt;
+Like rain upon the flower seeds—&lt;br /&gt;
+Required by each that grows.&lt;/p&gt;
+
+&lt;p&gt;On the other side of childhood&lt;br /&gt;
+Recall where once you stood.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>March 1st is Windows 8 day!</title>
+      <link>http://localhost:1313/post/march-1st-is-windows-8-day</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/march-1st-is-windows-8-day</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/march-1st-is-windows-8-day/win8cpstartscreen/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/Win8CPStartScreen.png&#34; alt=&#34;Graphic proof&#34; title=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So there I was&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d &amp;ldquo;known&amp;rdquo; that the Windows 8 Consumer Preview was coming out in February since //build/ in September. I&amp;rsquo;d known it was going to be on the &amp;ldquo;congratulations for surviving 4 more years, here&amp;rsquo;s 24 bonus hours&amp;rdquo; day since early in the month. I&amp;rsquo;d known that the download would be finished by quitting time since I started it that morning (it&amp;rsquo;s a slow hose).&lt;/p&gt;
+
+&lt;p&gt;I popped the install disk into my little old laptop-a sacrificial gesture so that any weird issues wouldn&amp;rsquo;t effect my main battletower-and would you know it: I&amp;rsquo;d done it again. On this First day of March in the Year of Our Lord Two Thousand Twelve, Windows 8 Consumer Preview dawned for me. The laptop did not spend quality time with me last evening: it communed instead with the Personal Backup Solution™. For the third Windows release in a row, I have completely forgotten to backup my marked-for-destruction hard drive until the cheeky little installer asked what partition I&amp;rsquo;d like to feed it.&lt;/p&gt;
+
+&lt;p&gt;Moral: It should have been April 1 today. And Windows 9 will probably get me too.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>True Adventure</title>
+      <link>http://localhost:1313/post/true-adventure</link>
+      <pubDate>Tue, 10 Nov 2009 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/true-adventure</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“True adventurers have never been plentiful. They who are set down in print as such have been mostly business men with newly invented methods. They have been out after the things they wanted—golden fleeces, holy grails, lady loves, treasure, crowns and fame. The true adventurer goes forth aimless and uncalculating to meet and greet unknown fate. A fine example was the Prodigal Son&amp;ndash;when he started back home.” ~O. Henry&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That paragraph from &lt;em&gt;The Green Door&lt;/em&gt; captures the essence of the Christian Adventure. Life is designed to require faith and the life of faith is an Adventure. For some years now I have felt called by God to go to China and learn the Chinese language and I think, “Won’t living in China be an adventure!” However, China is not the Christian Adventure. The Adventure is feeling and following the call of God when it looks impossible. It is desperately caring about the success of a situation when it is shadowed by certain failure in human terms. It is diving whole-heartedly into vague visions of the future when there is no earthly way that it will all work out. It is stepping into the Jordan River in hopes that God will dry it out. The Christian Adventure cannot be separated from prayer: kneeling in the darkness night after night and begging God for direction, begging Him for faith, begging for peace and confidence and contentment and joy.&lt;/p&gt;
+
+&lt;p&gt;The Christian Adventure is being willing to calmly follow God into crushing trials because He has promised to never leave me and to work everything together for my good. It is passionately living under the will of Divine Benevolence. Do I have to go to China for adventure? No, I am living the Adventure now. And it just might be that the Adventure will lead me to China. God knows.&lt;/p&gt;
+
+&lt;p&gt;I rest my unknown future on Christ who died for me. That is True Adventure and I am a True Adventurer!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Fable of Simon McDarpet</title>
+      <link>http://localhost:1313/post/the-fable-of-simon-mcdarpet</link>
+      <pubDate>Tue, 06 Oct 2009 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/the-fable-of-simon-mcdarpet</guid>
+      <description>&lt;p&gt;I give you the fable of Simon McDarpet,&lt;br /&gt;
+A boy, it would seem, with a hatred for carpet;&lt;br /&gt;
+And tables, of course, and most anything wooden&lt;br /&gt;
+And things that get hurt when you act like you shouldn’t,&lt;br /&gt;
+And all sorts of rugs, also windows and doors.&lt;br /&gt;
+But your guess would be right if you singled out floors.&lt;br /&gt;
+You’d be right on the money—the wad that was spent—&lt;br /&gt;
+On repairing the issues he could have prevent-&lt;br /&gt;
+ed because of the sloshing of liquids he did,&lt;br /&gt;
+All because he refused to seal drinks with a lid.&lt;/p&gt;
+
+&lt;p&gt;And don’t get me started on all of the chow&lt;br /&gt;
+That was strewn down the hall in the wake of that cow.&lt;br /&gt;
+Steaming heaps of lasagna and well-buttered biscuits,&lt;br /&gt;
+Potatoes with herbs that were creamed with a wisk—it’s&lt;br /&gt;
+A shame—and I know of the groans in my belly,&lt;br /&gt;
+Surveying the wasted baked oatmeal and jelly.&lt;br /&gt;
+However the groans that were felt in the gut&lt;br /&gt;
+Of another man spying the path to the mutt&lt;br /&gt;
+(Like a humanoid snail or a monstrous slug&lt;br /&gt;
+Who was leaving a trail of wet smears on the rug);&lt;br /&gt;
+These were groans that could make a man wither in fear&lt;br /&gt;
+And concurrently make that same man shed a tear,&lt;br /&gt;
+As poor Curtis would go fetch the tools of his trade,&lt;br /&gt;
+For the treasure of kingdoms could scarcely have paid&lt;br /&gt;
+For the hours he spent grimly cleaning the carpet&lt;br /&gt;
+Of stains that were left by that Simon McDarpet.&lt;/p&gt;
+
+&lt;p&gt;I hope you’ll remember, dear cleanliness lover,&lt;br /&gt;
+To never move food without using a cover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2008 Year in Review</title>
+      <link>http://localhost:1313/post/2008-year-in-review</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/2008-year-in-review</guid>
+      <description>
+
+&lt;p&gt;Reflections upon a memory fail as a strict measure of the past. Some memories tend to dim while others are being distorted through age and perception. Many memories simply slip into forgotten corners whence they are sometimes revived through odd happenstances. What follows is a summary of my own incomplete but genuine recollections upon my journey through 2008.&lt;/p&gt;
+
+&lt;p&gt;I began the year as cheerfully as I ended 2007. One started as the other stopped in as smooth a transition as is normally expected between the two.  I remember my first thoughts of 2008 revolved around bed and sleep. This year began like most others at the unearthly hour of midnight.  Of course, I stay up until 12am and later on a regular basis throughout the year, but very few such nightly vigils are preceded by such enthusiastic revelry. I began the year happy, tired, and free. I also had several large issues weighing much lighter on my mind than a nervous person would ever allow.&lt;/p&gt;
+
+&lt;p&gt;For instance, my future: the entire, unfathomable mass of it lay in stretched before me like an invisible question mark. I was recently self-unemployed since my company had some financial troubles and released one-ninth of the entire workforce. I was the lucky one.&lt;/p&gt;
+
+&lt;p&gt;While in Arizona I prayed about an opportunity at romance. It really was a good opportunity, it just lacked the romance. They say that a successful courtship is one in which God’s will is successful. You would have trouble calling that a courtship, but I rest happily with the result knowing that God’s leading was honored. As I understand, the young lady is doing well and living strong for the Lord. I will say no more on this subject since it would be in poor taste. Since it happened that this all turned out about the time of my self-unemployment, I felt Arizona held much less charm for me. I gathered the few valuable possessions that were small enough to fit in the car and left Arizona for my hometown in Georgia.&lt;/p&gt;
+
+&lt;p&gt;Thus financially and emotionally free, I looked out upon 2008 with a bright eye which saw no clues as to my future direction. God did not leave me like this long. Two wonderful employment opportunities hit at about the same time. I was working a trial week with a local environmental engineer and we both liked the arrangement and I enjoyed the hefty pay when I received a summons to mold young minds. When the call is given; when the call is received; and most importantly, when the call is intensely desired; I respond.  Verity Institute, my beloved alma mater, requested my services as a guest instructor. How it all came to be was quite interesting, but it makes a poor story so I will skip it.&lt;/p&gt;
+
+&lt;p&gt;This explains why I started reading massive books on Financial Accounting with such zeal. I hold that there is no better person to teach people about money than one who has very little of it. That statement is of questionable accuracy but it is precisely the situation I found before me. The class was, in all honesty, a bit rough, but the students fared alright in the end.&lt;/p&gt;
+
+&lt;p&gt;The winters in the Midwest are a little more dramatic than the ones in Georgia. Having spent the last few winters in Michigan and Arizona, I like a good layer of snow. It was perfect for snowball fights and sledding and the ski trip to Michigan. Even the thaw time provided good fun with some 6am boating in Taylor’s Pond in unsafe temperatures.&lt;/p&gt;
+
+&lt;p&gt;Spring brought with it a lovely rest over Holy week. Cameron Houser visited with me and my family in Georgia for the break. The highlight of the trip was definitely hiking up Stone Mountain, first with the Verity ’07 class reunion-goers and then the next day with the Verity ’08 and ’09 folks.&lt;/p&gt;
+
+&lt;p&gt;During the spring at Verity I spent almost all my time teaching the Harmony classes to the Verity music students.  I would teach from a chair all day and then go down to the student lounge where I could tutor from a couch. It was a long, tiring, and perfectly delightful time. I thoroughly enjoy teaching music theory. All the students passed the final exam with good scores. Praise God!&lt;/p&gt;
+
+&lt;p&gt;Summer break happened fast. I spent a lot of time playing soccer out front with Andrew and Ben. I also did a lot of studying. That is one of those things about people who like to learn, any weather is good for studying. Rainy, foggy, sweltering, windy, freezing, humid, you name it, they say, “This is a perfect day to just curl up with a good book and go to sleep!” I somewhat agree, but it is also a good day to play soccer, so people just have to learn how to split up their time. I look at myself when I say this.&lt;/p&gt;
+
+&lt;p&gt;I finished up the summer with a nice vacation to Mexico where I had some fun with my good amigo Josh Rodriguez. We built him a powerful Windows machine so he could do high-quality recording and composing on it. It is a nice computer. We went to the Museum of Mexican History and some grottos found by a monk and got pulled over by a cop for driving in the middle lane of a highway that had no lanes. That lecture cost us about $12 US so I plan to remember it, but we did learn a really neat shortcut from him, one with no cops on it, so it turned out to be a fair trade. Of course, I got the entire thing second hand from JRod since foreign countries still have a tendency to speak foreign languages, especially during official government business proceedings along the turnpike. The Rodriguez family is about the most friendly, fun, and hospitable group of people you could hope to visit. Also, they have a delicious taquito place just around the corner from their house.&lt;/p&gt;
+
+&lt;p&gt;In mid-July I returned to Verity as an official staffer with all the privileges responsibilities thereof: one of those being the privilege of working for Dr. McCray. I will say this, that the Verity work environment is almost unimaginable in its pleasantness. Doing something I really enjoy with people I enjoy doing it with is a grand situation. I am the reigning and undisputed Vice President of Intelligence, although my official title is Curriculum Development Assistant. I work for the Curriculum Development Coordinator, Charity Larson.&lt;/p&gt;
+
+&lt;p&gt;We in Curriculum Development are the heart of Verity. Not only do we do we tell students what to study and how to study, we also explain the subjects, compile and create useful resources on the subject, and control vast stores of authoritative books, videos, and CDs on almost every academic discipline. Finally, we administrate the massive files on all verification results coming out of Kristina “KJ” Zaloum’s rigorous scholastic examinations. Our job lies at the very center of Verity’s core reason; as I said before, the beating heart of the program. This is why Charity, KJ and I are closely protected by the thick concrete wall of the second floor. Those pretty faces which inhabit the furnished rooms below provide a pleasant façade to the earnest toil being wrought magnificently along the study corridors above. We three are the throbbing heart, full of verve and vigor and vitality.&lt;/p&gt;
+
+&lt;p&gt;Near the end of July a select contingent of Verity staffers and my sister, Sarah (Clarke), were deployed to a homeschooler conference in Atlanta (Georgia). We were charged with representing Verity (Institute) to people who had not heard of us. As it turned out, I spent most of the time scouting out good curriculum ideas at special sessions and spying on current college marketing strategies by asking tough questions to the representatives in their color-coded booths. Then I stuffed the brochures in a little white baggie to give to Chéri (Anderson). It was a rather fun expedition in all, made even nicer by the graciousness of the Dalrymple family opening their home to us both nights we were in Atlanta.&lt;/p&gt;
+
+&lt;p&gt;The summer term at Verity passed beneath the looming arrival of the 2010 class and the in-depth orientation we needed to give them. Of course, we were working under bad conditions: time was passing as fast as usual. Between park night, birthday parties, weekly lunches out with Sarah, a tennis tournament, and a day trip to the amazing Creation Museum in Kentucky, all the work got done and the Verity staff celebrated by taking a trip to see the Squire Boone Caverns in Kentucky.  Squire was his name, not a title. He was Daniel’s brother and in the caverns we saw the new burial place of his seventeen recovered bones. I assume he had more, but maybe he was part jellyfish. They identified the partial skeleton by the (non-lethal) hatchet hole in his skull. I always say it is useful to have something recognizable with you at all times for other folk’s convenience. For instance, I have a face.&lt;/p&gt;
+
+&lt;p&gt;At this point in the story I took a short break to Georgia where I spent a week with my family at Tugaloo State Park. You may think that you are noticing a trend with this Georgia thing, in which case, you are right. Partly from coincidence, partly because it is home, I spent a good bit of the year in Georgia. Tugaloo was a nice place and one day we climbed Curahee.&lt;/p&gt;
+
+&lt;p&gt;The Verity 2010 class students had arrived for a week of spiritual introspection while I was lounging and hiking with my family. They returned to the Indianapolis campus about the same time I did and we together launched into an intense week of Biblical worldview training, explanations of the Verity system, and some good study ideas. Few people realize the importance of understanding the processes by which learning happens. Frankly, the osmosis joke is getting pretty tired. Biology students are apt to dream about having the material seep into their brain during night from a book under the pillow. Personally, I shudder to think of my skull being able to just absorb whatever happens to be lying close by: that ability sounds rank with disease and pollution. Also, I think they are forgetting that osmosis happens with water and a semi-permeable membrane. Unless you want to sleep with a book made entirely of water, assuming that is possible, then I motion that we let that joke die. Then week was not entirely spent on such important issues, I also made to the Indianapolis Symphony to see Joshua Bell play his violin.&lt;/p&gt;
+
+&lt;p&gt;Throughout the fall I worked hard and played soccer and involved myself in the many activities happing around the school. The road trip to Chicago to drop off the music students with Dr. Kincaid was fun.  Josh Ingersoll, my roommate and the music program advisor, and I had the unique opportunity of standing above the center of a four-lane highway. Not every day do I get to sip a McDonalds sweet tea and watch semis filled with who knows what whiz beneath me. In fact, it has only happened once. My family came up to Indy on a visit one weekend. I had fun giving them a tour of Verity and Monument Circle. There is nothing like sitting on the steps of the monument while eating an ice cream from the Chocolate Café and watching the motorcycles ride the circle. I am not saying that it is the pinnacle of human experience; it just stands unique as an evening’s entertainment.&lt;/p&gt;
+
+&lt;p&gt;The last month and a half of the fall term was dead serious for me. I prepared for the Humanities and English Composition classes I was teaching. Then I taught them. The study of Humanities is a very important since it contains the sum of human artistic expression throughout the ages. Of course, my class was somewhat narrower, focusing only on western traditions and highlighting only the most important masters and masterpieces. Still, a conversant knowledge of the arts and literature is vital for any cultured person, if they want to be cultured. Similarly crucial for all educated people is the ability to frame thoughts clearly and attractively in text. A well-written person is indispensable for many good jobs, and is certainly more effective in persuasion both now and beyond the grave than someone whose letters suffer in content, organization, grammar, and creativity.&lt;/p&gt;
+
+&lt;p&gt;Finishing the school year with that flourish of activity, I made my way back to Georgia for the holidays, or precisely those days between November 17th and January 3rd. It is a strange marvel of the human body that it can embrace fatigue and excitement and toil piled endlessly after each other for weeks on end with scarcely a whimper. But give that same body one days rest following the marathon and it will respond with all manner of illness and coughing and nasal issues that can last for up to a fortnight without remedy. Especially if that body is the one I wear. I recovered shortly after Thanksgiving.&lt;/p&gt;
+
+&lt;p&gt;I filled my holiday break with reading, studying, shopping, and visits to and from friends. The Reckner family made a weekend visit in November and we played airsoft and some Verity folks that live across the line in Alabama stayed overnight in December and we played paintball. The entire family went north to Kentucky for Christmas with the Reckners. We kept our tradition of having a large country dance on Christmas Eve and broke the tradition of throwing up all day Christmas. It was a beautiful time and there was only one engagement. Actually, it was the only one we were expecting, but it was nice. I enjoyed seeing Bryce Reckner again and this spring I look forward to meeting Bryce II.&lt;/p&gt;
+
+&lt;p&gt;As I closed the chapter on 2008, I quietly thanked God for His faithfulness and grace to me. A year which started out completely blank and unknown quickly unfolded into a marvelously pleasant journey. I began the year searching for His will and I never had a doubt as to His leading. Those who seek Him will surely find Him. He does not hide from His children. There was never a question that He did not answer, never a fear that He did not calm, and never a trial that He did not give more grace.&lt;/p&gt;
+
+&lt;p&gt;Of course, the future is still uncertain. I am currently unsure of where the path leads beginning in June. Currently, the several options I am considering are so good I wish I could do them all. I guess that is one of those things about stuff like that, if I knew what was going to happen I would just write the 2009 year in review now. But I do not, so I will keep trust God.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_0&#34;&gt;Books in Review&lt;/h4&gt;
+
+&lt;p&gt;You may have noticed have the light dry style of my year in review. That was partially due to the recent influence of Wodehouse as you can see from my following reading list from 2008. This is probably the shortest yearly reading list I’ve ever had, but it should grow a little as I remember various volumes which slip my mind now.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bible – God&lt;/li&gt;
+&lt;li&gt;Cross Examination of Jesus Christ – Randy Singer&lt;/li&gt;
+&lt;li&gt;Dave Barry Slept Here: A Sort Of History of the United States – Dave Barry&lt;/li&gt;
+&lt;li&gt;Dave Barry’s Last Travel Guide You’ll Ever Need – Dave Barry&lt;/li&gt;
+&lt;li&gt;The Fair Tax Book – John Linder&lt;/li&gt;
+&lt;li&gt;The King’s Stilts – Dr. Seuss&lt;/li&gt;
+&lt;li&gt;Living Abroad in China – Stuart and Barbara Strother&lt;/li&gt;
+&lt;li&gt;The Man Who Knew Too Much – G. K. Chesterton&lt;/li&gt;
+&lt;li&gt;The Man with Two Left Feet – P. G. Wodehouse&lt;/li&gt;
+&lt;li&gt;Oliver Twist – Charles Dickens&lt;/li&gt;
+&lt;li&gt;The Poison Plot – Lily Bea Jenkins&lt;/li&gt;
+&lt;li&gt;Principles of Management – John Ogilvie&lt;/li&gt;
+&lt;li&gt;Psmith in the City – P. G. Wodehouse&lt;/li&gt;
+&lt;li&gt;Understanding Business – Nichols and McHugh&lt;/li&gt;
+&lt;li&gt;What Every American Needs to Know About the Qur’an – William Federer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>As if I would trust my life upon a lie</title>
+      <link>http://localhost:1313/post/as-if-i-would-trust-my-life-upon-a-lie</link>
+      <pubDate>Tue, 26 Aug 2008 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/as-if-i-would-trust-my-life-upon-a-lie</guid>
+      <description>&lt;p&gt;Religious people are often called people of faith and participate in faith-based activities. In a culture that uses ‘faith’ so prominently and interchangeably with ‘religion’, I think many people are unaware of the Christian concept of faith.&lt;/p&gt;
+
+&lt;p&gt;I disagree. Hebrews 11:1 defines faith as “the substance of things hoped for, the evidence of things not seen.” Substance and evidence are not terms used to describe a mental handicap. If anything, they are meant to convey a confidence beyond any human will power. Mortimer J. Adler sums it up nicely when he writes, “You must always keep in mind that an article of faith is not something that the faithful ‘assume.’ Faith, for those who have it, is the most certain form of knowledge, not a tentative opinion.” A Christian’s faith transcends belief and rests in solid sureness.&lt;/p&gt;
+
+&lt;p&gt;Faith is often confused with belief. Merriam-Webster’s Dictionary gives one definition of faith as “firm belief in something for which there is no proof” and another as “sincerity of intentions.” While it includes other and better definitions, these two demonstrate the perceived weakness of faith in our society.&lt;/p&gt;
+
+&lt;p&gt;In a scientific and rational culture, proof and objectivity are regarded as prerequisites for trust in anything of importance. However, these same principles are deemed unimportant in matters of postmodern spirituality where everyone must find their own truth. Faith is simply a belief that the believer holds for comfort, tradition’s sake, or some moral expedient: anything but because it is really true.&lt;/p&gt;
+
+&lt;p&gt;I disagree. Hebrews 11:1 defines faith as “the substance of things hoped for, the evidence of things not seen.” Substance and evidence are not terms used to describe a mental handicap. If anything, they are meant to convey a confidence beyond any human will power. Mortimer J. Adler sums it up nicely when he writes, “You must always keep in mind that an article of faith is not something that the faithful ‘assume.’ Faith, for those who have it, is the most certain form of knowledge, not a tentative opinion.” A Christian’s faith transcends belief and rests in solid sureness.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, faith is described as the substance of a Christian’s hope: heaven. Popularly, hope is often used to express a wish or optimism, but a Christian’s hope is no mere whim if it has a present substance. Heaven and eternal life already exist and Christians currently possess them through the very faith in Christ which is the evidence of these things not seen.&lt;/p&gt;
+
+&lt;p&gt;Christianity is not another wish upon a star. I do not stake my life upon Christ because it makes me feel good. I have faith is Christ because He’s true. Faith is my solid assurance in a definite guarantee. As if I would trust my life upon a lie.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

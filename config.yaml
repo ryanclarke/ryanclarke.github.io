@@ -1,0 +1,17 @@
+---
+BaseUrl: "http://localhost:1313/"
+LanguageCode: "en-us"
+Title: "Ryan Clarke"
+MetaDataFormat: "yaml"
+Params:
+  Copyright: "© Ryan Clarke, 2014"
+  Description: "Varied submissions of an adventurer"
+  AuthorName: "Ryan Clarke"
+  AuthorNameUrl: "/about"
+  Github: "ryanclarke"
+  Twitter: "RyanSClarke"
+Menu:
+  Main:
+  - Url: "/about"
+    Name: "About"
+...

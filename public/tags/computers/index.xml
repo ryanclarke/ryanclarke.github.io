@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Computers on Ryan Clarke </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/computers/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 29 Aug 2012 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Every screen is a touch screen</title>
+      <link>http://localhost:1313/post/every-screen-is-a-touch-screen</link>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/every-screen-is-a-touch-screen</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/every-screen-is-a-touch-screen/babiesbelieveintouchscreens/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; title=&#34;Babies believe in touch screens&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is much talk and controversy in the tech world surrounding Windows 8. One consistant charge is that it might be fine for a tablet, but nobody wants a a touch screen for a &amp;ldquo;serious&amp;rdquo; work computer like a laptop or desktop. I disagree.&lt;/p&gt;
+
+&lt;p&gt;Steven Sinofsky, President of Microsoft&amp;rsquo;s Windows Division, mentioned it a talk how strange it is that we have come to expect touch screens on every electronic device except the most expensive and powerful one we have. Why shouldn&amp;rsquo;t laptops and desktops have touch screens too? Even babies think laptops should have touch screens.&lt;/p&gt;
+
+&lt;p&gt;Power user types like to say that keyboard and mouse is better, but how can simply lacking touch be better? Keyboard, mouse AND touch seems like a clear improvement. More options. In fact, as a power user myself, I try to avoid the mouse all the time in favor of the keyboard but there are times when you need a pointing device. I would much rather just use my finger than having to fiddle with a mouse for those brief interactions.&lt;/p&gt;
+
+&lt;p&gt;One day I will have a multiple touch screen desktop, and every screen will be a touch screen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>March 1st is Windows 8 day!</title>
+      <link>http://localhost:1313/post/march-1st-is-windows-8-day</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/march-1st-is-windows-8-day</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/march-1st-is-windows-8-day/win8cpstartscreen/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/Win8CPStartScreen.png&#34; alt=&#34;Graphic proof&#34; title=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So there I was&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d &amp;ldquo;known&amp;rdquo; that the Windows 8 Consumer Preview was coming out in February since //build/ in September. I&amp;rsquo;d known it was going to be on the &amp;ldquo;congratulations for surviving 4 more years, here&amp;rsquo;s 24 bonus hours&amp;rdquo; day since early in the month. I&amp;rsquo;d known that the download would be finished by quitting time since I started it that morning (it&amp;rsquo;s a slow hose).&lt;/p&gt;
+
+&lt;p&gt;I popped the install disk into my little old laptop-a sacrificial gesture so that any weird issues wouldn&amp;rsquo;t effect my main battletower-and would you know it: I&amp;rsquo;d done it again. On this First day of March in the Year of Our Lord Two Thousand Twelve, Windows 8 Consumer Preview dawned for me. The laptop did not spend quality time with me last evening: it communed instead with the Personal Backup Solution™. For the third Windows release in a row, I have completely forgotten to backup my marked-for-destruction hard drive until the cheeky little installer asked what partition I&amp;rsquo;d like to feed it.&lt;/p&gt;
+
+&lt;p&gt;Moral: It should have been April 1 today. And Windows 9 will probably get me too.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Source Code for Windows 2000</title>
+      <link>http://localhost:1313/old/source-code-windows-2000</link>
+      <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/old/source-code-windows-2000</guid>
+      <description>&lt;p&gt;This is a hilarious bit of joke code I found.
+/* Source Code Windows 2000 */
+#include &amp;ldquo;win31.h&amp;rdquo;
+#include &amp;ldquo;win95.h&amp;rdquo;
+#include &amp;ldquo;win98.h&amp;rdquo;
+#include &amp;ldquo;workst~1.h&amp;rdquo;
+#include &amp;ldquo;evenmore.h&amp;rdquo;
+#include &amp;ldquo;oldstuff.h&amp;rdquo;
+#include &amp;ldquo;billrulz.h&amp;rdquo;
+#include &amp;ldquo;mindsweeper.h&amp;rdquo;
+#include &amp;ldquo;backdoor.h&amp;rdquo;
+#define INSTALL = HARD
+char make_prog_look_big(16000000);
+void main()
+{
+  while(!CRASHED)
+  {
+    display_copyright_message();
+    display_bill_rules_message();
+    do_nothing_loop();
+    if (first_time_installation)
+      {
+      make_100_megabyte_swapfile();
+      do_nothing_loop();
+      totally_screw_up_HPFS_file_system();
+      search_and_destroy_the_rest_of-OS2();
+      make_futile_attempt_to_damage_Linux();
+      disable_Netscape();
+      disable_RealPlayer();
+      disable_Lotus_Products();
+      hang_system();
+      } //if
+    write_something(anything);
+    display_copyright_message();
+    do_nothing_loop();
+    do_some_stuff();
+    if (still_not_crashed)
+    {
+    display_copyright_message();
+    do_nothing_loop();
+    basically_run_windows_31();
+    do_nothing_loop();
+    } // if
+  } //while
+  if (detect_cache())
+    disable_cache();
+  if (fast_cpu())
+    {
+    set_wait_states(lots);
+    set_mouse(speed,very_slow);
+    set_mouse(action,jumpy);
+    set_mouse(reaction,sometimes);
+    } //if
+  /* printf(&amp;ldquo;Welcome to Windows 3.1&amp;rdquo;);    */
+  /* printf(&amp;ldquo;Welcome to Windows 3.11&amp;rdquo;);   */
+  /* printf(&amp;ldquo;Welcome to Windows 95&amp;rdquo;);     */
+  /* printf(&amp;ldquo;Welcome to Windows NT 3.0&amp;rdquo;); */
+  /* printf(&amp;ldquo;Welcome to Windows 98&amp;rdquo;);     */
+  /* printf(&amp;ldquo;Welcome to Windows NT 4.0&amp;rdquo;); */
+  printf(&amp;ldquo;Welcome to Windows 2000&amp;rdquo;);
+  if (system_ok())
+    crash(to_dos_prompt)
+  else
+    system_memory = open(&amp;ldquo;a:\swp0001.swp&amp;rdquo;,O_CREATE);
+  while(something)
+    {
+    sleep(5);
+    get_user_input();
+    sleep(5);
+    act_on_user_input();
+    sleep(5);
+    } // while
+  create_general_protection_fault();
+} // main
+Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Friday October 19, 2007</title>
+      <link>http://localhost:1313/old/friday-october-19-2007</link>
+      <pubDate>Fri, 19 Oct 2007 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/old/friday-october-19-2007</guid>
+      <description>&lt;p&gt;I cooked myself a nice, juicy, ribeye steak last night after marinating it for 3 days. And I had mashed potatoes. I just figured I&amp;rsquo;d let you all know.
+I met the girl who&amp;rsquo;s dad painted the Herbie in my town. Her name was Emerald.
+It looks like Intel is going to phase out their single-core processors at the beginning of next year. Only dual- and quad-core will be available. And I doubt AMD will hold onto single-core much longer. It&amp;rsquo;s a good thing. I&amp;rsquo;m looking forward to the consumer-priced quad-core 45nm PSUs that Intel has coming next February, although I&amp;rsquo;m not sure I&amp;rsquo;ll get one. It&amp;rsquo;s definitely an interesting time on the PC hardware front as we&amp;rsquo;re finally starting to see the effects of Vista on hardware design. (That statement is not completely true, but that&amp;rsquo;s a reasonable consumer perspective on the trend.) Also, &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu 7.10&lt;/a&gt; just came out yesterday. I&amp;rsquo;m downloading it today.
+1111 days on xanga for me.
+Ryan
+Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thursday July 12, 2007</title>
+      <link>http://localhost:1313/old/thursday-july-12-2007</link>
+      <pubDate>Thu, 12 Jul 2007 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/old/thursday-july-12-2007</guid>
+      <description>&lt;p&gt;My upgraded computer is running fine. I put in a new CPU and some more RAM today. Ah, I like tweaking it to work better when I have time. My current setup is listed below:
+Name: WHISTLE
+AMD Athlon 64 X2 5600+ at 2.8GHz
+4MB SDRAM DRR2 800 (PC2 6400)
+2x nVidia GeForce 7600GT in SLI
+ASUS M2N-SLI Deluxe with nForce 570 SLI MCP
+2x 320GB Seagate Barracuda 7200RPM SATA 3.0GB/s
+Dual-booting XP Home and Vista Ultimate
+CD/DVD±RW
+22&amp;rdquo; Widescreen and 19&amp;rdquo; Standard LCD monitors
+I use this powerful machine to post the verse of the day on xanga:
+&amp;ldquo;The fruit of the righteous is a tree of life, and he who is wise wins souls.&amp;rdquo;
+       ~ Proverbs 11:30
+Ryan
+Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
