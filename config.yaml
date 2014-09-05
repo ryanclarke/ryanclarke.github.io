@@ -1,8 +1,9 @@
 ---
-BaseUrl: "http://localhost:1313/"
+BaseUrl: "http://www.ryanclarke.net/"
 LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
+Theme: "lagom"
 Params:
   Copyright: "© Ryan Clarke, 2014"
   Description: "Varied submissions of an adventurer"
