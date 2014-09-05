@@ -1,0 +1,19 @@
+---
+BaseUrl: "http://ryanclarke.github.io/"
+LanguageCode: "en-us"
+Title: "Ryan Clarke"
+MetaDataFormat: "yaml"
+Theme: "lagom"
+PublishDir: "../"
+Params:
+  Copyright: "© Ryan Clarke, 2014"
+  Description: "Varied submissions of an adventurer"
+  AuthorName: "Ryan Clarke"
+  AuthorNameUrl: "/about"
+  Github: "ryanclarke"
+  Twitter: "RyanSClarke"
+Menu:
+  Main:
+  - Url: "/about"
+    Name: "About"
+...
