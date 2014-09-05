@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Code on Ryan Clarke </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://ryanclarke.github.io/tags/code/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 25 Apr 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
+      <link>http://ryanclarke.github.io/post/checked-multi-choice-listviews</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://ryanclarke.github.io/post/checked-multi-choice-listviews</guid>
+      <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
+
+&lt;p&gt;Here is the getView method on my adapter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public View getView(int position, View convertView, ViewGroup parent) {
+    AccountSummary account = getItemAt(position);
+
+    if (convertView == null) {
+        convertView = getInflater().inflate(R.layout.account_multi_choice_dialog_item, null);
+    }
+
+    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // Set the CheckedTextView to checked if its a default here
+
+    return convertView;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Everything is standard except for the need to potentially set the item as checked. You would think this would be very simple, just take the CheckedTextView and set it to checked.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // This does not work
+    text.setChecked(account.isDefault);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;This does not work.&lt;/strong&gt; For some reason you can set CheckedTextView to checked for an hour&amp;rsquo;s worth on mintues in a row (I sure did) but it will never be remembered. In fact, I even tried checking the TextView from the &amp;lsquo;outside&amp;rsquo; by accessing the ListView from my activity, grabbing the correct CheckedTextView, and setting checked there. And that didn&amp;rsquo;t work either.&lt;/p&gt;
+
+&lt;p&gt;It turns out, as I understand it, that the ListView maintains the checked state of its list items and ignores the state that item says it should have. The following small change in the code makes everything work charmingly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    CheckedTextView text = convertView.findViewById(R.id.text_view);
+    text.setText(account.name);
+
+    // This, quite charmingly, works
+    ((ListView) parent).setItemChecked(position, account.isDefault);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Instead of checking the item, I tell the ListView to set checked on the correct item. According to the Android source, AbsListView keeps all the checked state in a SparseBooleanArray so the checked state in the TextView goes nowhere and has no effect. I&amp;rsquo;m not sure I understand the full picture, but just set the checked state on the ListView, not the list item.&lt;/p&gt;
+
+&lt;p&gt;So now you know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Source Code for Windows 2000</title>
+      <link>http://ryanclarke.github.io/journal/source-code-windows-2000</link>
+      <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
+      
+      <guid>http://ryanclarke.github.io/journal/source-code-windows-2000</guid>
+      <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* Source Code Windows 2000 */
+#include &amp;quot;win31.h&amp;quot;
+#include &amp;quot;win95.h&amp;quot;
+#include &amp;quot;win98.h&amp;quot;
+#include &amp;quot;workst~1.h&amp;quot;
+#include &amp;quot;evenmore.h&amp;quot;
+#include &amp;quot;oldstuff.h&amp;quot;
+#include &amp;quot;billrulz.h&amp;quot;
+#include &amp;quot;mindsweeper.h&amp;quot;
+#include &amp;quot;backdoor.h&amp;quot;
+#define INSTALL = HARD
+char make_prog_look_big(16000000);
+void main()
+{
+  while(!CRASHED)
+  {
+    display_copyright_message();
+    display_bill_rules_message();
+    do_nothing_loop();
+    if (first_time_installation)
+      {
+      make_100_megabyte_swapfile();
+      do_nothing_loop();
+      totally_screw_up_HPFS_file_system();
+      search_and_destroy_the_rest_of-OS2();
+      make_futile_attempt_to_damage_Linux();
+      disable_Netscape();
+      disable_RealPlayer();
+      disable_Lotus_Products();
+      hang_system();
+      } //if
+    write_something(anything);
+    display_copyright_message();
+    do_nothing_loop();
+    do_some_stuff();
+    if (still_not_crashed)
+    {
+    display_copyright_message();
+    do_nothing_loop();
+    basically_run_windows_31();
+    do_nothing_loop();
+    } // if
+  } //while
+  if (detect_cache())
+    disable_cache();
+  if (fast_cpu())
+    {
+    set_wait_states(lots);
+    set_mouse(speed,very_slow);
+    set_mouse(action,jumpy);
+    set_mouse(reaction,sometimes);
+    } //if
+  /* printf(&amp;quot;Welcome to Windows 3.1&amp;quot;);    */
+  /* printf(&amp;quot;Welcome to Windows 3.11&amp;quot;);   */
+  /* printf(&amp;quot;Welcome to Windows 95&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 3.0&amp;quot;); */
+  /* printf(&amp;quot;Welcome to Windows 98&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 4.0&amp;quot;); */
+  printf(&amp;quot;Welcome to Windows 2000&amp;quot;);
+  if (system_ok())
+    crash(to_dos_prompt)
+  else
+    system_memory = open(&amp;quot;a:\swp0001.swp&amp;quot;,O_CREATE);
+  while(something)
+    {
+    sleep(5);
+    get_user_input();
+    sleep(5);
+    act_on_user_input();
+    sleep(5);
+    } // while
+  create_general_protection_fault();
+} // main
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

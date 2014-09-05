@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Pages on Ryan Clarke </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://ryanclarke.github.io/page/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 07 Jun 2011 00:00:00 UTC</updated>
+    
+    <item>
+      <title> About</title>
+      <link>http://ryanclarke.github.io/about</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 UTC</pubDate>
+      
+      <guid>http://ryanclarke.github.io/about</guid>
+      <description>&lt;p&gt;My name is Ryan Clarke. I live in Indianapolis with my wife and daughters.&lt;/p&gt;
+
+&lt;p&gt;I am a software engineer at &lt;a href=&#34;http://sep.com&#34;&gt;SEP&lt;/a&gt;. I am a &lt;a href=&#34;/categories/christianity/&#34;&gt;follower of Christ&lt;/a&gt;. I have a BA in Music Theory.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
