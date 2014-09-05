@@ -50,21 +50,22 @@ To never move food without using a cover.&lt;/p&gt;
     
     <item>
       <title>Source Code for Windows 2000</title>
-      <link>http://localhost:1313/old/source-code-windows-2000</link>
+      <link>http://localhost:1313/journal/source-code-windows-2000</link>
       <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/source-code-windows-2000</guid>
-      <description>&lt;p&gt;This is a hilarious bit of joke code I found.
-/* Source Code Windows 2000 */
-#include &amp;ldquo;win31.h&amp;rdquo;
-#include &amp;ldquo;win95.h&amp;rdquo;
-#include &amp;ldquo;win98.h&amp;rdquo;
-#include &amp;ldquo;workst~1.h&amp;rdquo;
-#include &amp;ldquo;evenmore.h&amp;rdquo;
-#include &amp;ldquo;oldstuff.h&amp;rdquo;
-#include &amp;ldquo;billrulz.h&amp;rdquo;
-#include &amp;ldquo;mindsweeper.h&amp;rdquo;
-#include &amp;ldquo;backdoor.h&amp;rdquo;
+      <guid>http://localhost:1313/journal/source-code-windows-2000</guid>
+      <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* Source Code Windows 2000 */
+#include &amp;quot;win31.h&amp;quot;
+#include &amp;quot;win95.h&amp;quot;
+#include &amp;quot;win98.h&amp;quot;
+#include &amp;quot;workst~1.h&amp;quot;
+#include &amp;quot;evenmore.h&amp;quot;
+#include &amp;quot;oldstuff.h&amp;quot;
+#include &amp;quot;billrulz.h&amp;quot;
+#include &amp;quot;mindsweeper.h&amp;quot;
+#include &amp;quot;backdoor.h&amp;quot;
 #define INSTALL = HARD
 char make_prog_look_big(16000000);
 void main()
@@ -107,17 +108,17 @@ void main()
     set_mouse(action,jumpy);
     set_mouse(reaction,sometimes);
     } //if
-  /* printf(&amp;ldquo;Welcome to Windows 3.1&amp;rdquo;);    */
-  /* printf(&amp;ldquo;Welcome to Windows 3.11&amp;rdquo;);   */
-  /* printf(&amp;ldquo;Welcome to Windows 95&amp;rdquo;);     */
-  /* printf(&amp;ldquo;Welcome to Windows NT 3.0&amp;rdquo;); */
-  /* printf(&amp;ldquo;Welcome to Windows 98&amp;rdquo;);     */
-  /* printf(&amp;ldquo;Welcome to Windows NT 4.0&amp;rdquo;); */
-  printf(&amp;ldquo;Welcome to Windows 2000&amp;rdquo;);
+  /* printf(&amp;quot;Welcome to Windows 3.1&amp;quot;);    */
+  /* printf(&amp;quot;Welcome to Windows 3.11&amp;quot;);   */
+  /* printf(&amp;quot;Welcome to Windows 95&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 3.0&amp;quot;); */
+  /* printf(&amp;quot;Welcome to Windows 98&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 4.0&amp;quot;); */
+  printf(&amp;quot;Welcome to Windows 2000&amp;quot;);
   if (system_ok())
     crash(to_dos_prompt)
   else
-    system_memory = open(&amp;ldquo;a:\swp0001.swp&amp;rdquo;,O_CREATE);
+    system_memory = open(&amp;quot;a:\swp0001.swp&amp;quot;,O_CREATE);
   while(something)
     {
     sleep(5);
@@ -128,70 +129,41 @@ void main()
     } // while
   create_general_protection_fault();
 } // main
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Situation In Nigeria Seems Pretty Complex</title>
-      <link>http://localhost:1313/old/situation-in-nigeria-seems-pretty-complex</link>
-      <pubDate>Sat, 20 Oct 2007 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/old/situation-in-nigeria-seems-pretty-complex</guid>
-      <description>&lt;p&gt;&lt;strong&gt;In The Know: Situation In Nigeria Seems Pretty Complex&lt;/strong&gt;
- Panelists discuss the complicated issues facing Nigeria or Niger in a hilarious spoof on TV &amp;ldquo;experts&amp;rdquo;.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
       <title>A Few Swiftys</title>
-      <link>http://localhost:1313/old/a-few-swiftys</link>
+      <link>http://localhost:1313/journal/a-few-swiftys</link>
       <pubDate>Fri, 21 Sep 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/a-few-swiftys</guid>
-      <description>&lt;p&gt;I recently discovered a new type of humor thanks to Wikipedia: the Tom Swifty. Enjoy.
-&amp;ldquo;I manufacture tabletops,&amp;rdquo; said Tom counterproductively.
-&amp;ldquo;I used to be a military test pilot,&amp;rdquo; Tom explained.
-&amp;ldquo;I&amp;rsquo;m afraid I flunked my electrocardiogram,&amp;rdquo; said Tom half-heartedly.
-&amp;ldquo;I can&amp;rsquo;t remember what I was supposed to buy,&amp;rdquo; said Tom listlessly.
-&amp;ldquo;What would I need a prop gun for?&amp;rdquo; asked Tom blankly.
-&amp;ldquo;I dropped the toothpaste,&amp;rdquo; said Tom, crestfallen.
-&amp;ldquo;I&amp;rsquo;ll never stick my arm in the lion&amp;rsquo;s mouth again,&amp;rdquo; Tom said offhandedly.
-&amp;ldquo;I&amp;rsquo;m wearing my wedding ring,&amp;rdquo; Tom said with abandon.
-&amp;ldquo;I just love camping!&amp;rdquo; Tom said intently.
-&amp;ldquo;&amp;ndash;. &amp;mdash; &amp;mdash; -.. -&amp;hellip; -.&amp;ndash; .,&amp;rdquo; Tom said remorsefully.
-&amp;ldquo;I came, I saw,&amp;rdquo; Tom concurred.
-&amp;ldquo;I fall ill every Tuesday,&amp;rdquo; said Tom weakly.
-&amp;ldquo;That&amp;rsquo;s the woman!&amp;rdquo; Tom said dismissively.
-&amp;ldquo;What was it like, commanding the Confederate troops?&amp;rdquo; Tom asked generally.
-&amp;ldquo;Must I sing at church this week?&amp;rdquo; Tom inquired.
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>To the pirates we&#39;ve lost</title>
-      <link>http://localhost:1313/old/to-the-pirates-weve-lost</link>
-      <pubDate>Wed, 19 Sep 2007 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/old/to-the-pirates-weve-lost</guid>
-      <description>&lt;p&gt;Today is International Talk Like A Pirate Day. While I&amp;rsquo;m not talking like a pirate, I would like to dedicate this post to the pirates of yore and the work they did preventing global warming. In fact, if you look at this chart I found on Wikipedia, you see the direct statistical relationship between the decline of the swashbuckling pirate population and increased global warming.
-&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/PiratesVsTemp(en&#34; alt=&#34;&#34; /&gt;
-.svg/640px-PiratesVsTemp(en).svg.png)
-They kept the world a pleasant place. I fear there is nothing we can do anymore.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+      <guid>http://localhost:1313/journal/a-few-swiftys</guid>
+      <description>&lt;p&gt;I recently discovered a new type of humor thanks to Wikipedia: the Tom Swifty. Enjoy.&lt;br /&gt;
+&amp;ldquo;I manufacture tabletops,&amp;rdquo; said Tom counterproductively.&lt;br /&gt;
+&amp;ldquo;I used to be a military test pilot,&amp;rdquo; Tom explained.&lt;br /&gt;
+&amp;ldquo;I&amp;rsquo;m afraid I flunked my electrocardiogram,&amp;rdquo; said Tom half-heartedly.&lt;br /&gt;
+&amp;ldquo;I can&amp;rsquo;t remember what I was supposed to buy,&amp;rdquo; said Tom listlessly.&lt;br /&gt;
+&amp;ldquo;What would I need a prop gun for?&amp;rdquo; asked Tom blankly.&lt;br /&gt;
+&amp;ldquo;I dropped the toothpaste,&amp;rdquo; said Tom, crestfallen.&lt;br /&gt;
+&amp;ldquo;I&amp;rsquo;ll never stick my arm in the lion&amp;rsquo;s mouth again,&amp;rdquo; Tom said offhandedly.&lt;br /&gt;
+&amp;ldquo;I&amp;rsquo;m wearing my wedding ring,&amp;rdquo; Tom said with abandon.&lt;br /&gt;
+&amp;ldquo;I just love camping!&amp;rdquo; Tom said intently.&lt;br /&gt;
+&amp;rdquo;&amp;ndash;. &amp;mdash; &amp;mdash; -.. -&amp;hellip; -.&amp;ndash; .,&amp;rdquo; Tom said remorsefully.&lt;br /&gt;
+&amp;ldquo;I came, I saw,&amp;rdquo; Tom concurred.&lt;br /&gt;
+&amp;ldquo;I fall ill every Tuesday,&amp;rdquo; said Tom weakly.&lt;br /&gt;
+&amp;ldquo;That&amp;rsquo;s the woman!&amp;rdquo; Tom said dismissively.&lt;br /&gt;
+&amp;ldquo;What was it like, commanding the Confederate troops?&amp;rdquo; Tom asked generally.&lt;br /&gt;
+&amp;ldquo;Must I sing at church this week?&amp;rdquo; Tom inquired.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Monday July 2, 2007</title>
-      <link>http://localhost:1313/old/monday-july-2-2007</link>
+      <link>http://localhost:1313/journal/monday-july-2-2007</link>
       <pubDate>Mon, 02 Jul 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/monday-july-2-2007</guid>
+      <guid>http://localhost:1313/journal/monday-july-2-2007</guid>
       <description>&lt;p&gt;Sometimes living alone can be a challenge and I need a little help with my diet. Fortunately they have a magazine to help with that.
 &lt;a href=&#34;http://photo.xanga.com/classicalRyan/4ce4b132762318/photo.html&#34;&gt;&lt;img src=&#34;http://x4c.xanga.com/e4bd817279d32132762318/w96962568.jpg&#34; alt=&#34;&#34; title=&#34;Cooking Light&#34; /&gt;
 &lt;/a&gt;
@@ -206,10 +178,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Friday June 8, 2007</title>
-      <link>http://localhost:1313/old/friday-june-8-2007</link>
+      <link>http://localhost:1313/journal/friday-june-8-2007</link>
       <pubDate>Fri, 08 Jun 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/friday-june-8-2007</guid>
+      <guid>http://localhost:1313/journal/friday-june-8-2007</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve decided to become a celebrity. Does anyone know some good paparazzi in the Greater Payson Metropolitan Area *cough*? Yes, I&amp;rsquo;ve always dreamed of being draped across the checkout aisle in Wal*Mart beneath slanderous headlines.
 I&amp;rsquo;m just not sure about the whole adopting native children thing: I&amp;rsquo;d rather have my own.
 Now to figure out what to be a celebrity for. I can&amp;rsquo;t be famous for being famous or rich, because I&amp;rsquo;m neither. Yet. That leave me with one alternative: &amp;lsquo;lack of any distinguishable talent.&amp;rsquo; I&amp;rsquo;ll join the hordes of people who&amp;rsquo;s only claim to fame is being in every issue of The Irrational Admirer since distant memory. Or I could try being arrested and released and rejailed. But face it, a celebrity has to really want it in order to be actually locked up, most just settle for endless trips to rehab.

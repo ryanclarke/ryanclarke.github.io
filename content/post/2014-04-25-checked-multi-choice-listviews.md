@@ -11,7 +11,7 @@ description: ""
 
 I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.
 
-![Android MultiChooser AlertDialog](http://www.ryanclarke.net/wp-content/uploads/multichooser.png)
+![Android MultiChooser AlertDialog](/images/multichooser.png)
 
 I couldn't use the built in `AlertDialog.Builder(context).setMultiChoiceItems()` method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.
 

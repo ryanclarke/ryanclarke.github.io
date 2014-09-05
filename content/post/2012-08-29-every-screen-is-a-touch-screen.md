@@ -9,7 +9,7 @@ description: ""
 
 ---
 
-[![Babies believe in touch screens](http://www.ryanclarke.net/wp-content/uploads/BabiesBelieveInTouchScreens.png "Babies believe in touch screens")](http://www.ryanclarke.net/post/every-screen-is-a-touch-screen/babiesbelieveintouchscreens/)
+![Babies believe in touch screens](/images/BabiesBelieveInTouchScreens.png)
 
 There is much talk and controversy in the tech world surrounding Windows 8. One consistant charge is that it might be fine for a tablet, but nobody wants a a touch screen for a "serious" work computer like a laptop or desktop. I disagree.
 

@@ -9,7 +9,7 @@ description: "I'd \"known\" that the Windows 8 Consumer Preview was coming out i
 
 ---
 
-[![Graphic proof](http://www.ryanclarke.net/wp-content/uploads/Win8CPStartScreen.png "Windows 8 Consumer Preview start screen")](http://www.ryanclarke.net/post/march-1st-is-windows-8-day/win8cpstartscreen/)
+![Windows 8 Consumer Preview start screen](/images/Win8CPStartScreen.png)
 
 So there I was...
 

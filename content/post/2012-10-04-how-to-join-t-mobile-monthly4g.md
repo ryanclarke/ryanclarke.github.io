@@ -13,7 +13,7 @@ T-Mobile is offering customers an incredible catch-22... I mean, deal. I have wa
 
 But it's all a cruel trick and the system is broken. You see, the deal is only on the web, so I couldn't buy the \$20 in-store SIM card kit since they don't let SIM kits walk out inactivated. No problem, that's what e-commerce is for. So I got my card online and only paid \$1.06 with shipping. Feel the savings!
 
-[![T-Mobile SIM Card](http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png "T-Mobile SIM Card")](http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png)
+![T-Mobile SIM Card](/images/TMobileSIM.png)
 
 But on arrival, it turned out to be the full half-acre: way too big to fit the cute little slot in my Nokia Lumia 710. I need micro-SIM, not full SIM. I went back online to get the other kit. Wait a minute, there is no other kit. Yes, I called and no, they do not sell micro-SIMs online at this time.
 

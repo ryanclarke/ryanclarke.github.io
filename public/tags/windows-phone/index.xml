@@ -7,41 +7,33 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 23 Jun 2014 00:00:00 UTC</updated>
+    <updated>Tue, 02 Sep 2014 00:00:00 UTC</updated>
     
     <item>
-      <title>Creating a Pinned Site Live Tile easily and without pain</title>
-      <link>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</link>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      <title>Crosswind, the app that does one specific thing beautifully</title>
+      <link>http://localhost:1313/post/crosswind-the-app</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</guid>
-      <description>
+      <guid>http://localhost:1313/post/crosswind-the-app</guid>
+      <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
-&lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
+&lt;p&gt;So I built Crosswind.&lt;/p&gt;
 
-&lt;p&gt;And now there&amp;rsquo;s another one: Pinned Site Live Tiles as implemented by IE11 in Windows 8.1 and Windows Phone 8.1. Pinned SLTs (which I call &amp;ldquo;slivets&amp;rdquo;) allows a website to have a series of beautiful images for the different sizes of Windows tiles and even allows the display of website information using some lovely built-in tile templates using a simple xml schema.&lt;/p&gt;
+&lt;p&gt;Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;
+&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+&lt;p&gt;Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 &lt;a href=&#34;http://www.sep.com/labs/startupweekend/&#34;&gt;SEP Startup Weekend&lt;/a&gt;. It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
+&lt;p&gt;While working on the app I found a couple of very awesome sites. &lt;a href=&#34;http://rgb.to&#34;&gt;RGB.to&lt;/a&gt; is a great resource for converting colors between different formats. e.g. hex to HSL. It even supports HTML color names (which Windows Phone also uses). The other is &lt;a href=&#34;http://modernuiicons.com&#34;&gt;ModernUIIcons.com&lt;/a&gt;, an large, high-quality, free icon pack that really embraces the Windows Phone aesthetic. I will certainly be using more of those icons in the future.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+&lt;p&gt;And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! &lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;/images/CrosswindLogo159.png&#34; alt=&#34;Crosswind logo&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34;&gt;Pinned Sites&lt;/a&gt; - This the jumping off place to explore the Microsoft API documentation for pinned sites including schemas for the browser config, for html meta tags, and the complete list of properties, methods and events used by the browser. This is really helpful for pulling off some cool and crazy website-to-slivet interactions with the variety of available javascript hooks.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.telerik.com/fiddler&#34; title=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; - While we are on the topic of debugging, you pretty much have to have Fiddler to monitor the network traffic. This will tell you if the endpoints you defined are even being hit. I wasted a couple hours trying to solve a seemingly impossible problem with my slivets, but after I used Fiddler I solved the problem in minutes.&lt;/p&gt;
-
-&lt;p&gt;If you need any more help feel free to contact me. Of course, if you&amp;rsquo;d like to talk to someone who actually knows something, I&amp;rsquo;ve found Microsoft Program Managers &lt;a href=&#34;https://twitter.com/MattHidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;MattHidinger&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jacobrossi&#34; title=&#34;Twitter @jacobrossi&#34;&gt;Jacob Rossi&lt;/a&gt; to be quick, friendly and very helpful.&lt;/p&gt;
+&lt;p&gt;This one’s for you, Dad.&lt;/p&gt;
 </description>
     </item>
     
@@ -76,6 +68,42 @@
 &lt;p&gt;&lt;em&gt;Adding slivets to your site is not difficult, but there are some tricky situations that can waste your time if you don&amp;rsquo;t know where to look for answers. I&amp;rsquo;ve included some more technical information and helpful tips in my companion article, &amp;ldquo;&lt;a href=&#34;http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/&#34; title=&#34;How to create a Pinned Site Live Tile without pain&#34;&gt;How to create a Pinned Site Live Tile without pain&lt;/a&gt;.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;*Disclaimer: invented number.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a Pinned Site Live Tile easily and without pain</title>
+      <link>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</guid>
+      <description>
+
+&lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
+
+&lt;p&gt;And now there&amp;rsquo;s another one: Pinned Site Live Tiles as implemented by IE11 in Windows 8.1 and Windows Phone 8.1. Pinned SLTs (which I call &amp;ldquo;slivets&amp;rdquo;) allows a website to have a series of beautiful images for the different sizes of Windows tiles and even allows the display of website information using some lovely built-in tile templates using a simple xml schema.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34;&gt;Pinned Sites&lt;/a&gt; - This the jumping off place to explore the Microsoft API documentation for pinned sites including schemas for the browser config, for html meta tags, and the complete list of properties, methods and events used by the browser. This is really helpful for pulling off some cool and crazy website-to-slivet interactions with the variety of available javascript hooks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.telerik.com/fiddler&#34; title=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; - While we are on the topic of debugging, you pretty much have to have Fiddler to monitor the network traffic. This will tell you if the endpoints you defined are even being hit. I wasted a couple hours trying to solve a seemingly impossible problem with my slivets, but after I used Fiddler I solved the problem in minutes.&lt;/p&gt;
+
+&lt;p&gt;If you need any more help feel free to contact me. Of course, if you&amp;rsquo;d like to talk to someone who actually knows something, I&amp;rsquo;ve found Microsoft Program Managers &lt;a href=&#34;https://twitter.com/MattHidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;MattHidinger&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jacobrossi&#34; title=&#34;Twitter @jacobrossi&#34;&gt;Jacob Rossi&lt;/a&gt; to be quick, friendly and very helpful.&lt;/p&gt;
 </description>
     </item>
     

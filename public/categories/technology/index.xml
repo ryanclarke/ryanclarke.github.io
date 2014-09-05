@@ -7,41 +7,33 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 23 Jun 2014 00:00:00 UTC</updated>
+    <updated>Tue, 02 Sep 2014 00:00:00 UTC</updated>
     
     <item>
-      <title>Creating a Pinned Site Live Tile easily and without pain</title>
-      <link>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</link>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      <title>Crosswind, the app that does one specific thing beautifully</title>
+      <link>http://localhost:1313/post/crosswind-the-app</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</guid>
-      <description>
+      <guid>http://localhost:1313/post/crosswind-the-app</guid>
+      <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
-&lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
+&lt;p&gt;So I built Crosswind.&lt;/p&gt;
 
-&lt;p&gt;And now there&amp;rsquo;s another one: Pinned Site Live Tiles as implemented by IE11 in Windows 8.1 and Windows Phone 8.1. Pinned SLTs (which I call &amp;ldquo;slivets&amp;rdquo;) allows a website to have a series of beautiful images for the different sizes of Windows tiles and even allows the display of website information using some lovely built-in tile templates using a simple xml schema.&lt;/p&gt;
+&lt;p&gt;Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;
+&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+&lt;p&gt;Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 &lt;a href=&#34;http://www.sep.com/labs/startupweekend/&#34;&gt;SEP Startup Weekend&lt;/a&gt;. It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
+&lt;p&gt;While working on the app I found a couple of very awesome sites. &lt;a href=&#34;http://rgb.to&#34;&gt;RGB.to&lt;/a&gt; is a great resource for converting colors between different formats. e.g. hex to HSL. It even supports HTML color names (which Windows Phone also uses). The other is &lt;a href=&#34;http://modernuiicons.com&#34;&gt;ModernUIIcons.com&lt;/a&gt;, an large, high-quality, free icon pack that really embraces the Windows Phone aesthetic. I will certainly be using more of those icons in the future.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+&lt;p&gt;And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! &lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;/images/CrosswindLogo159.png&#34; alt=&#34;Crosswind logo&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34;&gt;Pinned Sites&lt;/a&gt; - This the jumping off place to explore the Microsoft API documentation for pinned sites including schemas for the browser config, for html meta tags, and the complete list of properties, methods and events used by the browser. This is really helpful for pulling off some cool and crazy website-to-slivet interactions with the variety of available javascript hooks.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.telerik.com/fiddler&#34; title=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; - While we are on the topic of debugging, you pretty much have to have Fiddler to monitor the network traffic. This will tell you if the endpoints you defined are even being hit. I wasted a couple hours trying to solve a seemingly impossible problem with my slivets, but after I used Fiddler I solved the problem in minutes.&lt;/p&gt;
-
-&lt;p&gt;If you need any more help feel free to contact me. Of course, if you&amp;rsquo;d like to talk to someone who actually knows something, I&amp;rsquo;ve found Microsoft Program Managers &lt;a href=&#34;https://twitter.com/MattHidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;MattHidinger&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jacobrossi&#34; title=&#34;Twitter @jacobrossi&#34;&gt;Jacob Rossi&lt;/a&gt; to be quick, friendly and very helpful.&lt;/p&gt;
+&lt;p&gt;This one’s for you, Dad.&lt;/p&gt;
 </description>
     </item>
     
@@ -80,6 +72,42 @@
     </item>
     
     <item>
+      <title>Creating a Pinned Site Live Tile easily and without pain</title>
+      <link>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/post/creating-a-pinned-site-live-tile-easily-and-without-pain</guid>
+      <description>
+
+&lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
+
+&lt;p&gt;And now there&amp;rsquo;s another one: Pinned Site Live Tiles as implemented by IE11 in Windows 8.1 and Windows Phone 8.1. Pinned SLTs (which I call &amp;ldquo;slivets&amp;rdquo;) allows a website to have a series of beautiful images for the different sizes of Windows tiles and even allows the display of website information using some lovely built-in tile templates using a simple xml schema.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh772707%28v=vs.85%29.aspx&#34;&gt;Pinned Sites&lt;/a&gt; - This the jumping off place to explore the Microsoft API documentation for pinned sites including schemas for the browser config, for html meta tags, and the complete list of properties, methods and events used by the browser. This is really helpful for pulling off some cool and crazy website-to-slivet interactions with the variety of available javascript hooks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.telerik.com/fiddler&#34; title=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt; - While we are on the topic of debugging, you pretty much have to have Fiddler to monitor the network traffic. This will tell you if the endpoints you defined are even being hit. I wasted a couple hours trying to solve a seemingly impossible problem with my slivets, but after I used Fiddler I solved the problem in minutes.&lt;/p&gt;
+
+&lt;p&gt;If you need any more help feel free to contact me. Of course, if you&amp;rsquo;d like to talk to someone who actually knows something, I&amp;rsquo;ve found Microsoft Program Managers &lt;a href=&#34;https://twitter.com/MattHidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;MattHidinger&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jacobrossi&#34; title=&#34;Twitter @jacobrossi&#34;&gt;Jacob Rossi&lt;/a&gt; to be quick, friendly and very helpful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
       <link>http://localhost:1313/post/checked-multi-choice-listviews</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
@@ -87,7 +115,7 @@
       <guid>http://localhost:1313/post/checked-multi-choice-listviews</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
@@ -147,8 +175,8 @@ public View getView(int position, View convertView, ViewGroup parent) {
 
 &lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
 
@@ -359,11 +387,166 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
       <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/post/bending-linq-to-entities-to-my-will</guid>
-      <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story. I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship. Unit -1:N- Module -N:1- ModuleInstructor -1:N- Instructor EntityFramework has these for objects [unnecessary properties trimmed for brevity]:
-Anyway, I wanted to display: UnitName, ModuleDate, Instructor(s) in a comma-separated list. My problem was that I had the hardest time getting Linq to get the Instructors, all I could retrieve was the ModuleInstructors which didn&amp;rsquo;t have any of the Instructor information loaded.
-My first solution was to modify the Module class to add another collection:
-In the ModuleController I got everything except the Instructors, then the Instructors separately and for looped through inserting them into the collection.
-According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s not that much of strain on the server either because I don&amp;rsquo;t have many Instructors and there are only 20 Modules being shown at any one time. However, I figured there must be a way to do it in one database call. Here&amp;rsquo;s my new solution. I still loop through inserting Instructors into the Modules object&amp;rsquo;s Instructor collection, but I get all the Instructors with everything else.   According to LinqPad it takes only SQL statement and it performs slightly faster that the first method. To be perfectly honest, I have trouble picturing exactly how this works and why, but it does. I am very happy that I stuck with the problem, coming back to it several times more until I got it &amp;ldquo;just right.&amp;rdquo; My one question: is this the best way to do this or is there a still better way? Maybe I&amp;rsquo;ll never know, but at least it&amp;rsquo;s better that it was before. See &lt;a href=&#34;http://stackoverflow.com/questions/14742145/linq-to-entities-with-a-many-to-many-relationship&#34; title=&#34;Linq-to-Entities with a many to many relationship - StackOverflow&#34;&gt;Linq-to-Entities with a many to many relationship&lt;/a&gt; on StackOverflow for more discussion regarding this problem.&lt;/p&gt;
+      <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story.&lt;/p&gt;
+
+&lt;p&gt;I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Unit           Module        ModuleInstructor         Instructor
+========  1:N  ========  N:1 ==================  1:N  ============
+UnitID         ModuleID      ModuleInsturctorID       InstructorID
+UnitName       UnitID        ModuleID                 InstructorName
+               StartDate     InsturctorID
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;EntityFramework has these for objects [unnecessary properties trimmed for brevity]:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class Unit
+{
+  public int UnitID { get; set; }
+  public string UnitName { get; set; }
+  public virtual ICollection&amp;lt;Module&amp;gt; Module { get; set; }
+}
+ 
+public partial class Module
+{
+  public int ModuleID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; UnitID { get; set; }
+  public Nullable&amp;lt;System.DateTime&amp;gt; ModuleDate { get; set; }
+  public virtual Unit Unit { get; set; }
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+  
+  public Module()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+    this.Record = new HashSet&amp;lt;Record&amp;gt;();
+  }
+}
+ 
+public partial class ModuleInstructor
+{
+  public int ModuleInstructorID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; InstructorID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; ModuleID { get; set; }
+  public Instructor Instructor { get; set; }
+  public virtual Module Module { get; set; }
+}
+ 
+public partial class Instructor
+{
+  public int InstructorID { get; set; }
+  public string InstructorName { get; set; }
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+
+  public Instructor()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Anyway, I wanted to display: UnitName, ModuleDate, Instructor(s) in a comma-separated list. My problem was that I had the hardest time getting Linq to get the Instructors, all I could retrieve was the ModuleInstructors which didn&amp;rsquo;t have any of the Instructor information loaded.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+ 
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .Include(m =&amp;gt; m.ModuleInstructor.Instructor) //Doesn&#39;t work
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My first solution was to modify the Module class to add another collection:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class Module
+{
+  public Module()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+    this.Record = new HashSet&amp;lt;Record&amp;gt;();
+  }
+  public int ModuleID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; UnitID { get; set; }
+  public Nullable&amp;lt;System.DateTime&amp;gt; ModuleDate { get; set; }
+  public virtual Unit Unit { get; set; }
+  public virtual ICollection&amp;lt;Instructor&amp;gt; Instructor { get; set; } //Added
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the ModuleController I got everything except the Instructors, then the Instructors separately and for looped through inserting them into the collection.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+ 
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+   
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+  var instructors = db.Instructors.ToList();
+  foreach (var m in modules)
+  {
+    m.Instructor = new List&amp;lt;Instructor&amp;gt;();
+    foreach (var mi in m.ModuleInstructor)
+    {
+      m.Instructor.Add(instructors.Where(i =&amp;gt; i.InstructorID == mi.InstructorID).SingleOrDefault());
+    }
+  }
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s not that much of strain on the server either because I don&amp;rsquo;t have many Instructors and there are only 20 Modules being shown at any one time.&lt;/p&gt;
+
+&lt;p&gt;However, I figured there must be a way to do it in one database call. Here&amp;rsquo;s my new solution. I still loop through inserting Instructors into the Modules object&amp;rsquo;s Instructor collection, but I get all the Instructors with everything else.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+
+  var instructors = db.Instructors.ToList();
+
+  foreach (var m in modules)
+  {
+    m.Instructor = new List&amp;lt;Instructor&amp;gt;();
+    foreach (var mi in m.ModuleInstructor)
+    {
+      m.Instructor.Add(instructors
+        .Where(i =&amp;gt; i.InstructorID == mi.InstructorID).SingleOrDefault());
+    }
+  }
+
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;According to LinqPad it takes only SQL statement and it performs slightly faster that the first method.&lt;/p&gt;
+
+&lt;p&gt;To be perfectly honest, I have trouble picturing exactly how this works and why, but it does. I am very happy that I stuck with the problem, coming back to it several times more until I got it &amp;ldquo;just right.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;My one question: is this the best way to do this or is there a still better way? Maybe I&amp;rsquo;ll never know, but at least it&amp;rsquo;s better that it was before.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&#34;http://stackoverflow.com/questions/14742145/linq-to-entities-with-a-many-to-many-relationship&#34; title=&#34;Linq-to-Entities with a many to many relationship - StackOverflow&#34;&gt;Linq-to-Entities with a many to many relationship&lt;/a&gt; on StackOverflow for more discussion regarding this problem.&lt;/p&gt;
 </description>
     </item>
     
@@ -379,8 +562,8 @@ According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s n
 
 &lt;p&gt;But it&amp;rsquo;s all a cruel trick and the system is broken. You see, the deal is only on the web, so I couldn&amp;rsquo;t buy the $20 in-store SIM card kit since they don&amp;rsquo;t let SIM kits walk out inactivated. No problem, that&amp;rsquo;s what e-commerce is for. So I got my card online and only paid $1.06 with shipping. Feel the savings!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/TMobileSIM.png&#34; alt=&#34;T-Mobile SIM Card&#34; title=&#34;T-Mobile SIM Card&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/TMobileSIM.png&#34; alt=&#34;T-Mobile SIM Card&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;But on arrival, it turned out to be the full half-acre: way too big to fit the cute little slot in my Nokia Lumia 710. I need micro-SIM, not full SIM. I went back online to get the other kit. Wait a minute, there is no other kit. Yes, I called and no, they do not sell micro-SIMs online at this time.&lt;/p&gt;
 
@@ -411,8 +594,8 @@ According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s n
       <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/post/every-screen-is-a-touch-screen</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/every-screen-is-a-touch-screen/babiesbelieveintouchscreens/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; title=&#34;Babies believe in touch screens&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;There is much talk and controversy in the tech world surrounding Windows 8. One consistant charge is that it might be fine for a tablet, but nobody wants a a touch screen for a &amp;ldquo;serious&amp;rdquo; work computer like a laptop or desktop. I disagree.&lt;/p&gt;
 
@@ -430,8 +613,8 @@ According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s n
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/post/march-1st-is-windows-8-day</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ryanclarke.net/post/march-1st-is-windows-8-day/win8cpstartscreen/&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/wp-content/uploads/Win8CPStartScreen.png&#34; alt=&#34;Graphic proof&#34; title=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;So there I was&amp;hellip;&lt;/p&gt;
 
@@ -445,21 +628,22 @@ According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s n
     
     <item>
       <title>Source Code for Windows 2000</title>
-      <link>http://localhost:1313/old/source-code-windows-2000</link>
+      <link>http://localhost:1313/journal/source-code-windows-2000</link>
       <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/source-code-windows-2000</guid>
-      <description>&lt;p&gt;This is a hilarious bit of joke code I found.
-/* Source Code Windows 2000 */
-#include &amp;ldquo;win31.h&amp;rdquo;
-#include &amp;ldquo;win95.h&amp;rdquo;
-#include &amp;ldquo;win98.h&amp;rdquo;
-#include &amp;ldquo;workst~1.h&amp;rdquo;
-#include &amp;ldquo;evenmore.h&amp;rdquo;
-#include &amp;ldquo;oldstuff.h&amp;rdquo;
-#include &amp;ldquo;billrulz.h&amp;rdquo;
-#include &amp;ldquo;mindsweeper.h&amp;rdquo;
-#include &amp;ldquo;backdoor.h&amp;rdquo;
+      <guid>http://localhost:1313/journal/source-code-windows-2000</guid>
+      <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* Source Code Windows 2000 */
+#include &amp;quot;win31.h&amp;quot;
+#include &amp;quot;win95.h&amp;quot;
+#include &amp;quot;win98.h&amp;quot;
+#include &amp;quot;workst~1.h&amp;quot;
+#include &amp;quot;evenmore.h&amp;quot;
+#include &amp;quot;oldstuff.h&amp;quot;
+#include &amp;quot;billrulz.h&amp;quot;
+#include &amp;quot;mindsweeper.h&amp;quot;
+#include &amp;quot;backdoor.h&amp;quot;
 #define INSTALL = HARD
 char make_prog_look_big(16000000);
 void main()
@@ -502,17 +686,17 @@ void main()
     set_mouse(action,jumpy);
     set_mouse(reaction,sometimes);
     } //if
-  /* printf(&amp;ldquo;Welcome to Windows 3.1&amp;rdquo;);    */
-  /* printf(&amp;ldquo;Welcome to Windows 3.11&amp;rdquo;);   */
-  /* printf(&amp;ldquo;Welcome to Windows 95&amp;rdquo;);     */
-  /* printf(&amp;ldquo;Welcome to Windows NT 3.0&amp;rdquo;); */
-  /* printf(&amp;ldquo;Welcome to Windows 98&amp;rdquo;);     */
-  /* printf(&amp;ldquo;Welcome to Windows NT 4.0&amp;rdquo;); */
-  printf(&amp;ldquo;Welcome to Windows 2000&amp;rdquo;);
+  /* printf(&amp;quot;Welcome to Windows 3.1&amp;quot;);    */
+  /* printf(&amp;quot;Welcome to Windows 3.11&amp;quot;);   */
+  /* printf(&amp;quot;Welcome to Windows 95&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 3.0&amp;quot;); */
+  /* printf(&amp;quot;Welcome to Windows 98&amp;quot;);     */
+  /* printf(&amp;quot;Welcome to Windows NT 4.0&amp;quot;); */
+  printf(&amp;quot;Welcome to Windows 2000&amp;quot;);
   if (system_ok())
     crash(to_dos_prompt)
   else
-    system_memory = open(&amp;ldquo;a:\swp0001.swp&amp;rdquo;,O_CREATE);
+    system_memory = open(&amp;quot;a:\swp0001.swp&amp;quot;,O_CREATE);
   while(something)
     {
     sleep(5);
@@ -523,31 +707,32 @@ void main()
     } // while
   create_general_protection_fault();
 } // main
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
       <title>Friday October 19, 2007</title>
-      <link>http://localhost:1313/old/friday-october-19-2007</link>
+      <link>http://localhost:1313/journal/friday-october-19-2007</link>
       <pubDate>Fri, 19 Oct 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/friday-october-19-2007</guid>
-      <description>&lt;p&gt;I cooked myself a nice, juicy, ribeye steak last night after marinating it for 3 days. And I had mashed potatoes. I just figured I&amp;rsquo;d let you all know.
-I met the girl who&amp;rsquo;s dad painted the Herbie in my town. Her name was Emerald.
-It looks like Intel is going to phase out their single-core processors at the beginning of next year. Only dual- and quad-core will be available. And I doubt AMD will hold onto single-core much longer. It&amp;rsquo;s a good thing. I&amp;rsquo;m looking forward to the consumer-priced quad-core 45nm PSUs that Intel has coming next February, although I&amp;rsquo;m not sure I&amp;rsquo;ll get one. It&amp;rsquo;s definitely an interesting time on the PC hardware front as we&amp;rsquo;re finally starting to see the effects of Vista on hardware design. (That statement is not completely true, but that&amp;rsquo;s a reasonable consumer perspective on the trend.) Also, &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu 7.10&lt;/a&gt; just came out yesterday. I&amp;rsquo;m downloading it today.
-1111 days on xanga for me.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
+      <guid>http://localhost:1313/journal/friday-october-19-2007</guid>
+      <description>&lt;p&gt;I cooked myself a nice, juicy, ribeye steak last night after marinating it for 3 days. And I had mashed potatoes. I just figured I&amp;rsquo;d let you all know.&lt;/p&gt;
+
+&lt;p&gt;I met the girl who&amp;rsquo;s dad painted the Herbie in my town. Her name was Emerald.&lt;/p&gt;
+
+&lt;p&gt;It looks like Intel is going to phase out their single-core processors at the beginning of next year. Only dual- and quad-core will be available. And I doubt AMD will hold onto single-core much longer. It&amp;rsquo;s a good thing. I&amp;rsquo;m looking forward to the consumer-priced quad-core 45nm PSUs that Intel has coming next February, although I&amp;rsquo;m not sure I&amp;rsquo;ll get one. It&amp;rsquo;s definitely an interesting time on the PC hardware front as we&amp;rsquo;re finally starting to see the effects of Vista on hardware design. (That statement is not completely true, but that&amp;rsquo;s a reasonable consumer perspective on the trend.) Also, &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu 7.10&lt;/a&gt; just came out yesterday. I&amp;rsquo;m downloading it today.&lt;/p&gt;
+
+&lt;p&gt;1111 days bloggin for me.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Thursday July 12, 2007</title>
-      <link>http://localhost:1313/old/thursday-july-12-2007</link>
+      <link>http://localhost:1313/journal/thursday-july-12-2007</link>
       <pubDate>Thu, 12 Jul 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/old/thursday-july-12-2007</guid>
+      <guid>http://localhost:1313/journal/thursday-july-12-2007</guid>
       <description>&lt;p&gt;My upgraded computer is running fine. I put in a new CPU and some more RAM today. Ah, I like tweaking it to work better when I have time. My current setup is listed below:
 Name: WHISTLE
 AMD Athlon 64 X2 5600+ at 2.8GHz

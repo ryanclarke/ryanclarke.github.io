@@ -13,7 +13,7 @@ I am on a team building a native Android app for a local credit union. We are do
 
 One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name "factory" on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.
 
-[![Factory chimneys billowing polution](http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png)](http://www.ryanclarke.net/wp-content/uploads/pollution-295305_6401.png)
+![Factory chimneys billowing polution](/images/pollution-295305_6401.png)
 
 In reality, factories aren't obligatorily complex: we are simply building an object. If there was any business logic going on I'm sure it would be more complex, but we're just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.
 
