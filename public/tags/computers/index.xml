@@ -3,7 +3,7 @@
   <channel>
       <title>Computers on Ryan Clarke </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/computers/index.xml</link>
+    <link>http://ryanclarke.github.io/tags/computers/index.xml</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Every screen is a touch screen</title>
-      <link>http://www.ryanclarke.net/post/every-screen-is-a-touch-screen</link>
+      <link>http://ryanclarke.github.io/post/every-screen-is-a-touch-screen</link>
       <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/post/every-screen-is-a-touch-screen</guid>
+      <guid>http://ryanclarke.github.io/post/every-screen-is-a-touch-screen</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;
 &lt;/p&gt;
 
@@ -30,10 +30,10 @@
     
     <item>
       <title>March 1st is Windows 8 day!</title>
-      <link>http://www.ryanclarke.net/post/march-1st-is-windows-8-day</link>
+      <link>http://ryanclarke.github.io/post/march-1st-is-windows-8-day</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/post/march-1st-is-windows-8-day</guid>
+      <guid>http://ryanclarke.github.io/post/march-1st-is-windows-8-day</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
 &lt;/p&gt;
 
@@ -49,10 +49,10 @@
     
     <item>
       <title>Source Code for Windows 2000</title>
-      <link>http://www.ryanclarke.net/journal/source-code-windows-2000</link>
+      <link>http://ryanclarke.github.io/journal/source-code-windows-2000</link>
       <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/journal/source-code-windows-2000</guid>
+      <guid>http://ryanclarke.github.io/journal/source-code-windows-2000</guid>
       <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;/* Source Code Windows 2000 */
@@ -134,10 +134,10 @@ void main()
     
     <item>
       <title>Friday October 19, 2007</title>
-      <link>http://www.ryanclarke.net/journal/friday-october-19-2007</link>
+      <link>http://ryanclarke.github.io/journal/friday-october-19-2007</link>
       <pubDate>Fri, 19 Oct 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/journal/friday-october-19-2007</guid>
+      <guid>http://ryanclarke.github.io/journal/friday-october-19-2007</guid>
       <description>&lt;p&gt;I cooked myself a nice, juicy, ribeye steak last night after marinating it for 3 days. And I had mashed potatoes. I just figured I&amp;rsquo;d let you all know.&lt;/p&gt;
 
 &lt;p&gt;I met the girl who&amp;rsquo;s dad painted the Herbie in my town. Her name was Emerald.&lt;/p&gt;
@@ -150,10 +150,10 @@ void main()
     
     <item>
       <title>Thursday July 12, 2007</title>
-      <link>http://www.ryanclarke.net/journal/thursday-july-12-2007</link>
+      <link>http://ryanclarke.github.io/journal/thursday-july-12-2007</link>
       <pubDate>Thu, 12 Jul 2007 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/journal/thursday-july-12-2007</guid>
+      <guid>http://ryanclarke.github.io/journal/thursday-july-12-2007</guid>
       <description>&lt;p&gt;My upgraded computer is running fine. I put in a new CPU and some more RAM today. Ah, I like tweaking it to work better when I have time. My current setup is listed below:
 Name: WHISTLE
 AMD Athlon 64 X2 5600+ at 2.8GHz

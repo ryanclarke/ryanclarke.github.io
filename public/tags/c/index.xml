@@ -3,7 +3,7 @@
   <channel>
       <title>C on Ryan Clarke </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/c/index.xml</link>
+    <link>http://ryanclarke.github.io/tags/c/index.xml</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Bending Linq-to-Entities to my will</title>
-      <link>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will</link>
+      <link>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will</link>
       <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
       
-      <guid>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will</guid>
+      <guid>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will</guid>
       <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story.&lt;/p&gt;
 
 &lt;p&gt;I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship.&lt;/p&gt;
