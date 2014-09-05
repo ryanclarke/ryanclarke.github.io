@@ -1,0 +1,28 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      {{ template "theme/chrome/sidebar.html" . }}
+    </div>
+
+    <div class="eleven columns content">
+      <p class="meta">
+        {{ if eq .Type "post" }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}&nbsp;
+        <a href="/">
+          <i class="home fa fa-home"></i>
+        </a>
+      </p>
+
+      <h1 class="title">{{ .Title }}</h1>
+      
+      <div id="post">
+        {{ .Content }}
+      </div>
+
+      <div class="footer">
+        {{ template "theme/chrome/foot.html" . }}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

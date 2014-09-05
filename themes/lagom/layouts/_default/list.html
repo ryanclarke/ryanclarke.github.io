@@ -1,0 +1,24 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      {{ template "theme/chrome/sidebar.html" . }}
+    </div>
+
+    <div class="eleven columns content">
+      <div id="home">
+        <h2><i class="icon-bookmark"></i>&nbsp;&nbsp;{{ .Title }}qqq</h2>
+        <ul id="blog-posts" class="posts">
+          {{ range .Data.Pages }}
+            <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer">
+        {{ template "theme/chrome/foot.html" . }}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

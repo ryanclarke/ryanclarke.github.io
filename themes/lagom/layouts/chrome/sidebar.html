@@ -1,0 +1,17 @@
+<nav>
+  <h1>Hi.</h1>
+  <a href="/">
+    <img src="/logo.png" id="logo" alt="Blog logo"/>
+  </a>
+  <h2>I'm <a href="{{ .Site.Params.AuthorNameUrl }}">{{ .Site.Params.AuthorName }}</a>.</h2>
+  <hr/>
+  <ul>
+    <p>{{ .Site.Params.Description }}</p>
+  <hr/>
+  <div>
+    <div id="social">
+      {{ template "theme/chrome/social.html" . }}
+    </div>
+  </div>
+  </ul>
+</nav>
