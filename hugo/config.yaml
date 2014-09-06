@@ -4,7 +4,7 @@ LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
 Theme: "lagom"
-PublishDir: "temp"
+PublishDir: "../"
 Params:
   Copyright: "© Ryan Clarke, 2014"
   Description: "Varied submissions of an adventurer"
