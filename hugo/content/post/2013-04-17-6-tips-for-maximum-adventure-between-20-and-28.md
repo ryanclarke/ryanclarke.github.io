@@ -6,6 +6,7 @@ date: "2013-04-17"
 tags: []
 categories: ["Christianity", "Thoughts", "Writings"]
 description: ""
+featured: "featured"
 
 ---
 

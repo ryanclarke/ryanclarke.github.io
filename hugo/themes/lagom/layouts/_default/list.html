@@ -7,10 +7,10 @@
 
     <div class="eleven columns content">
       <div id="home">
-        <h2><i class="icon-bookmark"></i>&nbsp;&nbsp;{{ .Title }}qqq</h2>
+        <h2><i class="icon-bookmark"></i>&nbsp;&nbsp;{{ .Title }}</h2>
         <ul id="blog-posts" class="posts">
           {{ range .Data.Pages }}
-            <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
       </div>

@@ -112,7 +112,7 @@
 	blockquote { margin: 0px; padding: 0px 20px 0 15px; border-left: 2px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: {{ site.colors.highlight }}; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #FA6800; }
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
@@ -445,7 +445,7 @@ body {
   color: #222222;
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid #FEA401;
+  border-top: 7px solid #FA6800;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -480,17 +480,17 @@ ul {
 }
 
 a {
-  color: #FEA401;
+  color: #FA6800;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FEA401;
+  color: #FA6800;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #FEA401;
+  color: #FA6800;
 }
 
 table {
@@ -619,8 +619,12 @@ nav hr {
   color: #AAA;
 }
 
+#blog-posts a.featured {
+  font-weight: 700;
+}
+
 #home h2 {
-  color: #FEA401;
+  color: #FA6800;
 }
 
 #logo {
@@ -646,7 +650,7 @@ nav hr {
 
 #stalker a:hover {
   text-decoration: none;
-  color: #FEA401;
+  color: #FA6800;
 }
 
 i.fa-hn {
