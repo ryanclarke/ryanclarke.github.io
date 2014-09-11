@@ -1,8 +1,8 @@
-{{ template "theme/chrome/head.html" . }}
+{{ partial "header.html" . }}
 <body>
   <div class="container">
     <div class="four columns sidebar">
-      {{ template "theme/chrome/sidebar.html" . }}
+      {{ partial "sidebar.html" . }}
     </div>
 
     <div class="eleven columns content">
@@ -18,7 +18,7 @@
       </div>
 
       <div class="footer">
-        {{ template "theme/chrome/foot.html" . }}
+        {{ partial "footer.html" . }}
       </div>
     </div>
   </div>
