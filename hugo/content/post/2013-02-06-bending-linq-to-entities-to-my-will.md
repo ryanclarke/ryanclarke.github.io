@@ -2,7 +2,7 @@
 title: "Bending Linq-to-Entities to my will"
 slug: "bending-linq-to-entities-to-my-will"
 wordpress_url: "http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/"
-date: "2013-02-06"
+date: 2013-02-06
 tags: ["ASP.NET MVC", "C#", "Programming"]
 categories: ["Technology"]
 description: ""

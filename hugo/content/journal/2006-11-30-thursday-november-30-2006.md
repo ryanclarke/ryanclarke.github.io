@@ -2,7 +2,7 @@
 title: "Thursday November 30, 2006"
 slug: "thursday-november-30-2006"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-november-30-2006/"
-date: "2006-11-30"
+date: 2006-11-30
 tags: []
 categories: ["Xanga"]
 description: ""

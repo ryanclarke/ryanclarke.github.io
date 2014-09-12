@@ -2,7 +2,7 @@
 title: "Wednesday January 31, 2007"
 slug: "wednesday-january-31-2007"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-january-31-2007/"
-date: "2007-01-31"
+date: 2007-01-31
 tags: []
 categories: ["Xanga"]
 description: ""

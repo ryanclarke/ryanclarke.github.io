@@ -2,7 +2,7 @@
 title: "Friday February 4, 2005"
 slug: "friday-february-4-2005"
 wordpress_url: "http://www.ryanclarke.net/post/friday-february-4-2005/"
-date: "2005-02-04"
+date: 2005-02-04
 tags: []
 categories: ["Xanga"]
 description: ""

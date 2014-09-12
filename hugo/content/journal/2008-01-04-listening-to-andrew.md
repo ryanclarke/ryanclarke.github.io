@@ -2,7 +2,7 @@
 title: "Listening to Andrew"
 slug: "listening-to-andrew"
 wordpress_url: "http://www.ryanclarke.net/post/listening-to-andrew/"
-date: "2008-01-04"
+date: 2008-01-04
 tags: ["quotes"]
 categories: ["Journal", "Xanga"]
 description: ""

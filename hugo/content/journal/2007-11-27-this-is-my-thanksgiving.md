@@ -2,7 +2,7 @@
 title: "This is My Thanksgiving"
 slug: "this-is-my-thanksgiving"
 wordpress_url: "http://www.ryanclarke.net/post/this-is-my-thanksgiving/"
-date: "2007-11-27"
+date: 2007-11-27
 tags: ["adventure", "God's will", "Payson AZ"]
 categories: ["Journal", "Xanga"]
 description: ""

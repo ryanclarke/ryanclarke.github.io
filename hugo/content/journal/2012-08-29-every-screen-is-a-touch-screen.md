@@ -2,7 +2,7 @@
 title: "Every screen is a touch screen"
 slug: "every-screen-is-a-touch-screen"
 wordpress_url: "http://www.ryanclarke.net/post/every-screen-is-a-touch-screen/"
-date: "2012-08-29"
+date: 2012-08-29
 tags: ["children", "computers", "Windows 8"]
 categories: ["Technology"]
 description: ""

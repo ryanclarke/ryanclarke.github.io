@@ -2,7 +2,7 @@
 title: "Thursday February 17, 2005"
 slug: "thursday-february-17-2005"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-february-17-2005/"
-date: "2005-02-17"
+date: 2005-02-17
 tags: []
 categories: ["Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Sunday September 17, 2006"
 slug: "sunday-september-17-2006"
 wordpress_url: "http://www.ryanclarke.net/post/sunday-september-17-2006/"
-date: "2006-09-17"
+date: 2006-09-17
 tags: []
 categories: ["Xanga"]
 description: ""

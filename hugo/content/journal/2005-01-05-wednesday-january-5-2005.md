@@ -2,7 +2,7 @@
 title: "Wednesday January 5, 2005"
 slug: "wednesday-january-5-2005"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-january-5-2005/"
-date: "2005-01-05"
+date: 2005-01-05
 tags: []
 categories: ["Xanga"]
 description: ""

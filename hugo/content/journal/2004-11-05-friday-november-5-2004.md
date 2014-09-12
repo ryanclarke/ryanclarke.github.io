@@ -2,7 +2,7 @@
 title: "Friday November 5, 2004"
 slug: "friday-november-5-2004"
 wordpress_url: "http://www.ryanclarke.net/post/friday-november-5-2004/"
-date: "2004-11-05"
+date: 2004-11-05
 tags: []
 categories: ["Xanga"]
 description: ""

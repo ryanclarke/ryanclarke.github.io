@@ -2,7 +2,7 @@
 title: "When the Frost is on the Punkin"
 slug: "when-the-frost-is-on-the-punkin"
 wordpress_url: "http://www.ryanclarke.net/post/when-the-frost-is-on-the-punkin/"
-date: "2008-10-26"
+date: 2008-10-26
 tags: ["James Whitcomb Riley", "poetry"]
 categories: ["Xanga"]
 description: ""

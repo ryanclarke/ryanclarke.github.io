@@ -2,7 +2,7 @@
 title: "Saturday February 5, 2005"
 slug: "saturday-february-5-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-february-5-2005/"
-date: "2005-02-05"
+date: 2005-02-05
 tags: []
 categories: ["Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Truth and Perception"
 slug: "truth-and-perception"
 wordpress_url: "http://www.ryanclarke.net/post/truth-and-perception/"
-date: "2007-12-13"
+date: 2007-12-13
 tags: ["Bible", "faith", "religion", "truth"]
 categories: ["Christianity", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Monday December 4, 2006"
 slug: "monday-december-4-2006"
 wordpress_url: "http://www.ryanclarke.net/post/monday-december-4-2006/"
-date: "2006-12-04"
+date: 2006-12-04
 tags: []
 categories: ["Xanga"]
 description: ""

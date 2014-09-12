@@ -2,7 +2,7 @@
 title: "Magic Mountain in L.A."
 slug: "thursday-october-12-2006"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-october-12-2006/"
-date: "2006-10-12"
+date: 2006-10-12
 tags: []
 categories: ["Xanga"]
 description: ""

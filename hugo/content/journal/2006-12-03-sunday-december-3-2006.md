@@ -2,7 +2,7 @@
 title: "Sunday December 3, 2006"
 slug: "sunday-december-3-2006"
 wordpress_url: "http://www.ryanclarke.net/post/sunday-december-3-2006/"
-date: "2006-12-03"
+date: 2006-12-03
 tags: []
 categories: ["Xanga"]
 description: ""

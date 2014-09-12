@@ -2,7 +2,7 @@
 title: "Wednesday November 22, 2006"
 slug: "wednesday-november-22-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-november-22-2006/"
-date: "2006-11-22"
+date: 2006-11-22
 tags: []
 categories: ["Xanga"]
 description: ""

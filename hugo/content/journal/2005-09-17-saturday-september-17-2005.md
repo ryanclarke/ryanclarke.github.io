@@ -2,7 +2,7 @@
 title: "Saturday September 17, 2005"
 slug: "saturday-september-17-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-september-17-2005/"
-date: "2005-09-17"
+date: 2005-09-17
 tags: []
 categories: ["Xanga"]
 description: ""

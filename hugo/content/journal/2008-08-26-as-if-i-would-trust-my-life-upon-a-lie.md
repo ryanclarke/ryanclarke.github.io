@@ -2,7 +2,7 @@
 title: "As if I would trust my life upon a lie"
 slug: "as-if-i-would-trust-my-life-upon-a-lie"
 wordpress_url: "http://www.ryanclarke.net/post/as-if-i-would-trust-my-life-upon-a-lie/"
-date: "2008-08-26"
+date: 2008-08-26
 tags: ["Bible", "faith", "religion"]
 categories: ["Christianity"]
 description: ""

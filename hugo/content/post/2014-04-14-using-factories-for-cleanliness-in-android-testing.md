@@ -2,7 +2,7 @@
 title: "Using factories for cleanliness in Android testing"
 slug: "using-factories-for-cleanliness-in-android-testing"
 wordpress_url: "http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/"
-date: "2014-04-14"
+date: 2014-04-14
 tags: ["android", "SEP", "testing", "work"]
 categories: ["Technology"]
 description: ""

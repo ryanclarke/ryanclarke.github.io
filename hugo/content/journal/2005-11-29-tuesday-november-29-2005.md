@@ -2,7 +2,7 @@
 title: "Tuesday November 29, 2005"
 slug: "tuesday-november-29-2005"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-november-29-2005/"
-date: "2005-11-29"
+date: 2005-11-29
 tags: []
 categories: ["Xanga"]
 description: ""

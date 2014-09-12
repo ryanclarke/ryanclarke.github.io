@@ -2,7 +2,7 @@
 title: "6 Tips for Maximum Adventure Between 20 and 28"
 slug: "6-tips-for-maximum-adventure-between-20-and-28"
 wordpress_url: "http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/"
-date: "2013-04-17"
+date: 2013-04-17
 tags: []
 categories: ["Christianity", "Thoughts", "Writings"]
 description: ""

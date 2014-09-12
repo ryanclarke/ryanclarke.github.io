@@ -2,7 +2,7 @@
 title: "Wednesday August 2, 2006"
 slug: "wednesday-august-2-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-august-2-2006/"
-date: "2006-08-02"
+date: 2006-08-02
 tags: []
 categories: ["Xanga"]
 description: ""

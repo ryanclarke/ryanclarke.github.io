@@ -2,7 +2,7 @@
 title: "Saturday October 14, 2006"
 slug: "saturday-october-14-2006"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-october-14-2006/"
-date: "2006-10-14"
+date: 2006-10-14
 tags: []
 categories: ["Xanga"]
 description: ""

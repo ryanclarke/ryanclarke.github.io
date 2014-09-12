@@ -2,7 +2,7 @@
 title: "The Curse of a Dream Job"
 slug: "the-curse-of-a-dream-job"
 wordpress_url: "http://www.ryanclarke.net/post/the-curse-of-a-dream-job/"
-date: "2012-02-21"
+date: 2012-02-21
 tags: ["rules to live by", "work"]
 categories: ["Thoughts"]
 description: "No sooner does a person get a job they love then it starts to destroy them. "

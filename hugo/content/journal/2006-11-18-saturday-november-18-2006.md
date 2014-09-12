@@ -2,7 +2,7 @@
 title: "Saturday November 18, 2006"
 slug: "saturday-november-18-2006"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-november-18-2006/"
-date: "2006-11-18"
+date: 2006-11-18
 tags: []
 categories: ["Xanga"]
 description: ""

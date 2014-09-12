@@ -2,7 +2,7 @@
 title: "Tuesday September 20, 2005"
 slug: "tuesday-september-20-2005"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-september-20-2005/"
-date: "2005-09-20"
+date: 2005-09-20
 tags: []
 categories: ["Xanga"]
 description: ""

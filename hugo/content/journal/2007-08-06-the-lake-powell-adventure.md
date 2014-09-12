@@ -2,7 +2,7 @@
 title: "The Lake Powell Adventure"
 slug: "the-lake-powell-adventure"
 wordpress_url: "http://www.ryanclarke.net/post/the-lake-powell-adventure/"
-date: "2007-08-06"
+date: 2007-08-06
 tags: ["adventure", "Payson AZ", "pictures", "travel", "xangapictures"]
 categories: ["Journal", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Wednesday March 1, 2006"
 slug: "wednesday-march-1-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-march-1-2006/"
-date: "2006-03-01"
+date: 2006-03-01
 tags: []
 categories: ["Xanga"]
 description: ""

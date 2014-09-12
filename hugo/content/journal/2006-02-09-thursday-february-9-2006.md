@@ -2,7 +2,7 @@
 title: "Thursday February 9, 2006"
 slug: "thursday-february-9-2006"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-february-9-2006/"
-date: "2006-02-09"
+date: 2006-02-09
 tags: []
 categories: ["Xanga"]
 description: ""

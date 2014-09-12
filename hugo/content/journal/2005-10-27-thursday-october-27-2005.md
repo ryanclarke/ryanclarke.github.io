@@ -2,7 +2,7 @@
 title: "Thursday October 27, 2005"
 slug: "thursday-october-27-2005"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-october-27-2005/"
-date: "2005-10-27"
+date: 2005-10-27
 tags: []
 categories: ["Xanga"]
 description: ""

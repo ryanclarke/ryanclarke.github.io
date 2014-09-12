@@ -2,7 +2,7 @@
 title: "Wednesday February 7, 2007"
 slug: "wednesday-february-7-2007"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-february-7-2007/"
-date: "2007-02-07"
+date: 2007-02-07
 tags: []
 categories: ["Xanga"]
 description: ""

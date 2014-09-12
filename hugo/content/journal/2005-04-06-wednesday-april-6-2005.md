@@ -2,7 +2,7 @@
 title: "Wednesday April 6, 2005"
 slug: "wednesday-april-6-2005"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-april-6-2005/"
-date: "2005-04-06"
+date: 2005-04-06
 tags: []
 categories: ["Xanga"]
 description: ""

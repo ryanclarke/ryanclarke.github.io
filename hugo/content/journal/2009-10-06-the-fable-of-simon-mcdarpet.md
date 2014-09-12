@@ -2,7 +2,7 @@
 title: "The Fable of Simon McDarpet"
 slug: "the-fable-of-simon-mcdarpet"
 wordpress_url: "http://www.ryanclarke.net/post/the-fable-of-simon-mcdarpet/"
-date: "2009-10-06"
+date: 2009-10-06
 tags: ["funny", "health", "poetry", "rules to live by"]
 categories: ["Writings"]
 description: "I give you the fable of Simon McDarpet,

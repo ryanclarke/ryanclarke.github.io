@@ -2,7 +2,7 @@
 title: "Saturday September 29, 2007"
 slug: "saturday-september-29-2007"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-september-29-2007/"
-date: "2007-09-29"
+date: 2007-09-29
 tags: ["church", "music", "Payson AZ"]
 categories: ["Journal", "Xanga"]
 description: ""

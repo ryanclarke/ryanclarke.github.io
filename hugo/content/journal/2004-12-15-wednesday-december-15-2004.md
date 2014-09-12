@@ -2,7 +2,7 @@
 title: "Wednesday December 15, 2004"
 slug: "wednesday-december-15-2004"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-december-15-2004/"
-date: "2004-12-15"
+date: 2004-12-15
 tags: []
 categories: ["Xanga"]
 description: ""

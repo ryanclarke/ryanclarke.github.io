@@ -2,7 +2,7 @@
 title: "Wednesday November 14, 2007"
 slug: "wednesday-november-14-2007"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-november-14-2007/"
-date: "2007-11-14"
+date: 2007-11-14
 tags: ["travel", "Verity", "wedding"]
 categories: ["Journal", "Xanga"]
 description: ""

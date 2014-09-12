@@ -2,7 +2,7 @@
 title: "Thursday January 19, 2006"
 slug: "thursday-january-19-2006"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-january-19-2006/"
-date: "2006-01-19"
+date: 2006-01-19
 tags: []
 categories: ["Xanga"]
 description: ""

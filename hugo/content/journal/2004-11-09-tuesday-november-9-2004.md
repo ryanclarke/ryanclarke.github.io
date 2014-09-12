@@ -2,7 +2,7 @@
 title: "Tuesday November 9, 2004"
 slug: "tuesday-november-9-2004"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-november-9-2004/"
-date: "2004-11-09"
+date: 2004-11-09
 tags: []
 categories: ["Xanga"]
 description: ""

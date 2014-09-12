@@ -2,7 +2,7 @@
 title: "Monday November 8, 2004"
 slug: "monday-november-8-2004"
 wordpress_url: "http://www.ryanclarke.net/post/monday-november-8-2004/"
-date: "2004-11-08"
+date: 2004-11-08
 tags: []
 categories: ["Xanga"]
 description: ""

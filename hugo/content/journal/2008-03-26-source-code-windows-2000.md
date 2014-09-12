@@ -2,7 +2,7 @@
 title: "Source Code for Windows 2000"
 slug: "source-code-windows-2000"
 wordpress_url: "http://www.ryanclarke.net/post/source-code-windows-2000/"
-date: "2008-03-26"
+date: 2008-03-26
 tags: ["code", "computers", "funny"]
 categories: ["Technology", "Xanga"]
 description: ""

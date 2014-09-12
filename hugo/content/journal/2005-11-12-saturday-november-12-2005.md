@@ -2,7 +2,7 @@
 title: "Saturday November 12, 2005"
 slug: "saturday-november-12-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-november-12-2005/"
-date: "2005-11-12"
+date: 2005-11-12
 tags: []
 categories: ["Xanga"]
 description: ""

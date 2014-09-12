@@ -2,7 +2,7 @@
 title: "Tuesday December 12, 2006"
 slug: "tuesday-december-12-2006"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-december-12-2006/"
-date: "2006-12-12"
+date: 2006-12-12
 tags: []
 categories: ["Xanga"]
 description: ""

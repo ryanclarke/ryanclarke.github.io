@@ -2,7 +2,7 @@
 title: "Tuesday September 26, 2006"
 slug: "tuesday-september-26-2006-2"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-september-26-2006-2/"
-date: "2006-09-26"
+date: 2006-09-26T02:00:00
 tags: []
 categories: ["Xanga"]
 description: ""

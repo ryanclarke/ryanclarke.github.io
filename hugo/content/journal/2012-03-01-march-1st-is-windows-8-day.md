@@ -2,7 +2,7 @@
 title: "March 1st is Windows 8 day!"
 slug: "march-1st-is-windows-8-day"
 wordpress_url: "http://www.ryanclarke.net/post/march-1st-is-windows-8-day/"
-date: "2012-03-01"
+date: 2012-03-01
 tags: ["backup", "computers", "Windows 8"]
 categories: ["Technology"]
 description: "I'd \"known\" that the Windows 8 Consumer Preview was coming out in February since //build/ in September. I'd known it was going to be on the \"congratulations for surviving 4 more years, here’s 24 bonus hours\" day since early in the month. I'd known that the download would be finished by quitting time since I started it that morning (it's a slow hose)."

@@ -2,7 +2,7 @@
 title: "Friday November 3, 2006"
 slug: "friday-november-3-2006"
 wordpress_url: "http://www.ryanclarke.net/post/friday-november-3-2006/"
-date: "2006-11-03"
+date: 2006-11-03
 tags: []
 categories: ["Xanga"]
 description: ""

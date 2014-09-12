@@ -2,7 +2,7 @@
 title: "True Adventure"
 slug: "true-adventure"
 wordpress_url: "http://www.ryanclarke.net/post/true-adventure/"
-date: "2009-11-10"
+date: 2009-11-10
 tags: ["adventure", "rules to live by"]
 categories: ["Thoughts", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "My Last Visit to RCI"
 slug: "my-last-visit-to-rci"
 wordpress_url: "http://www.ryanclarke.net/post/my-last-visit-to-rci/"
-date: "2008-02-24"
+date: 2008-02-24
 tags: ["RCI", "Verity"]
 categories: ["Journal", "Xanga"]
 description: ""

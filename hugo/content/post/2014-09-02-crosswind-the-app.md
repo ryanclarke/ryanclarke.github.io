@@ -2,7 +2,7 @@
 title: "Crosswind, the app that does one specific thing beautifully"
 slug: "crosswind-the-app"
 wordpress_url: "http://www.ryanclarke.net/post/crosswind-the-app/"
-date: "2014-09-02"
+date: 2014-09-02
 tags: ["SEP", "Windows Phone"]
 categories: ["Technology"]
 description: ""

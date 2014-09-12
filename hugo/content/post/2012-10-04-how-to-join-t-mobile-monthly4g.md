@@ -2,7 +2,7 @@
 title: "How to join T-Mobile's Monthly4G prepaid service with a micro-SIM phone"
 slug: "how-to-join-t-mobile-monthly4g"
 wordpress_url: "http://www.ryanclarke.net/post/how-to-join-t-mobile-monthly4g/"
-date: "2012-10-04"
+date: 2012-10-04
 tags: ["cellphone", "made it work"]
 categories: ["Technology"]
 description: ""

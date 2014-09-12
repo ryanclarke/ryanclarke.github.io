@@ -2,7 +2,7 @@
 title: "Tuesday January 2, 2007"
 slug: "tuesday-january-2-2007"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-january-2-2007/"
-date: "2007-01-02"
+date: 2007-01-02
 tags: []
 categories: ["Xanga"]
 description: ""

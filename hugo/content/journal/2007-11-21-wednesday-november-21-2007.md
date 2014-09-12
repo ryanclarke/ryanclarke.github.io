@@ -2,7 +2,7 @@
 title: "Wednesday November 21, 2007"
 slug: "wednesday-november-21-2007"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-november-21-2007/"
-date: "2007-11-21"
+date: 2007-11-21
 tags: ["travel", "wedding"]
 categories: ["Journal", "Xanga"]
 description: ""

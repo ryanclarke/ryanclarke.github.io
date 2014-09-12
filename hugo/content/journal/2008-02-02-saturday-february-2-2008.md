@@ -2,7 +2,7 @@
 title: "Saturday February 2, 2008"
 slug: "saturday-february-2-2008"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-february-2-2008/"
-date: "2008-02-02"
+date: 2008-02-02
 tags: ["Verity"]
 categories: ["Journal", "Xanga"]
 description: ""

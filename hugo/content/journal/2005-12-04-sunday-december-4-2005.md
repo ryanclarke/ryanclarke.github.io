@@ -2,7 +2,7 @@
 title: "Sunday December 4, 2005"
 slug: "sunday-december-4-2005"
 wordpress_url: "http://www.ryanclarke.net/post/sunday-december-4-2005/"
-date: "2005-12-04"
+date: 2005-12-04
 tags: []
 categories: ["Xanga"]
 description: ""

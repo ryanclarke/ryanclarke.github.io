@@ -2,7 +2,7 @@
 title: "Psalm 37:3-7a"
 slug: "thursday-august-2-2007"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-august-2-2007/"
-date: "2007-08-02"
+date: 2007-08-02
 tags: ["Bible", "God is good", "God's will"]
 categories: ["Christianity", "Xanga"]
 description: ""

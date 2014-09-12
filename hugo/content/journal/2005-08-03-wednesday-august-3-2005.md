@@ -2,7 +2,7 @@
 title: "Wednesday August 3, 2005"
 slug: "wednesday-august-3-2005"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-august-3-2005/"
-date: "2005-08-03"
+date: 2005-08-03
 tags: []
 categories: ["Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Saturday January 20, 2007"
 slug: "saturday-january-20-2007"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-january-20-2007/"
-date: "2007-01-20"
+date: 2007-01-20
 tags: []
 categories: ["Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Monday November 6, 2006"
 slug: "monday-november-6-2006"
 wordpress_url: "http://www.ryanclarke.net/post/monday-november-6-2006/"
-date: "2006-11-06"
+date: 2006-11-06
 tags: []
 categories: ["Xanga"]
 description: ""

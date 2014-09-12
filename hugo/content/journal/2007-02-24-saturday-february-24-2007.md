@@ -2,7 +2,7 @@
 title: "Saturday February 24, 2007"
 slug: "saturday-february-24-2007"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-february-24-2007/"
-date: "2007-02-24"
+date: 2007-02-24
 tags: []
 categories: ["Xanga"]
 description: ""

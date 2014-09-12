@@ -2,7 +2,7 @@
 title: "Thursday September 8, 2005"
 slug: "thursday-september-8-2005"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-september-8-2005/"
-date: "2005-09-08"
+date: 2005-09-08
 tags: []
 categories: ["Xanga"]
 description: ""

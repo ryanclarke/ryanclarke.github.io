@@ -2,7 +2,7 @@
 title: "Thursday December 6, 2007"
 slug: "thursday-december-6-2007"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-december-6-2007/"
-date: "2007-12-06"
+date: 2007-12-06
 tags: ["Payson AZ", "travel"]
 categories: ["Journal", "Xanga"]
 description: ""

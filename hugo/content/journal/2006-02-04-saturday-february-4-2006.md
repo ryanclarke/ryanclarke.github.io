@@ -2,7 +2,7 @@
 title: "Saturday February 4, 2006"
 slug: "saturday-february-4-2006"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-february-4-2006/"
-date: "2006-02-04"
+date: 2006-02-04
 tags: []
 categories: ["Xanga"]
 description: ""

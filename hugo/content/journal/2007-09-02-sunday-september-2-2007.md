@@ -2,7 +2,7 @@
 title: "Sunday September 2, 2007"
 slug: "sunday-september-2-2007"
 wordpress_url: "http://www.ryanclarke.net/post/sunday-september-2-2007/"
-date: "2007-09-02"
+date: 2007-09-02
 tags: ["church", "Payson AZ"]
 categories: ["Journal", "Xanga"]
 description: ""

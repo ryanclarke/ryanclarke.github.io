@@ -2,7 +2,7 @@
 title: "Wrestling with CheckedTextViews in an Android Multi-Choice ListView"
 slug: "checked-multi-choice-listviews"
 wordpress_url: "http://www.ryanclarke.net/post/checked-multi-choice-listviews/"
-date: "2014-04-25"
+date: 2014-04-25
 tags: ["android", "code", "SEP"]
 categories: ["Technology"]
 description: ""

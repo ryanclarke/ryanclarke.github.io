@@ -2,7 +2,7 @@
 title: "You have to start somewhere"
 slug: "you-have-to-start-somewhere"
 wordpress_url: "http://www.ryanclarke.net/post/you-have-to-start-somewhere/"
-date: "2013-06-07"
+date: 2013-06-07
 tags: ["SEP", "work"]
 categories: ["Technology"]
 description: ""

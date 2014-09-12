@@ -2,7 +2,7 @@
 title: "Saturday December 4, 2004"
 slug: "saturday-december-4-2004"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-december-4-2004/"
-date: "2004-12-04"
+date: 2004-12-04
 tags: []
 categories: ["Xanga"]
 description: ""

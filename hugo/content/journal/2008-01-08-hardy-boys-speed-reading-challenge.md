@@ -2,7 +2,7 @@
 title: "Hardy Boys speed reading challenge"
 slug: "hardy-boys-speed-reading-challenge"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-january-8-2008/"
-date: "2008-01-08"
+date: 2008-01-08
 tags: ["books", "links", "skills"]
 categories: ["Journal", "Xanga"]
 description: ""

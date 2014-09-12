@@ -2,7 +2,7 @@
 title: "Monday September 17, 2007"
 slug: "monday-september-17-2007"
 wordpress_url: "http://www.ryanclarke.net/post/monday-september-17-2007/"
-date: "2007-09-17"
+date: 2007-09-17
 tags: ["church", "paintball", "Payson AZ"]
 categories: ["Journal", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Saturday September 22, 2007"
 slug: "saturday-september-22-2007"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-september-22-2007/"
-date: "2007-09-22"
+date: 2007-09-22
 tags: ["Payson AZ"]
 categories: ["Journal", "Xanga"]
 description: ""

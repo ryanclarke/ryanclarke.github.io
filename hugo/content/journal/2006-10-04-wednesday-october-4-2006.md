@@ -2,7 +2,7 @@
 title: "Wednesday October 4, 2006"
 slug: "wednesday-october-4-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-october-4-2006/"
-date: "2006-10-04"
+date: 2006-10-04
 tags: []
 categories: ["Xanga"]
 description: ""

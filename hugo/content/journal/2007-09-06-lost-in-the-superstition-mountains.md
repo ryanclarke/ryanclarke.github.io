@@ -2,7 +2,7 @@
 title: "Lost in the Superstition Mountains"
 slug: "lost-in-the-superstition-mountains"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-september-6-2007/"
-date: "2007-09-06"
+date: 2007-09-06
 tags: ["adventure", "Payson AZ", "travel"]
 categories: ["Journal", "Xanga"]
 description: ""

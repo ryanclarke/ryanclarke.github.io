@@ -2,7 +2,7 @@
 title: "Tuesday December 13, 2005"
 slug: "tuesday-december-13-2005"
 wordpress_url: "http://www.ryanclarke.net/post/tuesday-december-13-2005/"
-date: "2005-12-13"
+date: 2005-12-13
 tags: []
 categories: ["Xanga"]
 description: ""

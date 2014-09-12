@@ -2,7 +2,7 @@
 title: "Saturday December 31, 2005"
 slug: "saturday-december-31-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-december-31-2005/"
-date: "2005-12-31"
+date: 2005-12-31
 tags: []
 categories: ["Xanga"]
 description: ""

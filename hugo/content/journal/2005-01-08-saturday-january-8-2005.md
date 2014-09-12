@@ -2,7 +2,7 @@
 title: "Saturday January 8, 2005"
 slug: "saturday-january-8-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-january-8-2005/"
-date: "2005-01-08"
+date: 2005-01-08
 tags: []
 categories: ["Xanga"]
 description: ""

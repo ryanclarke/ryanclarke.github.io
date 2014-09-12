@@ -2,7 +2,7 @@
 title: "'Tis What Season...?"
 slug: "tis-what-season"
 wordpress_url: "http://www.ryanclarke.net/post/tis-what-season/"
-date: "2007-12-24"
+date: 2007-12-24
 tags: ["Christmas", "religion"]
 categories: ["Christianity", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Saturday January 14, 2006"
 slug: "saturday-january-14-2006"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-january-14-2006/"
-date: "2006-01-14"
+date: 2006-01-14
 tags: []
 categories: ["Xanga"]
 description: ""

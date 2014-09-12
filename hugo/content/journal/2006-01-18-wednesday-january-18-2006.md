@@ -2,7 +2,7 @@
 title: "Wednesday January 18, 2006"
 slug: "wednesday-january-18-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-january-18-2006/"
-date: "2006-01-18"
+date: 2006-01-18
 tags: []
 categories: ["Xanga"]
 description: ""

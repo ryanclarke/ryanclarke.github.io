@@ -2,7 +2,7 @@
 title: "Friday September 9, 2005"
 slug: "friday-september-9-2005"
 wordpress_url: "http://www.ryanclarke.net/post/friday-september-9-2005/"
-date: "2005-09-09"
+date: 2005-09-09
 tags: []
 categories: ["Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Wednesday March 8, 2006"
 slug: "wednesday-march-8-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-march-8-2006/"
-date: "2006-03-08"
+date: 2006-03-08
 tags: []
 categories: ["Xanga"]
 description: ""

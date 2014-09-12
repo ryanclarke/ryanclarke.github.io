@@ -2,7 +2,7 @@
 title: "Thursday August 9, 2007"
 slug: "thursday-august-9-2007"
 wordpress_url: "http://www.ryanclarke.net/post/thursday-august-9-2007/"
-date: "2007-08-09"
+date: 2007-08-09
 tags: ["travel", "wedding", "work"]
 categories: ["Journal", "Xanga"]
 description: ""

@@ -2,7 +2,7 @@
 title: "Saturday October 1, 2005"
 slug: "saturday-october-1-2005"
 wordpress_url: "http://www.ryanclarke.net/post/saturday-october-1-2005/"
-date: "2005-10-01"
+date: 2005-10-01
 tags: []
 categories: ["Xanga"]
 description: ""

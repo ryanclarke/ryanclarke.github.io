@@ -2,7 +2,7 @@
 title: "A Few Swiftys"
 slug: "a-few-swiftys"
 wordpress_url: "http://www.ryanclarke.net/post/a-few-swiftys/"
-date: "2007-09-21"
+date: 2007-09-21
 tags: ["funny"]
 categories: ["Shared", "Xanga"]
 description: ""

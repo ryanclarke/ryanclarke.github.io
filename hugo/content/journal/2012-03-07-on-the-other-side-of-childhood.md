@@ -2,7 +2,7 @@
 title: "On the other side of childhood"
 slug: "on-the-other-side-of-childhood"
 wordpress_url: "http://www.ryanclarke.net/post/on-the-other-side-of-childhood/"
-date: "2012-03-07"
+date: 2012-03-07
 tags: ["children", "parenting", "poetry", "rules to live by"]
 categories: ["Writings"]
 description: "On the other side of childhood"

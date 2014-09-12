@@ -2,7 +2,7 @@
 title: "Wednesday January 25, 2006"
 slug: "wednesday-january-25-2006"
 wordpress_url: "http://www.ryanclarke.net/post/wednesday-january-25-2006/"
-date: "2006-01-25"
+date: 2006-01-25
 tags: []
 categories: ["Xanga"]
 description: ""
