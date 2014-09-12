@@ -6,6 +6,7 @@ date: "2014-09-02"
 tags: ["SEP", "Windows Phone"]
 categories: ["Technology"]
 description: ""
+featured: "featured"
 
 ---
 
