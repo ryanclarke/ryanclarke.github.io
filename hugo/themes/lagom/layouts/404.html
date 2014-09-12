@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      {{ partial "sidebar.html" . }}
+    </div>
+
+    <div class="eleven columns content">
+      <div id="home">
+        <h2><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;Uh oh, error</h2>
+      </div>
+
+      <h1 class="title">{{ .Title }}</h1>
+      
+      <div id="post">
+        <p>
+          This page does not exist.
+        </p>
+      </div>
+
+      <div class="footer">
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
