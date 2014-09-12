@@ -2,7 +2,7 @@
 title: "Creating a Pinned Site Live Tile easily and without pain"
 slug: "creating-a-pinned-site-live-tile-easily-and-without-pain"
 wordpress_url: "http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/"
-date: "2014-06-23"
+date: 2014-06-23T09:00:00-04:00
 tags: ["Internet Explorer", "SEP", "Windows", "Windows Phone"]
 categories: ["Technology"]
 description: ""

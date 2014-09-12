@@ -2,7 +2,7 @@
 title: "Pinned Site Live Tiles belong on all sites"
 slug: "pinned-site-live-tiles-belong-on-all-sites"
 wordpress_url: "http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/"
-date: "2014-06-23"
+date: 2014-06-23T08:00:00-04:00
 tags: ["Internet Explorer", "SEP", "Windows", "Windows Phone"]
 categories: ["Technology"]
 description: ""
