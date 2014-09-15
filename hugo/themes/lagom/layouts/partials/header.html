@@ -14,6 +14,15 @@
   
   <meta name="author" content="{{ .Site.Params.AuthorName }}" />
   <meta name="description" content="The blog of {{ .Site.Params.AuthorName }}" />
+
+  <!-- Twitter card metadata -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ .Site.Params.Twitter }}" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
+  <meta name="twitter:image" content="/logo.png" />
+  <meta name="twitter:url" content="{{ .Permalink }}" />
+ 
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <!-- CSS -->
