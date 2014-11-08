@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/backup/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Thu, 01 Mar 2012 00:00:00 UTC</updated>
     
     <item>
       <title>March 1st is Windows 8 day!</title>
       <link>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
 &lt;/p&gt;

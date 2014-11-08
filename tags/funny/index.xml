@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/funny/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Tue, 06 Oct 2009 00:00:00 UTC</updated>
     
     <item>
       <title>The Fable of Simon McDarpet</title>
       <link>http://ryanclarke.github.io/journal/the-fable-of-simon-mcdarpet/</link>
       <pubDate>Tue, 06 Oct 2009 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/the-fable-of-simon-mcdarpet/</guid>
       <description>&lt;p&gt;I give you the fable of Simon McDarpet,&lt;br /&gt;
 A boy, it would seem, with a hatred for carpet;&lt;br /&gt;
@@ -52,7 +52,7 @@ To never move food without using a cover.&lt;/p&gt;
       <title>Source Code for Windows 2000</title>
       <link>http://ryanclarke.github.io/journal/source-code-windows-2000/</link>
       <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/source-code-windows-2000/</guid>
       <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
 
@@ -137,7 +137,7 @@ void main()
       <title>A Few Swiftys</title>
       <link>http://ryanclarke.github.io/journal/a-few-swiftys/</link>
       <pubDate>Fri, 21 Sep 2007 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/a-few-swiftys/</guid>
       <description>&lt;p&gt;I recently discovered a new type of humor thanks to Wikipedia: the Tom Swifty. Enjoy.&lt;br /&gt;
 &amp;ldquo;I manufacture tabletops,&amp;rdquo; said Tom counterproductively.&lt;br /&gt;
@@ -162,7 +162,7 @@ void main()
       <title>Monday July 2, 2007</title>
       <link>http://ryanclarke.github.io/journal/monday-july-2-2007/</link>
       <pubDate>Mon, 02 Jul 2007 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/monday-july-2-2007/</guid>
       <description>&lt;p&gt;Sometimes living alone can be a challenge and I need a little help with my diet. Fortunately they have a magazine to help with that.
 &lt;a href=&#34;http://photo.xanga.com/classicalRyan/4ce4b132762318/photo.html&#34;&gt;&lt;img src=&#34;http://x4c.xanga.com/e4bd817279d32132762318/w96962568.jpg&#34; alt=&#34;&#34; title=&#34;Cooking Light&#34; /&gt;
@@ -180,7 +180,7 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
       <title>Friday June 8, 2007</title>
       <link>http://ryanclarke.github.io/journal/friday-june-8-2007/</link>
       <pubDate>Fri, 08 Jun 2007 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/friday-june-8-2007/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve decided to become a celebrity. Does anyone know some good paparazzi in the Greater Payson Metropolitan Area *cough*? Yes, I&amp;rsquo;ve always dreamed of being draped across the checkout aisle in Wal*Mart beneath slanderous headlines.
 I&amp;rsquo;m just not sure about the whole adopting native children thing: I&amp;rsquo;d rather have my own.

@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/page/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Tue, 07 Jun 2011 00:00:00 UTC</updated>
     
     <item>
       <title> About</title>
       <link>http://ryanclarke.github.io/about</link>
       <pubDate>Tue, 07 Jun 2011 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/about</guid>
       <description>&lt;p&gt;My name is Ryan Clarke. I live in Indianapolis with my wife and daughters.&lt;/p&gt;
 

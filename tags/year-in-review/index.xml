@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/year-in-review/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Thu, 01 Jan 2009 00:00:00 UTC</updated>
     
     <item>
       <title>2008 Year in Review</title>
       <link>http://ryanclarke.github.io/journal/2008-year-in-review/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/2008-year-in-review/</guid>
       <description>
 
@@ -91,7 +91,7 @@
       <title>2007 Year in Review</title>
       <link>http://ryanclarke.github.io/journal/2007-year-in-review/</link>
       <pubDate>Sat, 05 Jan 2008 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/2007-year-in-review/</guid>
       <description>
 

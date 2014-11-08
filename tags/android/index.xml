@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/android/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Fri, 25 Apr 2014 00:00:00 UTC</updated>
     
     <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
       <link>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
@@ -71,7 +71,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
       <title>Using factories for cleanliness in Android testing</title>
       <link>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</link>
       <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</guid>
       <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
 

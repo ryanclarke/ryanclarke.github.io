@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Tue, 02 Sep 2014 00:00:00 UTC</updated>
     
     <item>
       <title>Crosswind, the app that does one specific thing beautifully</title>
       <link>http://ryanclarke.github.io/post/crosswind-the-app/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/crosswind-the-app/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
@@ -41,7 +41,7 @@
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
       <link>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
       <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
       <description>
 
@@ -77,7 +77,7 @@
       <title>Pinned Site Live Tiles belong on all sites</title>
       <link>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</link>
       <pubDate>Mon, 23 Jun 2014 08:00:00 EDT</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
       <description>
 
@@ -111,7 +111,7 @@
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
       <link>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
@@ -169,7 +169,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
       <title>Using factories for cleanliness in Android testing</title>
       <link>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</link>
       <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</guid>
       <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
 
@@ -340,7 +340,7 @@ public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;Acc
       <title>You have to start somewhere</title>
       <link>http://ryanclarke.github.io/post/you-have-to-start-somewhere/</link>
       <pubDate>Fri, 07 Jun 2013 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/you-have-to-start-somewhere/</guid>
       <description>
 
@@ -385,7 +385,7 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
       <title>6 Tips for Maximum Adventure Between 20 and 28</title>
       <link>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
       <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
       <description>
 
@@ -435,7 +435,7 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
       <title>Bending Linq-to-Entities to my will</title>
       <link>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will/</link>
       <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will/</guid>
       <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story.&lt;/p&gt;
 
@@ -604,7 +604,7 @@ public ActionResult Index(int p = 1)
       <title>How to join T-Mobile&#39;s Monthly4G prepaid service with a micro-SIM phone</title>
       <link>http://ryanclarke.github.io/post/how-to-join-t-mobile-monthly4g/</link>
       <pubDate>Thu, 04 Oct 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/how-to-join-t-mobile-monthly4g/</guid>
       <description>
 
@@ -642,7 +642,7 @@ public ActionResult Index(int p = 1)
       <title>Every screen is a touch screen</title>
       <link>http://ryanclarke.github.io/journal/every-screen-is-a-touch-screen/</link>
       <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/every-screen-is-a-touch-screen/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;
 &lt;/p&gt;
@@ -661,7 +661,7 @@ public ActionResult Index(int p = 1)
       <title>On the other side of childhood</title>
       <link>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</link>
       <pubDate>Wed, 07 Mar 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</guid>
       <description>&lt;p&gt;On the other side of childhood&lt;br /&gt;
 When youth’s young bud has grown&lt;br /&gt;
@@ -686,7 +686,7 @@ Recall where once you stood.&lt;/p&gt;
       <title>March 1st is Windows 8 day!</title>
       <link>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
 &lt;/p&gt;
@@ -705,7 +705,7 @@ Recall where once you stood.&lt;/p&gt;
       <title>The Curse of a Dream Job</title>
       <link>http://ryanclarke.github.io/journal/the-curse-of-a-dream-job/</link>
       <pubDate>Tue, 21 Feb 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/the-curse-of-a-dream-job/</guid>
       <description>&lt;p&gt;No sooner does a person get a job they love then it starts to destroy them. Jesus said His burden is easy, and it is a good thing, because the ones we give ourselves rarely are. Good employees think that they have to do their best at work. And then the work expands, bringing discouragement or exhaustion.&lt;/p&gt;
 
@@ -721,7 +721,7 @@ Recall where once you stood.&lt;/p&gt;
       <title> About</title>
       <link>http://ryanclarke.github.io/about</link>
       <pubDate>Tue, 07 Jun 2011 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/about</guid>
       <description>&lt;p&gt;My name is Ryan Clarke. I live in Indianapolis with my wife and daughters.&lt;/p&gt;
 
@@ -733,7 +733,7 @@ Recall where once you stood.&lt;/p&gt;
       <title>True Adventure</title>
       <link>http://ryanclarke.github.io/journal/true-adventure/</link>
       <pubDate>Tue, 10 Nov 2009 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/true-adventure/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;“True adventurers have never been plentiful. They who are set down in print as such have been mostly business men with newly invented methods. They have been out after the things they wanted—golden fleeces, holy grails, lady loves, treasure, crowns and fame. The true adventurer goes forth aimless and uncalculating to meet and greet unknown fate. A fine example was the Prodigal Son&amp;ndash;when he started back home.” ~O. Henry&lt;/p&gt;

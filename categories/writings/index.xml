@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/categories/writings/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Wed, 17 Apr 2013 00:00:00 UTC</updated>
     
     <item>
       <title>6 Tips for Maximum Adventure Between 20 and 28</title>
       <link>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
       <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
       <description>
 
@@ -63,7 +63,7 @@
       <title>On the other side of childhood</title>
       <link>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</link>
       <pubDate>Wed, 07 Mar 2012 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</guid>
       <description>&lt;p&gt;On the other side of childhood&lt;br /&gt;
 When youth’s young bud has grown&lt;br /&gt;
@@ -88,7 +88,7 @@ Recall where once you stood.&lt;/p&gt;
       <title>The Fable of Simon McDarpet</title>
       <link>http://ryanclarke.github.io/journal/the-fable-of-simon-mcdarpet/</link>
       <pubDate>Tue, 06 Oct 2009 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/the-fable-of-simon-mcdarpet/</guid>
       <description>&lt;p&gt;I give you the fable of Simon McDarpet,&lt;br /&gt;
 A boy, it would seem, with a hatred for carpet;&lt;br /&gt;

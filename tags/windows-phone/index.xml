@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/windows-phone/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Tue, 02 Sep 2014 00:00:00 UTC</updated>
     
     <item>
       <title>Crosswind, the app that does one specific thing beautifully</title>
       <link>http://ryanclarke.github.io/post/crosswind-the-app/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/crosswind-the-app/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
@@ -41,7 +41,7 @@
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
       <link>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
       <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
       <description>
 
@@ -77,7 +77,7 @@
       <title>Pinned Site Live Tiles belong on all sites</title>
       <link>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</link>
       <pubDate>Mon, 23 Jun 2014 08:00:00 EDT</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
       <description>
 

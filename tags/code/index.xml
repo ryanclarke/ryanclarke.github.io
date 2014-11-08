@@ -5,15 +5,15 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/code/index.xml/</link>
     <language>en-us</language>
-    
-    
+    <author>Ryan Clarke</author>
+    <copyright>© Ryan Clarke, 2014</copyright>
     <updated>Fri, 25 Apr 2014 00:00:00 UTC</updated>
     
     <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
       <link>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
@@ -71,7 +71,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
       <title>Source Code for Windows 2000</title>
       <link>http://ryanclarke.github.io/journal/source-code-windows-2000/</link>
       <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
-      
+      <author>Ryan Clarke</author>
       <guid>http://ryanclarke.github.io/journal/source-code-windows-2000/</guid>
       <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
 

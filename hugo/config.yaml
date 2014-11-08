@@ -5,6 +5,9 @@ Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
 Theme: "lagom"
 PublishDir: "../"
+Copyright: "© Ryan Clarke, 2014"
+Author:
+  name: "Ryan Clarke"
 Params:
   Copyright: "© Ryan Clarke, 2014"
   Description: "Varied submissions of an adventurer"
