@@ -21,7 +21,7 @@
 
 &lt;p&gt;Creating an image out of xaml is not too hard either. Your tile xaml should be a &lt;code&gt;UserControl&lt;/code&gt;, which works really well with &lt;code&gt;WriteableBitmap&lt;/code&gt;&amp;rsquo;s &lt;code&gt;Render&lt;/code&gt; method which takes a &lt;code&gt;UIElement&lt;/code&gt; as it&amp;rsquo;s first parameter. Then you call &lt;code&gt;SaveJpeg&lt;/code&gt; on the bitmap and you&amp;rsquo;ve got an image.&lt;/p&gt;
 
-&lt;p&gt;The plot just outlined is simple, but there are a number of little details which you must get right or your image will not look right. In fact, when I left them out in my original attempts at this tile it seemed like Windows Phone didn&amp;rsquo;t understand basic xaml controls, like &lt;code&gt;Grid&lt;/code&gt; and &lt;code&gt;StackPanel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Sounds simple, but there are a number of little details which you must get right or your image will not look right. In fact, in my original attempts at this tile it seemed like Windows Phone didn&amp;rsquo;t understand basic xaml controls, like &lt;code&gt;Grid&lt;/code&gt; and &lt;code&gt;StackPanel&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Before we start you need to get the tile dimensions right. I&amp;rsquo;ll be showing a normal/medium sized square tile, so it&amp;rsquo;s just 336 by 336 pixels. Wide tiles are 336 by 691, and the tiny tiles can&amp;rsquo;t be live. You will be putting this width and height as properties on your tile control&amp;rsquo;s root xaml element. You will also be using them a lot of times in the code.&lt;/p&gt;
 
@@ -37,14 +37,14 @@ var tileHeight = 336;
 &lt;pre&gt;&lt;code&gt;tileControl.Measure(new Size(tileWidth, tileHeight));
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Here&amp;rsquo;s the part I was missing. If you leave this out the framework won&amp;rsquo;t know what size we just set and will just assume that the tile has no size and will pile everything up into the top corner regardless of grids or anything else. This one takes a &lt;code&gt;Rect&lt;/code&gt; (the first two parameters are the offset, so give it zeros).&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the part I was missing. If you leave &lt;code&gt;Arrange&lt;/code&gt; out the framework won&amp;rsquo;t know what size we just set and will just assume that the tile has no size and will pile everything up into the top corner regardless of grids or anything else. This one takes a &lt;code&gt;Rect&lt;/code&gt; (the first two parameters are the offset, so give it zeros).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;tileControl.Arrange(new Rect(0, 0, tileWidth, tileHeight));
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now can create the bitmap like I mentioned above. Of course, it needs to know the size too.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;var bitmap = new WritableBitmap(tileWidth, tile Height));
+&lt;pre&gt;&lt;code&gt;var bitmap = new WritableBitmap(tileWidth, tileHeight));
 bitmap.Render(this, null); // Don&#39;t need a transform
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -62,7 +62,7 @@ try
     using (var myStore = IsolatedStorageFile.GetUserStoreForApplication())
     using (var fileStream = new IsolatedStorageFileStream(filePath, FileMode.Create, myStore))
     {
-        var tileQuality = 80; // 100 is best; don&#39;t go below 75
+        var tileQuality = 80; // 100 is best quality but large; don&#39;t go below 75
         // 0 is orientation: reserved for possible future use?!
         bitmap.SaveJpeg(fileStream, tileWidth, tileHeight, 0, tileQuality);
     }

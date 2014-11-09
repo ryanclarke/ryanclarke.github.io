@@ -15,7 +15,7 @@ Windows Phone 8 tiles will display whatever images you specify. I wanted a simpl
 
 Creating an image out of xaml is not too hard either. Your tile xaml should be a `UserControl`, which works really well with `WriteableBitmap`'s `Render` method which takes a `UIElement` as it's first parameter. Then you call `SaveJpeg` on the bitmap and you've got an image.
 
-The plot just outlined is simple, but there are a number of little details which you must get right or your image will not look right. In fact, when I left them out in my original attempts at this tile it seemed like Windows Phone didn't understand basic xaml controls, like `Grid` and `StackPanel`.
+Sounds simple, but there are a number of little details which you must get right or your image will not look right. In fact, in my original attempts at this tile it seemed like Windows Phone didn't understand basic xaml controls, like `Grid` and `StackPanel`.
 
 Before we start you need to get the tile dimensions right. I'll be showing a normal/medium sized square tile, so it's just 336 by 336 pixels. Wide tiles are 336 by 691, and the tiny tiles can't be live. You will be putting this width and height as properties on your tile control's root xaml element. You will also be using them a lot of times in the code.
 
@@ -33,7 +33,7 @@ Then we need to tell the tile what size it should be, since the properties on th
 tileControl.Measure(new Size(tileWidth, tileHeight));
 ```
 
-Here's the part I was missing. If you leave this out the framework won't know what size we just set and will just assume that the tile has no size and will pile everything up into the top corner regardless of grids or anything else. This one takes a `Rect` (the first two parameters are the offset, so give it zeros).
+Here's the part I was missing. If you leave `Arrange` out the framework won't know what size we just set and will just assume that the tile has no size and will pile everything up into the top corner regardless of grids or anything else. This one takes a `Rect` (the first two parameters are the offset, so give it zeros).
 
 ```
 tileControl.Arrange(new Rect(0, 0, tileWidth, tileHeight));
@@ -42,7 +42,7 @@ tileControl.Arrange(new Rect(0, 0, tileWidth, tileHeight));
 Now can create the bitmap like I mentioned above. Of course, it needs to know the size too.
 
 ```
-var bitmap = new WritableBitmap(tileWidth, tile Height));
+var bitmap = new WritableBitmap(tileWidth, tileHeight));
 bitmap.Render(this, null); // Don't need a transform
 ```
 
@@ -62,7 +62,7 @@ try
     using (var myStore = IsolatedStorageFile.GetUserStoreForApplication())
     using (var fileStream = new IsolatedStorageFileStream(filePath, FileMode.Create, myStore))
     {
-        var tileQuality = 80; // 100 is best; don't go below 75
+        var tileQuality = 80; // 100 is best quality but large; don't go below 75
         // 0 is orientation: reserved for possible future use?!
         bitmap.SaveJpeg(fileStream, tileWidth, tileHeight, 0, tileQuality);
     }
