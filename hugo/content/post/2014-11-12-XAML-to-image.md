@@ -1,11 +1,10 @@
 ---
-title: "XAML to image"
+title: "How to save a XAML view as an image"
 slug: "XAML-to-image"
-date: 2014-09-10T13:46:31-04:00
+date: 2014-11-12T10:19:31-05:00
 tags: ["SEP"]
 categories: ["Technology"]
 description: ""
-draft: true
 
 ---
 
