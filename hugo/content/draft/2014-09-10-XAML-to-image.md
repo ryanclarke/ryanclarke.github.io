@@ -56,7 +56,7 @@ Don't forget to `Invalidate` the bitmap. This is just a scary but concise way to
 bitmap.Invalidate();
 ```
 
-## Once more incase you missed it
+## Once more in case you missed it
 
 So here's the formula for success written all in one go.
 
