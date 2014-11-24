@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Windows on Ryan Clarke </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
+      <title>Ryan Clarke </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://ryanclarke.github.io/tags/windows/index.xml/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
@@ -81,3 +81,4 @@
     
   </channel>
 </rss>
+

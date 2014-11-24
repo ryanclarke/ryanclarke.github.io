@@ -1,13 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Technology on Ryan Clarke </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
+      <title>Ryan Clarke </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://ryanclarke.github.io/categories/technology/index.xml/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© Ryan Clarke, 2014</copyright>
-    <updated>Wed, 12 Nov 2014 10:19:31 EST</updated>
+    <updated>Mon, 24 Nov 2014 11:00:00 EST</updated>
+    
+    <item>
+      <title>My year as an apprentice software engineer</title>
+      <link>http://ryanclarke.github.io/post/my-year-as-an-apprentice-software-engineer/</link>
+      <pubDate>Mon, 24 Nov 2014 11:00:00 EST</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://ryanclarke.github.io/post/my-year-as-an-apprentice-software-engineer/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;The unlikely programmer&lt;/h2&gt;
+
+&lt;p&gt;Music theory was my &amp;lsquo;thing&amp;rsquo; from the time I was 10, so naturally that&amp;rsquo;s what I studied in college. Years later I found programming and, realizing a better thing when I saw one, I switched &amp;lsquo;things.&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;After attending the Institute of Whatever the Search Results Contained for a couple years, I decided to ask for help. I went to a meetup: Indianapolis Code and Coffee (SoHo Cafe, Thursdays at 7am). Circumstances quickly got out of control and I ended up applying to SEP to work as a professional programmer.&lt;/p&gt;
+
+&lt;p&gt;They looked at my qualifications, and finding none, they looked at my skills. They said &amp;ldquo;hmm&amp;rdquo; and then they said &amp;ldquo;okay, but he&amp;rsquo;s definitely not a Software Engineer 1 yet.&amp;rdquo; So they gave me the title of apprentice. It said &amp;ldquo;Apprentice Software Engineer&amp;rdquo; on my business card but it said &amp;ldquo;Software Engineer 0&amp;rdquo; on my email signature because I thought it was funny.&lt;/p&gt;
+
+&lt;p&gt;Some might have seen this title as an insult: &amp;ldquo;Let&amp;rsquo;s call him &amp;lsquo;n00b&amp;rsquo; and hurt his feelings.&amp;rdquo; I received it with joy; it was permission. It was permission to learn and grow. I guess it did take some humility to be told I didn&amp;rsquo;t know much, but it was the truth (I may have mentioned it in my interview). My goal in applying to SEP was to learn, so really it turned out better than I could have hoped: I was the company apprentice and I wanted to make the best of it.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;What apprenticeship meant to me&lt;/h2&gt;
+
+&lt;p&gt;This is the part of the story where I say that being an apprentice wasn&amp;rsquo;t easy, but I&amp;rsquo;ll save that for later because primarily it was awesome. &amp;ldquo;Apprentice&amp;rdquo; means &amp;ldquo;patience please, he&amp;rsquo;s busy learning.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Being apprentice told me that I was not expected to be doing SE1 level work (though I certainly tried), I was supposed to be &lt;em&gt;learning&lt;/em&gt; enough to eventually do SE1 quality work. In fact, I took it as my default position to err on the side of learning rather than doing. What&amp;rsquo;s the point of doing a lot if it&amp;rsquo;s wrong?&lt;/p&gt;
+
+&lt;p&gt;Being an apprentice also told everyone else in the company what expectation to set for my work. Perhaps for some people it set them too low (not really sure), but I&amp;rsquo;d rather impress than disappoint. SEP has a very supportive environment regardless of title, but it was still intimidating for me to join knowing I was basically the one engineer without a computer degree. Being called apprentice reduced a lot of stress, especially in the first few weeks. Apprenticeship functioned as a plea for help: &amp;ldquo;I don&amp;rsquo;t know this thing, please teach me.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Lastly, it was an implicit commitment from the company to help me succeed. They didn&amp;rsquo;t hire me to watch me implode (I assume). In my year of apprenticeship I was put on teams that really helped me grow and learn. My teammates were excellent mentors: patient, encouraging, and most of all, &lt;em&gt;really&lt;/em&gt; skilled. I secretly suspect that my manager did this on purpose (thank you) because it totally worked.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Learning on the job&lt;/h2&gt;
+
+&lt;p&gt;My first project was an internal experience tracing tool called Chops built in Ruby on Rails. Matt Swanson, the lead, taught me about pair programming, unit testing, git, and kanban-like project tracking. It was boot camp, and I came out of it feeling way more confident than when I went in.&lt;/p&gt;
+
+&lt;p&gt;My second project was Planet, a feed aggregator web service for all internal blogs and announcement sources at SEP. It gave me something at the company to &amp;lsquo;own&amp;rsquo; and benefit the entire company. In reality it&amp;rsquo;s a pretty small time app, but I like that there&amp;rsquo;s something I can remember to myself, &amp;ldquo;See? I&amp;rsquo;m helping.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;My first client project was an Android app for a local credit union. This was the defining experience of my apprenticeship. We did an awesome job on this project. We knocked it out of the park. We killed it. We rocked. And I got to be a part of all that: coding, sharing, building, deciding. I got to program, refactor, test, pair, discuss, get upset about a bug, go for a walk and come back with the answer. I got to give input in retrospectives, share at standups, and ask questions all the time. I got to help set up a build server, create a testing document, fill in missing integration tests, and watch the rows of test devices spring to life running my code. I got to push a broken build to master minutes before going home for the day. I got to be told never, ever, as-you-value-your-sweet-life ever do that again. I got to change, to learn and grow and become a real software engineer. Thank you to my team: Matt Terry, Matt Swanson, and Aaron Milam. Big thank you to Kyle Pinches, our project manager.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Tips for other apprentices&lt;/h2&gt;
+
+&lt;p&gt;I may have only been an apprentice for a year, but the journey still stretches far ahead. I plan to continue to apply the lessons I learned during that year for the duration of my career. Or, at least, as long as they continue to work.&lt;/p&gt;
+
+&lt;p&gt;If anyone is wondering, here are some tips for a successful apprenticeship. Remember: a successful apprenticeship is largely your responsibility.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_4&#34;&gt;Ask questions.&lt;/h5&gt;
+
+&lt;p&gt;Don&amp;rsquo;t be afraid to look dumb. Of course you shouldn&amp;rsquo;t ask stupid questions, but many questions that seem stupid are really just basic question. Ask them, because if you don&amp;rsquo;t understand the basics you haven&amp;rsquo;t got a chance with anything else.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_5&#34;&gt;Try new things.&lt;/h5&gt;
+
+&lt;p&gt;This shouldn&amp;rsquo;t be on the list since learning is the whole point of apprenticeship, but it can be tiring to always live on the edge of your skill level. Don&amp;rsquo;t succumb. It&amp;rsquo;s okay, when discouraged, to do something you know you can crush. But once you&amp;rsquo;re feeling better, go back to pressing for more. Not to spoil the ending, but get used to trying new things. All the senior programmers I know are still expanding their skill.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_6&#34;&gt;Claim one area to &amp;lsquo;own&amp;rsquo; and become the team expert.&lt;/h5&gt;
+
+&lt;p&gt;As a beginner it can be difficult to make a real contribution since everyone else is so much more skilled. Then you feel useless. Find somewhere that you can be useful and prove your value and take responsibility for it. You may hate to hear this, but these opportunities are often considered boring or not fun. There&amp;rsquo;s less competition for doing those jobs and if you volunteer everyone will like it. Documentation is an obvious one. Sorry, but it&amp;rsquo;s a good tip.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_7&#34;&gt;Work really hard but try not to show it.&lt;/h5&gt;
+
+&lt;p&gt;What I mean is, don&amp;rsquo;t complain. Accept that it&amp;rsquo;s going to take you a lot more time and effort to do things the others think are simple. But don&amp;rsquo;t complain that it&amp;rsquo;s so hard. Your experienced coworkers were beginners once and they made it through. Of course, don&amp;rsquo;t take this that you shouldn&amp;rsquo;t ask for help: you should, all the time. It&amp;rsquo;s your job as an apprentice. But inquire, try to understand and work really hard, don&amp;rsquo;t whine.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_8&#34;&gt;Be involved in the community.&lt;/h5&gt;
+
+&lt;p&gt;The entire point of an apprenticeship is to learn from &lt;em&gt;others&lt;/em&gt;. Don&amp;rsquo;t sit in your cave coding; interact with other developers. And relying on just one mentor isn&amp;rsquo;t enough. The more mentors you have, the more idea and advice you&amp;rsquo;ll hear. Diversity is good. Plus, leaning on only one person will wear them out.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_9&#34;&gt;Get code reviews and pair.&lt;/h5&gt;
+
+&lt;p&gt;You want more than just ideas: you want genuine feedback. Code reviews and pairing are ways to get an experienced programmer to comment on your particular work in a particular instance. It&amp;rsquo;s concrete and it&amp;rsquo;s personal. At first they will find lots of things you can improve, but you&amp;rsquo;re new. You want to them to find the bad stuff so you can stop doing it. Remember to ask, &amp;ldquo;Why?&amp;rdquo; so you can understand the reason the issue was an issue. The goal is to see the amount of &amp;lsquo;negative&amp;rsquo; feedback decrease and the positive comments abound.&lt;/p&gt;
+
+&lt;h5 id=&#34;toc_10&#34;&gt;Share what you know.&lt;/h5&gt;
+
+&lt;p&gt;It seems weird advice for an apprentice, but there&amp;rsquo;s always someone who doesn&amp;rsquo;t know what you know. Help them. They may even be more experienced than you and never had that situation yet. Or you might give them a new perspective. At the very least, sharing thoughts helps you to clarify and organize your thoughts: something an apprentice desperately needs. Sharing knowledge is good, get in the habit early in your career. I wish I had done this more.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;The end&lt;/h2&gt;
+
+&lt;p&gt;Ultimately, I think an apprenticeship&amp;rsquo;s success is directly the responsibility of the apprentice. No one is going to sit you down and feed you delicious knowledge from a spoon: they&amp;rsquo;re busy doing their own work. But if you ask them about something, if you work daily alongside them, they&amp;rsquo;ll normally give you years&amp;rsquo; worth of hard-fought insights for free. That&amp;rsquo;s a bargain.&lt;/p&gt;
+
+&lt;p&gt;So anyway, I recommend apprenticeship. 5 stars.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to save a XAML view as an image</title>
@@ -849,3 +927,4 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
   </channel>
 </rss>
+
