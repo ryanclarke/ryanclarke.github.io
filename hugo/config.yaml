@@ -9,8 +9,8 @@ Copyright: "© 2014 Ryan Clarke"
 Author:
   name: "Ryan Clarke"
 Params:
-  Copyright: "© 2014 Ryan Clarke"
-  Description: "Varied submissions of an adventurer"
+  Description: "The blog of Ryan Clarke"
+  Tagline: "Varied submissions of an adventurer"
   AuthorName: "Ryan Clarke"
   AuthorNameUrl: "/about"
   Github: "ryanclarke"

@@ -3,18 +3,18 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://ryanclarke.github.io/index.xml/</link>
+    <link>http://www.ryanclarke.net/index.xml/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
-    <copyright>© Ryan Clarke, 2014</copyright>
+    <copyright>© 2014 Ryan Clarke</copyright>
     <updated>Mon, 24 Nov 2014 11:00:00 EST</updated>
     
     <item>
       <title>My year as an apprentice software engineer</title>
-      <link>http://ryanclarke.github.io/post/my-year-as-an-apprentice-software-engineer/</link>
+      <link>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</link>
       <pubDate>Mon, 24 Nov 2014 11:00:00 EST</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/my-year-as-an-apprentice-software-engineer/</guid>
+      <guid>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;The unlikely programmer&lt;/h2&gt;
@@ -89,10 +89,10 @@
     
     <item>
       <title>How to save a XAML view as an image</title>
-      <link>http://ryanclarke.github.io/post/XAML-to-image/</link>
+      <link>http://www.ryanclarke.net/post/XAML-to-image/</link>
       <pubDate>Wed, 12 Nov 2014 10:19:31 EST</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/XAML-to-image/</guid>
+      <guid>http://www.ryanclarke.net/post/XAML-to-image/</guid>
       <description>
 
 &lt;p&gt;I needed to take a xaml view and turn it into a bitmap. My Windows Phone app needed a live tile and the so I used &lt;code&gt;FlipTileData&lt;/code&gt; with the &lt;code&gt;BackgroundImage&lt;/code&gt; property set to my image URI. Almost every app has a tile so how hard can it be? Good news, it isn&amp;rsquo;t hard! Here&amp;rsquo;s how I turned the xaml view for my tile into the image I needed.&lt;/p&gt;
@@ -185,10 +185,10 @@ catch (Exception ex)
     
     <item>
       <title>Crosswind, the app that does one specific thing beautifully</title>
-      <link>http://ryanclarke.github.io/post/crosswind-the-app/</link>
+      <link>http://www.ryanclarke.net/post/crosswind-the-app/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/crosswind-the-app/</guid>
+      <guid>http://www.ryanclarke.net/post/crosswind-the-app/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
 &lt;p&gt;So I built Crosswind.&lt;/p&gt;
@@ -213,10 +213,10 @@ catch (Exception ex)
     
     <item>
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
-      <link>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
+      <link>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
       <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
+      <guid>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
       <description>
 
 &lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
@@ -249,10 +249,10 @@ catch (Exception ex)
     
     <item>
       <title>Pinned Site Live Tiles belong on all sites</title>
-      <link>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</link>
+      <link>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</link>
       <pubDate>Mon, 23 Jun 2014 08:00:00 EDT</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
+      <guid>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
       <description>
 
 &lt;p&gt;Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that&amp;rsquo;s impossible. But you &lt;em&gt;can&lt;/em&gt; get 75%* of the way there with an awesome new Internet Explorer feature I recently implemented on one of SEP&amp;rsquo;s sites called Pinned Site Live Tiles.&lt;/p&gt;
@@ -283,10 +283,10 @@ catch (Exception ex)
     
     <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
-      <link>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</link>
+      <link>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</link>
       <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/checked-multi-choice-listviews/</guid>
+      <guid>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
@@ -341,10 +341,10 @@ public View getView(int position, View convertView, ViewGroup parent) {
     
     <item>
       <title>Using factories for cleanliness in Android testing</title>
-      <link>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</link>
+      <link>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
       <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/using-factories-for-cleanliness-in-android-testing/</guid>
+      <guid>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
       <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
 
 &lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
@@ -512,10 +512,10 @@ public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;Acc
     
     <item>
       <title>You have to start somewhere</title>
-      <link>http://ryanclarke.github.io/post/you-have-to-start-somewhere/</link>
+      <link>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</link>
       <pubDate>Fri, 07 Jun 2013 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/you-have-to-start-somewhere/</guid>
+      <guid>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</guid>
       <description>
 
 &lt;p&gt;I started fresh in at SEP on Monday and by Tuesday the bananas were fresh out.&lt;/p&gt;
@@ -557,10 +557,10 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
     
     <item>
       <title>6 Tips for Maximum Adventure Between 20 and 28</title>
-      <link>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
+      <link>http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
       <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
+      <guid>http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
       <description>
 
 &lt;h3 id=&#34;toc_0&#34;&gt;Advice on Your 20th Birthday from the Perspective of 28 Years&lt;/h3&gt;
@@ -607,10 +607,10 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
     
     <item>
       <title>Bending Linq-to-Entities to my will</title>
-      <link>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will/</link>
+      <link>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/</link>
       <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/bending-linq-to-entities-to-my-will/</guid>
+      <guid>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/</guid>
       <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story.&lt;/p&gt;
 
 &lt;p&gt;I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship.&lt;/p&gt;
@@ -776,10 +776,10 @@ public ActionResult Index(int p = 1)
     
     <item>
       <title>How to join T-Mobile&#39;s Monthly4G prepaid service with a micro-SIM phone</title>
-      <link>http://ryanclarke.github.io/post/how-to-join-t-mobile-monthly4g/</link>
+      <link>http://www.ryanclarke.net/post/how-to-join-t-mobile-monthly4g/</link>
       <pubDate>Thu, 04 Oct 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/how-to-join-t-mobile-monthly4g/</guid>
+      <guid>http://www.ryanclarke.net/post/how-to-join-t-mobile-monthly4g/</guid>
       <description>
 
 &lt;p&gt;T-Mobile is offering customers an incredible catch-22&amp;hellip; I mean, deal. I have wanted a Windows Phone for a year now but could not justify paying a smartphone-priced cell plan. So when I saw T-Mobile&amp;rsquo;s \$30 per month online-only plan I pounced. My Windows Phone dreams would happen–and all while saving \$20 over my current Verizon plan.&lt;/p&gt;
@@ -814,10 +814,10 @@ public ActionResult Index(int p = 1)
     
     <item>
       <title>Every screen is a touch screen</title>
-      <link>http://ryanclarke.github.io/journal/every-screen-is-a-touch-screen/</link>
+      <link>http://www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</link>
       <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/journal/every-screen-is-a-touch-screen/</guid>
+      <guid>http://www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;
 &lt;/p&gt;
 
@@ -833,10 +833,10 @@ public ActionResult Index(int p = 1)
     
     <item>
       <title>On the other side of childhood</title>
-      <link>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</link>
+      <link>http://www.ryanclarke.net/journal/on-the-other-side-of-childhood/</link>
       <pubDate>Wed, 07 Mar 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/journal/on-the-other-side-of-childhood/</guid>
+      <guid>http://www.ryanclarke.net/journal/on-the-other-side-of-childhood/</guid>
       <description>&lt;p&gt;On the other side of childhood&lt;br /&gt;
 When youth’s young bud has grown&lt;br /&gt;
 And some flowers it has bloomed produce&lt;br /&gt;
@@ -858,10 +858,10 @@ Recall where once you stood.&lt;/p&gt;
     
     <item>
       <title>March 1st is Windows 8 day!</title>
-      <link>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</link>
+      <link>http://www.ryanclarke.net/journal/march-1st-is-windows-8-day/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/journal/march-1st-is-windows-8-day/</guid>
+      <guid>http://www.ryanclarke.net/journal/march-1st-is-windows-8-day/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
 &lt;/p&gt;
 
@@ -877,10 +877,10 @@ Recall where once you stood.&lt;/p&gt;
     
     <item>
       <title>The Curse of a Dream Job</title>
-      <link>http://ryanclarke.github.io/journal/the-curse-of-a-dream-job/</link>
+      <link>http://www.ryanclarke.net/journal/the-curse-of-a-dream-job/</link>
       <pubDate>Tue, 21 Feb 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/journal/the-curse-of-a-dream-job/</guid>
+      <guid>http://www.ryanclarke.net/journal/the-curse-of-a-dream-job/</guid>
       <description>&lt;p&gt;No sooner does a person get a job they love then it starts to destroy them. Jesus said His burden is easy, and it is a good thing, because the ones we give ourselves rarely are. Good employees think that they have to do their best at work. And then the work expands, bringing discouragement or exhaustion.&lt;/p&gt;
 
 &lt;p&gt;The true standard: good employees should do their best in the time they are given. Companies can not own slaves. If they are buying eight hours each day, give them an honest eight. Not ten. Have something else to do with those other hours, besides sleep: develop good hobbies, invest in family. Strong family relationships take time and can not be patched together as easily as work projects.&lt;/p&gt;

@@ -1,12 +1,12 @@
 <nav>
   <h1>Hi.</h1>
-  <a href="/">
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
+  <a href="{{ .Site.BaseUrl }}">
+    <img src="{{ .Site.BaseUrl }}/logo.png" id="logo" alt="Blog logo"/>
   </a>
-  <h2>I'm <a href="{{ .Site.Params.AuthorNameUrl }}">{{ .Site.Params.AuthorName }}</a>.</h2>
+  <h2>I'm <a href="{{ .Site.BaseUrl }}{{ .Site.Params.AuthorNameUrl }}">{{ .Site.Params.AuthorName }}</a>.</h2>
   <hr/>
   <ul>
-    <p>{{ .Site.Params.Description }}</p>
+    <p>{{ .Site.Params.Tagline }}</p>
   <hr/>
   <div>
     <div id="social">

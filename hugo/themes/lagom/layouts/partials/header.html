@@ -10,16 +10,16 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   
   <meta name="author" content="{{ .Site.Params.AuthorName }}" />
-  <meta name="description" content="The blog of {{ .Site.Params.AuthorName }}" />
+  <meta name="description" content="{{ .Site.Params.Description }}" />
 
   <!-- Twitter card metadata -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ .Site.Params.Twitter }}" />
   <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ .Description }}" />
+  <meta name="twitter:description" content="{{ .Description }}{{ if .IsNode }}{{ .Site.Params.Description }} - {{ .Site.Params.Tagline }}{{ end }}" />
   <meta name="twitter:image" content="{{ .Site.BaseUrl }}/logo.png" />
   <meta name="twitter:url" content="{{ .Permalink }}" />
  
