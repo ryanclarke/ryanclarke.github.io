@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-
 date: 2014-06-23T09:00:00-04:00
 tags: ["Internet Explorer", "SEP", "Windows", "Windows Phone"]
 categories: ["Technology"]
-description: ""
+frameworks: ["Windows 8.1", "Windows Phone 8.1", "IE 11"]
+description: "Get the value of an app live tile with a website. It's stupid easy and I included lots of links."
 
 ---
 

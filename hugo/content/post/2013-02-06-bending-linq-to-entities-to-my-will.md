@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-wi
 date: 2013-02-06
 tags: ["ASP.NET MVC", "C#", "Programming"]
 categories: ["Technology"]
-description: ""
+frameworks: ["ASP.NET MVC 4"]
+description: "Recently I ran into something that gave me many problems and I had great trouble finding any help online. I've now solved it, twice."
 
 ---
 

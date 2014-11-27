@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/checked-multi-choice-listviews/"
 date: 2014-04-25
 tags: ["android", "code", "SEP"]
 categories: ["Technology"]
-description: ""
+frameworks: ["Android API level 15"]
+description: "You can set CheckedTextView to checked for an hour's worth on mintues but it will never be remembered. Here's how I conquered the beast."
 
 ---
 

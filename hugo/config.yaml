@@ -15,6 +15,10 @@ Params:
   AuthorNameUrl: "/about"
   Github: "ryanclarke"
   Twitter: "RyanSClarke"
+Taxonomies:
+    tag: "tags"
+    category: "categories"
+    framework: "frameworks"
 Menu:
   Main:
   - Url: "/about"

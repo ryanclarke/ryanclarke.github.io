@@ -596,6 +596,25 @@ nav hr {
   min-height: 400px;
 }
 
+.frameworks {
+  padding-bottom: 16px;
+}
+
+.frameworks hr {
+  margin-bottom: 16px;
+}
+
+.frameworks ul {
+  display: inline;
+  margin-left: 0em !important;
+}
+
+.frameworks li {
+  display: inline-block;
+  padding-right: .1em;
+  margin: 0em;
+}
+
 @media only screen and (max-width: 767px) {
 	.content {
 		border: 0px;

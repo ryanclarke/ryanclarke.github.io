@@ -17,6 +17,19 @@
       
       <div id="post">
         {{ .Content }}
+
+        {{ if .Params.frameworks }}
+        <div class="frameworks">
+          <hr />
+          <ul>
+            <li>Known to apply to:</li>
+            {{ range .Params.frameworks }}
+            <li><code>{{ . }}</code></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
       </div>
 
       <div class="footer">

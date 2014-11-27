@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-
 date: 2014-06-23T08:00:00-04:00
 tags: ["Internet Explorer", "SEP", "Windows", "Windows Phone"]
 categories: ["Technology"]
-description: ""
+frameworks: ["Windows 8.1", "Windows Phone 8.1", "IE 11"]
+description: "Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that's impossible. But this will get you 75%* there in 15 minutes."
 featured: "featured"
 
 ---

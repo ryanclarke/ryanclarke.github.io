@@ -5,7 +5,7 @@ wordpress_url: "http://www.ryanclarke.net/post/you-have-to-start-somewhere/"
 date: 2013-06-07
 tags: ["SEP", "work"]
 categories: ["Technology"]
-description: ""
+description: "I started fresh in at SEP on Monday and by Tuesday the bananas were fresh out."
 
 ---
 

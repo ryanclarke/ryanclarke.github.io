@@ -5,7 +5,7 @@ wordpress_url: "http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-betw
 date: 2013-04-17
 tags: []
 categories: ["Christianity", "Thoughts", "Writings"]
-description: ""
+description: "Advice on Your 20th Birthday from the Perspective of 28 Years. Dear Friend, the decade which you now commence is fraught with adventure."
 featured: "featured"
 
 ---

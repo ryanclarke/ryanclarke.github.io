@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/using-factories-for-cleanliness-i
 date: 2014-04-14
 tags: ["android", "SEP", "testing", "work"]
 categories: ["Technology"]
-description: ""
+frameworks: ["Android API level 15"]
+description: "The very name 'factory' on a Java project (for a credit union, no less) conjures visions of BaseAbstractStrategyBuilderFactoryImpl and such, but there is no enterprisyness here."
 
 ---
 

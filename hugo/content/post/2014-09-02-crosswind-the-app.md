@@ -5,7 +5,8 @@ wordpress_url: "http://www.ryanclarke.net/post/crosswind-the-app/"
 date: 2014-09-02
 tags: ["SEP", "Windows Phone"]
 categories: ["Technology"]
-description: ""
+frameworks: ["Windows Phone 8", "Windows Phone 8.1"]
+description: "I made and published my first app. It does one specific thing beautifully. It also made my father happy. So two things."
 featured: "featured"
 
 ---

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ryan Clarke </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://www.ryanclarke.net/frameworks/asp.net-mvc-4/index.xml/</link>
+    <language>en-us</language>
+    <author>Ryan Clarke</author>
+    <copyright>© 2014 Ryan Clarke</copyright>
+    <updated>Wed, 06 Feb 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Bending Linq-to-Entities to my will</title>
+      <link>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/</guid>
+      <description>&lt;p&gt;I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&amp;rsquo;ve now solved it, twice. This is my story.&lt;/p&gt;
+
+&lt;p&gt;I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Unit           Module        ModuleInstructor         Instructor
+========  1:N  ========  N:1 ==================  1:N  ============
+UnitID         ModuleID      ModuleInsturctorID       InstructorID
+UnitName       UnitID        ModuleID                 InstructorName
+               StartDate     InsturctorID
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;EntityFramework has these for objects [unnecessary properties trimmed for brevity]:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class Unit
+{
+  public int UnitID { get; set; }
+  public string UnitName { get; set; }
+  public virtual ICollection&amp;lt;Module&amp;gt; Module { get; set; }
+}
+ 
+public partial class Module
+{
+  public int ModuleID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; UnitID { get; set; }
+  public Nullable&amp;lt;System.DateTime&amp;gt; ModuleDate { get; set; }
+  public virtual Unit Unit { get; set; }
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+  
+  public Module()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+    this.Record = new HashSet&amp;lt;Record&amp;gt;();
+  }
+}
+ 
+public partial class ModuleInstructor
+{
+  public int ModuleInstructorID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; InstructorID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; ModuleID { get; set; }
+  public Instructor Instructor { get; set; }
+  public virtual Module Module { get; set; }
+}
+ 
+public partial class Instructor
+{
+  public int InstructorID { get; set; }
+  public string InstructorName { get; set; }
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+
+  public Instructor()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Anyway, I wanted to display: UnitName, ModuleDate, Instructor(s) in a comma-separated list. My problem was that I had the hardest time getting Linq to get the Instructors, all I could retrieve was the ModuleInstructors which didn&amp;rsquo;t have any of the Instructor information loaded.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+ 
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .Include(m =&amp;gt; m.ModuleInstructor.Instructor) //Doesn&#39;t work
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My first solution was to modify the Module class to add another collection:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public partial class Module
+{
+  public Module()
+  {
+    this.ModuleInstructor = new HashSet&amp;lt;ModuleInstructor&amp;gt;();
+    this.Record = new HashSet&amp;lt;Record&amp;gt;();
+  }
+  public int ModuleID { get; set; }
+  public Nullable&amp;lt;int&amp;gt; UnitID { get; set; }
+  public Nullable&amp;lt;System.DateTime&amp;gt; ModuleDate { get; set; }
+  public virtual Unit Unit { get; set; }
+  public virtual ICollection&amp;lt;Instructor&amp;gt; Instructor { get; set; } //Added
+  public virtual ICollection&amp;lt;ModuleInstructor&amp;gt; ModuleInstructor { get; set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the ModuleController I got everything except the Instructors, then the Instructors separately and for looped through inserting them into the collection.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+ 
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+   
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+  var instructors = db.Instructors.ToList();
+  foreach (var m in modules)
+  {
+    m.Instructor = new List&amp;lt;Instructor&amp;gt;();
+    foreach (var mi in m.ModuleInstructor)
+    {
+      m.Instructor.Add(instructors.Where(i =&amp;gt; i.InstructorID == mi.InstructorID).SingleOrDefault());
+    }
+  }
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;According to LinqPad this take two SQL statements. Not too bad. It&amp;rsquo;s not that much of strain on the server either because I don&amp;rsquo;t have many Instructors and there are only 20 Modules being shown at any one time.&lt;/p&gt;
+
+&lt;p&gt;However, I figured there must be a way to do it in one database call. Here&amp;rsquo;s my new solution. I still loop through inserting Instructors into the Modules object&amp;rsquo;s Instructor collection, but I get all the Instructors with everything else.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Entities db = new Entities();
+
+public ActionResult Index(int p = 1)
+{
+  int pageSize = 20;
+
+  var modules = db.Modules
+    .Include(m =&amp;gt; m.Unit)
+    .Include(m =&amp;gt; m.ModuleInstructor)
+    .OrderByDescending(m =&amp;gt; m.ModuleStartDate)
+    .Skip(pageSize * (p - 1))
+    .Take(pageSize);
+
+  var instructors = db.Instructors.ToList();
+
+  foreach (var m in modules)
+  {
+    m.Instructor = new List&amp;lt;Instructor&amp;gt;();
+    foreach (var mi in m.ModuleInstructor)
+    {
+      m.Instructor.Add(instructors
+        .Where(i =&amp;gt; i.InstructorID == mi.InstructorID).SingleOrDefault());
+    }
+  }
+
+  return View(modules);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;According to LinqPad it takes only SQL statement and it performs slightly faster that the first method.&lt;/p&gt;
+
+&lt;p&gt;To be perfectly honest, I have trouble picturing exactly how this works and why, but it does. I am very happy that I stuck with the problem, coming back to it several times more until I got it &amp;ldquo;just right.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;My one question: is this the best way to do this or is there a still better way? Maybe I&amp;rsquo;ll never know, but at least it&amp;rsquo;s better that it was before.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&#34;http://stackoverflow.com/questions/14742145/linq-to-entities-with-a-many-to-many-relationship&#34; title=&#34;Linq-to-Entities with a many to many relationship - StackOverflow&#34;&gt;Linq-to-Entities with a many to many relationship&lt;/a&gt; on StackOverflow for more discussion regarding this problem.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
+

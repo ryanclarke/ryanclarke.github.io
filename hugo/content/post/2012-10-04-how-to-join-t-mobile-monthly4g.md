@@ -5,7 +5,7 @@ wordpress_url: "http://www.ryanclarke.net/post/how-to-join-t-mobile-monthly4g/"
 date: 2012-10-04
 tags: ["cellphone", "made it work"]
 categories: ["Technology"]
-description: ""
+description: "T-Mobile is offering customers an incredible catch-22..."
 
 ---
 

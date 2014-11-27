@@ -4,6 +4,7 @@ slug: "XAML-to-image"
 date: 2014-11-12T10:19:31-05:00
 tags: ["SEP"]
 categories: ["Technology"]
+frameworks: ["Windows Phone 8", ".NET 4.5"]
 description: "There are a number of little details which you must get right or you'll end up with a mess and the image will not look right."
 
 ---
