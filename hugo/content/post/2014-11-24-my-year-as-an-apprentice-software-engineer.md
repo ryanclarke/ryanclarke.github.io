@@ -4,7 +4,7 @@ slug: "my-year-as-an-apprentice-software-engineer"
 date: 2014-11-24T11:00:00-05:00
 tags: ["SEP"]
 categories: ["Technology"]
-description: ""
+description: "They looked at my qualifications, and finding none, they looked at my skills. They said 'hmm' and then they gave me the title of apprentice."
 featured: "featured"
 
 ---

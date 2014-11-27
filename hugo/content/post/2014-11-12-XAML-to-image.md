@@ -4,7 +4,7 @@ slug: "XAML-to-image"
 date: 2014-11-12T10:19:31-05:00
 tags: ["SEP"]
 categories: ["Technology"]
-description: ""
+description: "There are a number of little details which you must get right or you'll end up with a mess and the image will not look right."
 
 ---
 

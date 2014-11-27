@@ -1,15 +1,15 @@
 ---
-BaseUrl: "http://ryanclarke.github.io/"
+BaseUrl: "http://www.ryanclarke.net/"
 LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
 Theme: "lagom"
 PublishDir: "../"
-Copyright: "© Ryan Clarke, 2014"
+Copyright: "© 2014 Ryan Clarke"
 Author:
   name: "Ryan Clarke"
 Params:
-  Copyright: "© Ryan Clarke, 2014"
+  Copyright: "© 2014 Ryan Clarke"
   Description: "Varied submissions of an adventurer"
   AuthorName: "Ryan Clarke"
   AuthorNameUrl: "/about"

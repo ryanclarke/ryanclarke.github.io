@@ -3,18 +3,18 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://ryanclarke.github.io/tags/internet-explorer/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/internet-explorer/index.xml/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
-    <copyright>© Ryan Clarke, 2014</copyright>
+    <copyright>© 2014 Ryan Clarke</copyright>
     <updated>Mon, 23 Jun 2014 09:00:00 EDT</updated>
     
     <item>
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
-      <link>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
+      <link>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
       <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
+      <guid>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
       <description>
 
 &lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Pinned Site Live Tiles belong on all sites</title>
-      <link>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</link>
+      <link>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</link>
       <pubDate>Mon, 23 Jun 2014 08:00:00 EDT</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://ryanclarke.github.io/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
+      <guid>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
       <description>
 
 &lt;p&gt;Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that&amp;rsquo;s impossible. But you &lt;em&gt;can&lt;/em&gt; get 75%* of the way there with an awesome new Internet Explorer feature I recently implemented on one of SEP&amp;rsquo;s sites called Pinned Site Live Tiles.&lt;/p&gt;
