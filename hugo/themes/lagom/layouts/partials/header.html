@@ -7,13 +7,26 @@
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
+  <!-- Standard head stuff -->
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <meta name="author" content="{{ .Site.Params.AuthorName }}" />
+  <meta name="description" content="{{ .Site.Params.Description }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
-  
-  <meta name="author" content="{{ .Site.Params.AuthorName }}" />
-  <meta name="description" content="{{ .Site.Params.Description }}" />
+  <!-- CSS -->
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/all.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- RSS -->
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
   <!-- Twitter card metadata -->
   <meta name="twitter:card" content="summary" />
@@ -22,19 +35,8 @@
   <meta name="twitter:description" content="{{ .Description }}{{ if .IsNode }}{{ .Site.Params.Description }} - {{ .Site.Params.Tagline }}{{ end }}" />
   <meta name="twitter:image" content="{{ .Site.BaseUrl }}/logo.png" />
   <meta name="twitter:url" content="{{ .Permalink }}" />
- 
-  <link rel="canonical" href="{{ .Permalink }}" />
 
-  <!-- CSS -->
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/all.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-  
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.ico">
-
-  <!-- RSS -->
-  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <!-- Pinned Site Live Tile -->
+  <meta name="application-name" content="RyanClarke.net"/>
+  <meta name="msapplication-config" content="browserconfig.xml" />
 </head>
