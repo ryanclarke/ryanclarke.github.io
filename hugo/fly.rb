@@ -1,6 +1,6 @@
 require 'date'
 
-$post_dir = "hugo/content/draft/"
+$draft_dir = "hugo/content/draft/"
 
 def new_post_template(timestamp, title)
   <<-eos
@@ -54,7 +54,11 @@ class Args
       elsif type == String
         value
       elsif type == DateTime
-        DateTime.parse(value)
+        timestamp = DateTime.parse(value)
+        if timestamp.strftime("%T%z").gsub(/\D/, "").to_i == 0
+          timestamp = DateTime.parse(timestamp.to_date.iso8601 + DateTime.now.strftime("T%T%z"))
+        end
+        timestamp
       elsif type == File
         value if File.exist?(value)
       else
@@ -101,10 +105,10 @@ def create
   end
 
   post_file_name = "#{args.timestamp.to_date.iso8601}-#{sluggify(args.title)}.md"
-  post_file_path = $post_dir + post_file_name
+  post_file_path = $draft_dir + post_file_name
 
   unless File.exists?(post_file_path)
-    Dir.mkdir($post_dir) unless Dir.exists?($post_dir)
+    Dir.mkdir($draft_dir) unless Dir.exists?($draft_dir)
     File.write(post_file_path, new_post_template(args.timestamp, args.title))
   end
 
@@ -127,7 +131,7 @@ def retitle
   end
 
   file_path = File.dirname(args.old_file_path)
-  old_file_date = args.old_file_path.match(/\/(\d{4}-\d{2}-\d{2})-/)
+  old_file_date = args.old_file_path.match(/\/\d{4}-\d{2}-\d{2}-/)
   new_file_path = "#{file_path}#{old_file_date}#{sluggify(args.new_title)}.md"
 
   file = File.read(args.old_file_path)
@@ -141,7 +145,35 @@ def retitle
   exit
 end
 
-commands = ["create", "retitle"]
+def touch_args
+  args = Args.new
+  args.define("old_file_path", File, nil)
+  args.define("timestamp", DateTime, DateTime.now)
+  args
+end
+
+def touch
+  args = touch_args
+  if !args.validate
+    args.puts_syntax
+    exit
+  end
+
+  file_path = File.dirname(args.old_file_path)
+  old_file_slug = File.basename(args.old_file_path, ".md")[10..-1]
+  new_file_path = "#{file_path}/#{args.timestamp.to_date.iso8601}#{old_file_slug}.md"
+
+  file = File.read(args.old_file_path)
+  file.gsub!(/date: ".+"/, "date: \"#{args.timestamp.iso8601}\"")
+
+  File.write(new_file_path, file)
+  File.delete(args.old_file_path)
+
+  puts new_file_path
+  exit
+end
+
+commands = ["create", "retitle", "touch"] #, "publish"]
 command = ARGV.shift
 if commands.include?(command)
   send(command)
