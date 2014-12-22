@@ -1,6 +1,7 @@
 require 'date'
 
 $draft_dir = "hugo/content/draft/"
+$post_dir = "hugo/content/post/"
 
 def new_post_template(timestamp, title)
   <<-eos
@@ -173,7 +174,35 @@ def touch
   exit
 end
 
-commands = ["create", "retitle", "touch"] #, "publish"]
+def publish_args
+  args = Args.new
+  args.define("old_file_path", File, nil)
+  args.define("featured", String, nil)
+  args
+end
+
+def publish
+  args = publish_args
+  if !args.validate
+    args.puts_syntax
+    exit
+  end
+
+  old_file_name = File.basename(args.old_file_path)
+  new_file_path = "#{$post_dir}#{old_file_name}"
+
+  file = File.read(args.old_file_path)
+  file.gsub!(/draft: (true|false)/, "draft: false")
+  file.gsub!(/featured: ".*"/, "featured: \"#{args.featured}\"")
+
+  File.write(new_file_path, file)
+  File.delete(args.old_file_path)
+
+  puts new_file_path
+  exit
+end
+
+commands = ["create", "retitle", "touch", "publish"]
 command = ARGV.shift
 if commands.include?(command)
   send(command)
