@@ -1,13 +1,16 @@
 ---
-title: "Crosswind, the app that does one specific thing beautifully"
-slug: "crosswind-the-app"
+title: "Crosswind"
+slug: "crosswind"
+icon: "CrosswindLogo159.png"
 wordpress_url: "http://www.ryanclarke.net/post/crosswind-the-app/"
 date: 2014-09-02
 tags: ["SEP", "Windows Phone"]
 categories: ["Technology"]
 frameworks: ["Windows Phone 8", "Windows Phone 8.1"]
-description: "I made and published my first app. It does one specific thing beautifully. It also made my father happy. So two things."
-featured: "featured"
+description: "the app that does one specific thing beautifully"
+featured: ""
+aliases:
+    - /post/crosswind-the-app/
 
 ---
 
@@ -17,7 +20,7 @@ So I built Crosswind.
 
 Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.
 
-![Crosswind Main Page](/images/CrosswindMainPage.png)
+![Crosswind Main Page](/images/project/crosswind/CrosswindMainPage.png)
 
 Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 [SEP Startup Weekend](http://www.sep.com/labs/startupweekend/). It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.
 
@@ -25,7 +28,7 @@ While working on the app I found a couple of very awesome sites. [RGB.to](http:/
 
 And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! [http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2](http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2)
 
-[![Crosswind logo](/images/CrosswindLogo159.png)](http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2)
+[![Windows Phone Store link](/images/project/258x67_WPS_Download_cyan.png)](http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2)
 
 This one’s for you, Dad.
 

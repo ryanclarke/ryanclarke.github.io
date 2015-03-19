@@ -6,7 +6,7 @@
     <link>http://www.ryanclarke.net/tags/sep/index.xml/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
-    <copyright>© 2014 Ryan Clarke</copyright>
+    <copyright>© 2015 Ryan Clarke</copyright>
     <updated>Mon, 24 Nov 2014 11:00:00 EST</updated>
     
     <item>
@@ -184,18 +184,18 @@ catch (Exception ex)
     </item>
     
     <item>
-      <title>Crosswind, the app that does one specific thing beautifully</title>
-      <link>http://www.ryanclarke.net/post/crosswind-the-app/</link>
+      <title>Crosswind</title>
+      <link>http://www.ryanclarke.net/project/crosswind/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/crosswind-the-app/</guid>
+      <guid>http://www.ryanclarke.net/project/crosswind/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
 &lt;p&gt;So I built Crosswind.&lt;/p&gt;
 
 &lt;p&gt;Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/images/project/crosswind/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 &lt;a href=&#34;http://www.sep.com/labs/startupweekend/&#34;&gt;SEP Startup Weekend&lt;/a&gt;. It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.&lt;/p&gt;
@@ -204,7 +204,7 @@ catch (Exception ex)
 
 &lt;p&gt;And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! &lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;/images/CrosswindLogo159.png&#34; alt=&#34;Crosswind logo&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This one’s for you, Dad.&lt;/p&gt;

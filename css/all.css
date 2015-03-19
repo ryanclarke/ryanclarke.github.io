@@ -524,6 +524,13 @@ ul.posts span {
   font-size:14px;
 }
 
+img.project-icon {
+  display: inline;
+  margin-right: 0.4em;
+  width: 24px;
+  vertical-align: -24%;
+}
+
 .meta {
   color: #aaa;
   margin: 0 0 10px 0;
