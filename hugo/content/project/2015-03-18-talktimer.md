@@ -2,12 +2,8 @@
 title: "TalkTimer"
 slug: "talktimer"
 date: 2015-03-18T01:22:35-04:00
-tags: ["SEP"]
-categories: ["Technology"]
-frameworks: ["Windows Universal Apps", "Windows 8.1", "Windows Phone 8.1"]
 description: "TalkTimer, the app that counts backwards to zero."
 featured: ""
-draft: true
 
 ---
 
