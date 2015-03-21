@@ -7,7 +7,37 @@
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Mon, 24 Nov 2014 11:00:00 EST</updated>
+    <updated>Wed, 18 Mar 2015 01:22:35 EDT</updated>
+    
+    <item>
+      <title>TalkTimer</title>
+      <link>http://www.ryanclarke.net/project/talktimer/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/project/talktimer/</guid>
+      <description>
+
+&lt;p&gt;How often have you needed a simple timer app that counts down the minutes and seconds to zero? If you said even once, then you might benefit from this app. Ninety-eight and three quarters percent guaranteed.&lt;/p&gt;
+
+&lt;p&gt;This app will start counting at whatever minute you specify. But not just the numbers change. The app turns bold new colors at the two and one minute milestones. &amp;ldquo;Warning, you are almost done!&amp;rdquo; When the time finally expires, the app hits a mellifluous gong. Of course, the gong can be turned off if you are using the app covertly and silence is a must. Your choice!&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s more: &amp;ldquo;0&amp;rdquo; is not the last number that the app displays! Using the power of negative integers, this app can show you how many minutes have elapsed since the gong/silence. Killer feature.&lt;/p&gt;
+
+&lt;p&gt;I use this app to time the lightning talks I host at my company (&lt;a href=&#34;http://www.sep.com&#34;&gt;SEP&lt;/a&gt;). Over the course of an hour, four speakers have 10 minutes each to share something interesting (or else!). As soon as the gong reverberates they are required by extreme social pressure to quit presenting. They then have a few minutes to endure an audience cross-examination while the next presenter makes sacrifices to the projector in hopes that it will deem his slidedeck worthy of display. If this app seems tailor made to fit this scenario, it is simply because I tailor made it (artisanally) to fit this scenario.&lt;/p&gt;
+
+&lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;This app knows nothing about anything. Privacy policy unnecessary.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My year as an apprentice software engineer</title>
@@ -898,30 +928,6 @@ void main()
 &lt;p&gt;It looks like Intel is going to phase out their single-core processors at the beginning of next year. Only dual- and quad-core will be available. And I doubt AMD will hold onto single-core much longer. It&amp;rsquo;s a good thing. I&amp;rsquo;m looking forward to the consumer-priced quad-core 45nm PSUs that Intel has coming next February, although I&amp;rsquo;m not sure I&amp;rsquo;ll get one. It&amp;rsquo;s definitely an interesting time on the PC hardware front as we&amp;rsquo;re finally starting to see the effects of Vista on hardware design. (That statement is not completely true, but that&amp;rsquo;s a reasonable consumer perspective on the trend.) Also, &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu 7.10&lt;/a&gt; just came out yesterday. I&amp;rsquo;m downloading it today.&lt;/p&gt;
 
 &lt;p&gt;1111 days bloggin for me.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Thursday July 12, 2007</title>
-      <link>http://www.ryanclarke.net/journal/thursday-july-12-2007/</link>
-      <pubDate>Thu, 12 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/thursday-july-12-2007/</guid>
-      <description>&lt;p&gt;My upgraded computer is running fine. I put in a new CPU and some more RAM today. Ah, I like tweaking it to work better when I have time. My current setup is listed below:
-Name: WHISTLE
-AMD Athlon 64 X2 5600+ at 2.8GHz
-4MB SDRAM DRR2 800 (PC2 6400)
-2x nVidia GeForce 7600GT in SLI
-ASUS M2N-SLI Deluxe with nForce 570 SLI MCP
-2x 320GB Seagate Barracuda 7200RPM SATA 3.0GB/s
-Dual-booting XP Home and Vista Ultimate
-CD/DVD±RW
-22&amp;rdquo; Widescreen and 19&amp;rdquo; Standard LCD monitors
-I use this powerful machine to post the verse of the day on xanga:
-&amp;ldquo;The fruit of the righteous is a tree of life, and he who is wise wins souls.&amp;rdquo;
-       ~ Proverbs 11:30
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
 </description>
     </item>
     

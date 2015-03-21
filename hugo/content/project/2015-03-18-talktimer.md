@@ -3,9 +3,9 @@ title: "TalkTimer"
 slug: "talktimer"
 icon: "logo44.png"
 date: 2015-03-18T01:22:35-04:00
-tags: []
-categories: []
-frameworks: []
+tags: ["SEP", "Windows Phone", "Windows Universal Apps"]
+categories: ["Technology"]
+frameworks: ["Windows Phone 8.1", "Windows 8.1"]
 description: "the app that counts backwards to zero"
 featured: ""
 
@@ -17,7 +17,7 @@ This app will start counting at whatever minute you specify. But not just the nu
 
 There's more: "0" is not the last number that the app displays! Using the power of negative integers, this app can show you how many minutes have elapsed since the gong/silence. Killer feature.
 
-I use this app to time the lightning talks I host at my company. Over the course of an hour, four speakers have 10 minutes each to share something interesting (or else!). As soon as the gong reverberates they are required by extreme social pressure to quit presenting. They then have a few minutes to answer audience questions while the next presenter makes sacrifices to the projector in hopes that it will deem his slidedeck worthy of display. If this app seems tailor made to fit this scenario, it is simply because I tailor made it (artisanally) to fit this scenario.
+I use this app to time the lightning talks I host at my company ([SEP](http://www.sep.com)). Over the course of an hour, four speakers have 10 minutes each to share something interesting (or else!). As soon as the gong reverberates they are required by extreme social pressure to quit presenting. They then have a few minutes to endure an audience cross-examination while the next presenter makes sacrifices to the projector in hopes that it will deem his slidedeck worthy of display. If this app seems tailor made to fit this scenario, it is simply because I tailor made it (artisanally) to fit this scenario.
 
 Available now on all your devices! _as long as they run Windows 8.1+ or Windows Phone 8.1+._
 

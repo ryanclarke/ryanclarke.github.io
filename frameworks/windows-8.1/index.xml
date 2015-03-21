@@ -7,7 +7,37 @@
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Mon, 23 Jun 2014 09:00:00 EDT</updated>
+    <updated>Wed, 18 Mar 2015 01:22:35 EDT</updated>
+    
+    <item>
+      <title>TalkTimer</title>
+      <link>http://www.ryanclarke.net/project/talktimer/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/project/talktimer/</guid>
+      <description>
+
+&lt;p&gt;How often have you needed a simple timer app that counts down the minutes and seconds to zero? If you said even once, then you might benefit from this app. Ninety-eight and three quarters percent guaranteed.&lt;/p&gt;
+
+&lt;p&gt;This app will start counting at whatever minute you specify. But not just the numbers change. The app turns bold new colors at the two and one minute milestones. &amp;ldquo;Warning, you are almost done!&amp;rdquo; When the time finally expires, the app hits a mellifluous gong. Of course, the gong can be turned off if you are using the app covertly and silence is a must. Your choice!&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s more: &amp;ldquo;0&amp;rdquo; is not the last number that the app displays! Using the power of negative integers, this app can show you how many minutes have elapsed since the gong/silence. Killer feature.&lt;/p&gt;
+
+&lt;p&gt;I use this app to time the lightning talks I host at my company (&lt;a href=&#34;http://www.sep.com&#34;&gt;SEP&lt;/a&gt;). Over the course of an hour, four speakers have 10 minutes each to share something interesting (or else!). As soon as the gong reverberates they are required by extreme social pressure to quit presenting. They then have a few minutes to endure an audience cross-examination while the next presenter makes sacrifices to the projector in hopes that it will deem his slidedeck worthy of display. If this app seems tailor made to fit this scenario, it is simply because I tailor made it (artisanally) to fit this scenario.&lt;/p&gt;
+
+&lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;This app knows nothing about anything. Privacy policy unnecessary.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
