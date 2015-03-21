@@ -7,20 +7,20 @@
 
     <div class="eleven columns content">
       <div id="home">
-        <h2><i class="icon-bookmark"></i>&nbsp;Posts</h2>
+        <h2><a href="/post"><i class="fa fa-bookmark"></i>&nbsp;Posts</a></h2>
         <ul id="blog-posts" class="posts">
           {{ range .Data.Pages }}
-            {{ if eq .Type "post" }}
-              <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a class="{{ .Params.featured }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
+          {{ if eq .Type "post" }}
+          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a class="{{ .Params.featured }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
           {{ end }}
         </ul>
-        <h2><i class="icon-code"></i>&nbsp;Projects</h2>
-        <ul id="blog-posts" class="posts">
+        <h2><a href="/project"><i class="fa fa-code"></i>&nbsp;Projects</a></h2>
+        <ul id="project-posts" class="posts">
           {{ range .Data.Pages }}
-            {{ if eq .Type "project" }}
-            <li><a class="{{ .Params.featured }}" href="{{ .Permalink }}"><img class="project-icon" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>{{ .Title }}, {{ .Description }}</a></li>
-            {{ end }}
+          {{ if eq .Type "project" }}
+          <li><a class="{{ .Params.featured }}" href="{{ .Permalink }}"><img class="project-icon" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>{{ .Title }}, {{ .Description }}</a></li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>

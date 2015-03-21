@@ -7,7 +7,7 @@
 
     <div class="eleven columns content">
       <div id="home">
-        <h2><i class="icon-bookmark"></i>&nbsp;&nbsp;Journal Entries</h2>
+        <h2><i class="fa fa-file-text"></i>&nbsp;&nbsp;Journal Entries</h2>
         {{ range .Data.Pages.GroupByDate "2006" }}
         <a href="#{{ .Key }}">{{ .Key }}</a>&nbsp; 
         {{ end }}

@@ -8,11 +8,16 @@
     <div class="eleven columns content">
       <div id="home">
         <h2>
-          <i class="fa {{ if eq .Title "Projects" }}fa-code{{ else }}fa-bookmark{{ end }}"></i>&nbsp;{{ .Title }}
+          <i class="fa fa-code"></i>&nbsp;Projects
         </h2>
-        <ul id="blog-posts" class="posts">
+        <ul id="project-posts" class="posts">
           {{ range .Data.Pages }}
-          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          <li>
+            <a class="{{ .Params.featured }}" href="{{ .Permalink }}">
+              <img class="project-icon" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>
+              {{ .Title }}, {{ .Description }}
+            </a>
+          </li>
           {{ end }}
         </ul>
       </div>
