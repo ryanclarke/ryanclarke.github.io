@@ -1,26 +1,12 @@
 {{ partial "header.html" . }}
-<body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {{ partial "sidebar.html" . }}
-    </div>
 
-    <div class="eleven columns content">
-      <div id="home">
-        <h2>
-          <i class="fa {{ if eq .Title "Projects" }}fa-code{{ else }}fa-bookmark{{ end }}"></i>&nbsp;{{ .Title }}
-        </h2>
-        <ul id="blog-posts" class="posts">
-          {{ range .Data.Pages }}
-          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
+<div id="home">
+  <h2><i class="fa fa-bookmark"></i>&nbsp;{{ .Title }}</h2>
+  <ul id="blog-posts" class="posts">
+    {{ range .Data.Pages }}
+    {{ partial "list/defaultitem.html" . }}
+    {{ end }}
+  </ul>
+</div>
 
-      <div class="footer">
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+{{ partial "footer.html" . }}

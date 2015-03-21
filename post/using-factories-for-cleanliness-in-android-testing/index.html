@@ -99,17 +99,19 @@
     </div>
 
     <div class="eleven columns content">
-      <p class="meta">
-        Mon, Apr 14, 2014&nbsp;
-        <a href="/">
-          <i class="home fa fa-home"></i>
-        </a>
-      </p>
 
-      <h1 class="title">Using factories for cleanliness in Android testing</h1>
-      
-      <div id="post">
-        <p>I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.</p>
+
+<p class="meta">
+  Mon, Apr 14, 2014&nbsp;
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
+
+<h1 class="title">Using factories for cleanliness in Android testing</h1>
+
+<div id="post">
+  <p>I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.</p>
 
 <p>One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &ldquo;factory&rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.</p>
 
@@ -273,48 +275,48 @@ public class AccountsListActivityTest extends AppActivityUnitTestCase&lt;Account
 <p>The Aesop-approved moral to this story is to only put the relevant stuff in the test and hide the rest of the boring state-making in a convenient spot for reuse. On this current project we call them factories, and they work great.</p>
 
 
-        
-        <div class="frameworks">
-          <hr />
-          <ul>
-            <li>Known to apply to:</li>
-            
-            <li><code>Android API level 15</code></li>
-            
-          </ul>
-        </div>
-        
+  
+  <div class="frameworks">
+    <hr />
+    <ul>
+      <li>Known to apply to:</li>
+      
+      <li><code>Android API level 15</code></li>
+      
+    </ul>
+  </div>
+  
 
-      </div>
-
-      <div class="footer">
-        <div class="disclaimer">
-  <p>
-    The postings on this site are my own and don't necessarily represent my 
-    employer’s positions, strategies or opinions.
-    <br />
-    © 2015 Ryan Clarke &mdash; Built with <a href="http://gohugo.io/">Hugo</a>. Theme based on <a href="https://github.com/swanson/lagom">Lagom</a>.
-  </p>
 </div>
 
+      <div class="footer">
+          <div class="disclaimer">
+            <p>
+              The postings on this site are my own and don't necessarily represent my 
+              employer’s positions, strategies or opinions.
+              <br />
+              © 2015 Ryan Clarke &mdash; Built with <a href="http://gohugo.io/">Hugo</a>. Theme based on <a href="https://github.com/swanson/lagom">Lagom</a>.
+            </p>
+          </div>
 
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://ryanclarkestats.azurewebsites.net/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://ryanclarkestats.azurewebsites.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-
-
+          
+          <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+              var u=(("https:" == document.location.protocol) ? "https" : "http") + "://ryanclarkestats.azurewebsites.net/";
+              _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+            g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="http://ryanclarkestats.azurewebsites.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        
       </div>
     </div>
   </div>
 </body>
 </html>
+

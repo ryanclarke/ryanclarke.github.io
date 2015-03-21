@@ -3,7 +3,7 @@ license = "MIT"
 source_repo = ""
 description = "A hugo blog theme with just the right amount of style"
 tags = ["blog", "company"]
-features = ["blog", ]
+features = ["blog"]
 
 [author]
     name = "Ryan Clarke"

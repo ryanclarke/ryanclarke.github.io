@@ -1,34 +1,18 @@
 {{ partial "header.html" . }}
-<body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {{ partial "sidebar.html" . }}
-    </div>
 
-    <div class="eleven columns content">
-      <div id="home">
-        <h2><a href="/post"><i class="fa fa-bookmark"></i>&nbsp;Posts</a></h2>
-        <ul id="blog-posts" class="posts">
-          {{ range .Data.Pages }}
-          {{ if eq .Type "post" }}
-          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a class="{{ .Params.featured }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-          {{ end }}
-        </ul>
-        <h2><a href="/project"><i class="fa fa-code"></i>&nbsp;Projects</a></h2>
-        <ul id="project-posts" class="posts">
-          {{ range .Data.Pages }}
-          {{ if eq .Type "project" }}
-          <li><a class="{{ .Params.featured }}" href="{{ .Permalink }}"><img class="project-icon" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>{{ .Title }}, {{ .Description }}</a></li>
-          {{ end }}
-          {{ end }}
-        </ul>
-      </div>
+<div id="home">
+  <h2><a href="/post"><i class="fa fa-bookmark"></i>&nbsp;Posts</a></h2>
+  <ul id="blog-posts" class="posts">
+    {{ range where .Data.Pages "Section" "post" }}
+    {{ partial "list/defaultitem.html" . }}
+    {{ end }}
+  </ul>
+  <h2><a href="/project"><i class="fa fa-code"></i>&nbsp;Projects</a></h2>
+  <ul id="project-posts" class="posts">
+    {{ range where .Data.Pages "Section" "project" }}
+    {{ partial "list/projecticon.html" . }}
+    {{ end }}
+  </ul>
+</div>
 
-      <div class="footer">
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+{{ partial "footer.html" . }}

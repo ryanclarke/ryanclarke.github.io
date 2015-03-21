@@ -1,41 +1,29 @@
 {{ partial "header.html" . }}
-<body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {{ partial "sidebar.html" . }}
-    </div>
 
-    <div class="eleven columns content">
-      <p class="meta">
-        {{ if eq .Type "post" }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}&nbsp;
-        <a href="/">
-          <i class="home fa fa-home"></i>
-        </a>
-      </p>
+<p class="meta">
+  {{ if eq .Type "post" }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}&nbsp;
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
 
-      <h1 class="title">{{ if eq .Type "project" }}<img class="project-icon project-icon-header" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>{{ end }}{{ .Title }}</h1>
-      
-      <div id="post">
-        {{ .Content }}
+<h1 class="title">{{ if eq .Type "project" }}<img class="project-icon project-icon-header" src="/images/{{ .Type }}/{{ .Slug }}/{{ .Params.icon }}"/>{{ end }}{{ .Title }}</h1>
 
-        {{ if .Params.frameworks }}
-        <div class="frameworks">
-          <hr />
-          <ul>
-            <li>Known to apply to:</li>
-            {{ range .Params.frameworks }}
-            <li><code>{{ . }}</code></li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
+<div id="post">
+  {{ .Content }}
 
-      </div>
-
-      <div class="footer">
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
+  {{ if .Params.frameworks }}
+  <div class="frameworks">
+    <hr />
+    <ul>
+      <li>Known to apply to:</li>
+      {{ range .Params.frameworks }}
+      <li><code>{{ . }}</code></li>
+      {{ end }}
+    </ul>
   </div>
-</body>
-</html>
+  {{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}

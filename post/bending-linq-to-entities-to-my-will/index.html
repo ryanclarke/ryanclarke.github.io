@@ -99,17 +99,19 @@
     </div>
 
     <div class="eleven columns content">
-      <p class="meta">
-        Wed, Feb 6, 2013&nbsp;
-        <a href="/">
-          <i class="home fa fa-home"></i>
-        </a>
-      </p>
 
-      <h1 class="title">Bending Linq-to-Entities to my will</h1>
-      
-      <div id="post">
-        <p>I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&rsquo;ve now solved it, twice. This is my story.</p>
+
+<p class="meta">
+  Wed, Feb 6, 2013&nbsp;
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
+
+<h1 class="title">Bending Linq-to-Entities to my will</h1>
+
+<div id="post">
+  <p>I am building an ASP.NET MVC 4 application using Entity Framework as my ORM on top of an existing SQL Server database. This is model-first, not code-first. I am fairly new to Linq-to-Entities. Recently I ran into something that gave me many problems and I had great trouble finding any help online. I&rsquo;ve now solved it, twice. This is my story.</p>
 
 <p>I have a view that need to display a list of Modules (as in, classroom teaching). Each Module belongs to a Unit, but each Unit can have many Modules. Each Module can have multiple Instructors, and each Instructor can teach many Modules. There is a ModuleInstructor table to join that relationship.</p>
 
@@ -271,48 +273,48 @@ public ActionResult Index(int p = 1)
 <p>See <a href="http://stackoverflow.com/questions/14742145/linq-to-entities-with-a-many-to-many-relationship" title="Linq-to-Entities with a many to many relationship - StackOverflow">Linq-to-Entities with a many to many relationship</a> on StackOverflow for more discussion regarding this problem.</p>
 
 
-        
-        <div class="frameworks">
-          <hr />
-          <ul>
-            <li>Known to apply to:</li>
-            
-            <li><code>ASP.NET MVC 4</code></li>
-            
-          </ul>
-        </div>
-        
+  
+  <div class="frameworks">
+    <hr />
+    <ul>
+      <li>Known to apply to:</li>
+      
+      <li><code>ASP.NET MVC 4</code></li>
+      
+    </ul>
+  </div>
+  
 
-      </div>
-
-      <div class="footer">
-        <div class="disclaimer">
-  <p>
-    The postings on this site are my own and don't necessarily represent my 
-    employer’s positions, strategies or opinions.
-    <br />
-    © 2015 Ryan Clarke &mdash; Built with <a href="http://gohugo.io/">Hugo</a>. Theme based on <a href="https://github.com/swanson/lagom">Lagom</a>.
-  </p>
 </div>
 
+      <div class="footer">
+          <div class="disclaimer">
+            <p>
+              The postings on this site are my own and don't necessarily represent my 
+              employer’s positions, strategies or opinions.
+              <br />
+              © 2015 Ryan Clarke &mdash; Built with <a href="http://gohugo.io/">Hugo</a>. Theme based on <a href="https://github.com/swanson/lagom">Lagom</a>.
+            </p>
+          </div>
 
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://ryanclarkestats.azurewebsites.net/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://ryanclarkestats.azurewebsites.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-
-
+          
+          <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+              var u=(("https:" == document.location.protocol) ? "https" : "http") + "://ryanclarkestats.azurewebsites.net/";
+              _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+            g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="http://ryanclarkestats.azurewebsites.net/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        
       </div>
     </div>
   </div>
 </body>
 </html>
+

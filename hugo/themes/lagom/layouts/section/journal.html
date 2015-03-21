@@ -1,31 +1,19 @@
 {{ partial "header.html" . }}
-<body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {{ partial "sidebar.html" . }}
-    </div>
 
-    <div class="eleven columns content">
-      <div id="home">
-        <h2><i class="fa fa-file-text"></i>&nbsp;&nbsp;Journal Entries</h2>
-        {{ range .Data.Pages.GroupByDate "2006" }}
-        <a href="#{{ .Key }}">{{ .Key }}</a>&nbsp; 
-        {{ end }}
+<div id="home">
+  <h2><i class="fa fa-file-text"></i>&nbsp;&nbsp;Journal Entries</h2>
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <a href="#{{ .Key }}">{{ .Key }}</a>&nbsp; 
+  {{ end }}
 
-        {{ range .Data.Pages.GroupByDate "2006" }}
-        <a name="{{ .Key }}"></a><h3>{{ .Key }}</h3>
-        <ul id="blog-posts" class="posts">
-          {{ range .Pages }}
-          <li><span>{{ .Date.Format "2006-01-02" }} &raquo;</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-        {{ end }}
-      </div>
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <a name="{{ .Key }}"></a><h3>{{ .Key }}</h3>
+  <ul id="blog-posts" class="posts">
+    {{ range .Pages }}
+    {{ partial "list/defaultitem.html" . }}
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
 
-      <div class="footer">
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+{{ partial "footer.html" . }}
