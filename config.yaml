@@ -1,0 +1,26 @@
+---
+BaseUrl: "http://www.ryanclarke.net/"
+LanguageCode: "en-us"
+Title: "Ryan Clarke"
+MetaDataFormat: "yaml"
+Theme: "lagom"
+PublishDir: "public"
+Copyright: "© 2015 Ryan Clarke"
+Author:
+  name: "Ryan Clarke"
+Params:
+  Description: "The blog of Ryan Clarke"
+  Tagline: "Varied submissions of an adventurer"
+  AuthorName: "Ryan Clarke"
+  AuthorNameUrl: "/about"
+  Github: "ryanclarke"
+  Twitter: "RyanSClarke"
+Taxonomies:
+    tag: "tags"
+    category: "categories"
+    framework: "frameworks"
+Menu:
+  Main:
+  - Url: "/about"
+    Name: "About"
+...
