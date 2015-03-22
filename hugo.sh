@@ -1,9 +1,11 @@
 #!/bin/bash
 
+outputdir=gh-pages
+
 find . -iname "Thumbs.db" | xargs rm
-rm -rf draft/
+find gh-pages/* \( ! -path "gh-pages/.git/*" ! -path "gh-pages/.git" \) | xargs rm -rf
 hugo.exe -D $@
 hugo.exe $@
-cp public/index.xml public/all.xml
-cp public/post/index.xml public/index.xml
+cp $outputdir/index.xml $outputdir/all.xml
+cp $outputdir/post/index.xml $outputdir/index.xml
 
