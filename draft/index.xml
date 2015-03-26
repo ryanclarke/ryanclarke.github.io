@@ -7,7 +7,73 @@
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Sun, 28 Dec 2014 06:20:14 EST</updated>
+    <updated>Wed, 25 Mar 2015 20:30:10 EDT</updated>
+    
+    <item>
+      <title>Peopleware</title>
+      <link>http://www.ryanclarke.net/draft/peopleware/</link>
+      <pubDate>Wed, 25 Mar 2015 20:30:10 EDT</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/draft/peopleware/</guid>
+      <description>
+
+&lt;p&gt;Last week I was sick. So I curled up on the couch and read &lt;em&gt;Peopleware: Productive Projects and Teams, 2nd Ed.&lt;/em&gt; by Tom DeMarco and Timothy Lister. &lt;a href=&#34;https://larry-price.com/blog/2015/02/22/peopleware/&#34;&gt;Larry Price&amp;rsquo;s fantastic review&lt;/a&gt; the week before moved it from unknown to the top of my reading list.&lt;/p&gt;
+
+&lt;p&gt;It helped while away the uncomfortable hours. And not just while the hours away: it made them fly. I thoroughly enjoyed this book. I kept turning pages until I had finished the entire volume in a single sitting.&lt;/p&gt;
+
+&lt;p&gt;If my enthusiasm for this book grabs your interest, head over to &lt;a href=&#34;https://larry-price.com/blog/2015/02/22/peopleware/&#34;&gt;Larry&amp;rsquo;s review&lt;/a&gt; for substantive reasons why you should read it. Then continue here for my own scattered thoughts.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s the point?&lt;/h1&gt;
+
+&lt;p&gt;This book doesn&amp;rsquo;t have a singular point as much as a unifying theme. It centers on successful software development by fostering productive teams in good environments. It touches on managing teams, creating producing team environments, quality developers, jelling a team, and having fun. All these subjects are explored with a healthy bit of storytelling and personal experience. Many of the things they write &amp;ldquo;rung true in my heart.&amp;rdquo; These were things which I, for whatever reason, already believed, but had never deeply thought about.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;How was it?&lt;/h1&gt;
+
+&lt;p&gt;This book was enjoyable. It was first written in 1987, and when they came out with the second edition, they didn&amp;rsquo;t change the good old stuff. They just added new chapters so the old chapters still have an old feel. It would make the book seem dated if the content wasn&amp;rsquo;t still so relevant today.&lt;/p&gt;
+
+&lt;p&gt;Here are some essays (chapters) I particularly liked and got me thinking. This one was even about thinking&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Thinking On The Job&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;One afternoon&amp;hellip; Wendl was staring into space, his feet propped up on the desk. Our boss came in and asked, &amp;ldquo;Wendl! What are you doing?&amp;rdquo; Wendl said, &amp;ldquo;I&amp;rsquo;m thinking.&amp;rdquo; And the boss said, &amp;ldquo;Can&amp;rsquo;t you do that at home?&amp;rdquo; ~p.67&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I feel that I don&amp;rsquo;t take enough time to think at work before acting. Acting seem productive, but sometimes a little thought beforehand can provide a better answer than just running with the first thing that pops into my head. I need to learn how to take the productivity &amp;lsquo;hit,&amp;rsquo; put my head down on my desk, and just concentrate for a bit. I think I&amp;rsquo;d be better in the long run.&lt;/p&gt;
+
+&lt;p&gt;And I want to get better. I want the company to get better. I like it at SEP&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_3&#34;&gt;Happy To Be Here: The Mentality of Permanence&lt;/h3&gt;
+
+&lt;p&gt;In this chapter they talk about how productivity gets lots of air time but employee turnover gets very little. They point out that trying to ring the most out of every hour of work (or, in pointy hair boss situations, the most out of every hour of &lt;em&gt;pay&lt;/em&gt;) can take its toll on the employee and cause them to leave the company.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m in no danger of that here at &lt;a href=&#34;http://www.sep.com&#34;&gt;SEP&lt;/a&gt;, which is wonderful. In fact, we have a very strong culture of permanence. I see SEP in this quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The best organizations are consciously striving to be the best. This is a common goal that provides common direction, joint satisfaction, and a strong binding effect. There is a mentality of permanence about such places, the sense that you&amp;rsquo;d be dumb to look for work elsewhere—people would look at you as though you were daft. ~p.111&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I always though the talk of &amp;ldquo;we&amp;rsquo;re the best&amp;rdquo; was just shallow self-congratulations, but I&amp;rsquo;m beginning to see it as important cultural reinforcement. We&amp;rsquo;re constantly telling ourselves that &amp;ldquo;best&amp;rdquo; is who we are, not in a Rest Upon Our Laurels kind of way, but as an acknowledgement of the importance of excellence. It&amp;rsquo;s a cause that we are reminding ourselves to reach for in each little working moment. &amp;ldquo;We Do Quality Work. Trademark.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Of course, we&amp;rsquo;re not alone, we do this awesome work as awesome teams&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_4&#34;&gt;On Not Breaking Up the Yankees&lt;/h3&gt;
+
+&lt;p&gt;A team that has jelled together and is functioning well can get a lot of things done well. Much of this book was on the power of teams, how to get a team to jell, and (mostly) all the easy ways to mess it up and &amp;lsquo;kill&amp;rsquo; a team&amp;rsquo;s ability. So teams are fragile, but powerful once formed. It is in the interest of the company to hang on to that achievement.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If a team does knit, don&amp;rsquo;t break it up. At least give people the option to undertake another project together. When teams stay together from one project to the next, they start out each new endeavor with tremendous momentum. ~p.155&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Somehow SEP has managed to be successful with an almost complete lack of continuity in teams, as far as I can tell. Our mix-and-regroup method is working great, but I wonder if experimenting with continuity might lead to an even better system. It would be good to try.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s no better way for me to start this push for improvement than by asking&amp;hellip;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;Who should read this book?&lt;/h1&gt;
+
+&lt;p&gt;All software developers and managers should read this book. For a book that&amp;rsquo;s almost 30 years old, it hits very close to home. If 30-year-old answers (or at least warnings) are available to problems we still face, it probably behooves us to pay attention. It&amp;rsquo;s silly to repeat the same mistakes time and again. I purpose to be a Holgar Dansk (p.173) and work for organizational improvement, and I love it when I see other people in software doing the same.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Book of F#</title>
