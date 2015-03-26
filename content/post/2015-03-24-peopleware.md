@@ -7,7 +7,7 @@ categories: ["Technology"]
 frameworks: []
 description: ""
 featured: ""
-draft: true
+draft: false
 
 ---
 
@@ -25,15 +25,13 @@ This book doesn't have a singular point as much as a unifying theme. It centers 
 
 This book was enjoyable. It was first written in 1987, and when they came out with the second edition, they didn't change the good old stuff. They just added new chapters so the old chapters still have an old feel. It would make the book seem dated if the content wasn't still so relevant today.
 
-Here are some essays (chapters) I particularly liked and got me thinking. This one was even about thinking...
+Here are some essays (chapters) I particularly liked and got me thinking.
 
 ### Thinking On The Job
 
 > One afternoon... Wendl was staring into space, his feet propped up on the desk. Our boss came in and asked, "Wendl! What are you doing?" Wendl said, "I'm thinking." And the boss said, "Can't you do that at home?" ~p.67
 
-I feel that I don't take enough time to think at work before acting. Acting seem productive, but sometimes a little thought beforehand can provide a better answer than just running with the first thing that pops into my head. I need to learn how to take the productivity 'hit,' put my head down on my desk, and just concentrate for a bit. I think I'd be better in the long run.
-
-And I want to get better. I want the company to get better. I like it at SEP...
+I feel that I don't take enough time to think at work before acting. Acting seems productive, but sometimes a little thought beforehand can provide a better answer than just running with the first thing that pops into my head. I need to learn how to take the productivity 'hit,' put my head down on my desk, and just concentrate for a bit. I think I'd be better in the long run.
 
 ### Happy To Be Here: The Mentality of Permanence
 
@@ -45,8 +43,6 @@ I'm in no danger of that here at [SEP](http://www.sep.com), which is wonderful. 
 
 I always though the talk of "we're the best" was just shallow self-congratulations, but I'm beginning to see it as important cultural reinforcement. We're constantly telling ourselves that "best" is who we are, not in a Rest Upon Our Laurels kind of way, but as an acknowledgement of the importance of excellence. It's a cause that we are reminding ourselves to reach for in each little working moment. "We Do Quality Work. Trademark."
 
-Of course, we're not alone, we do this awesome work as awesome teams...
-
 ### On Not Breaking Up the Yankees
 
 A team that has jelled together and is functioning well can get a lot of things done well. Much of this book was on the power of teams, how to get a team to jell, and (mostly) all the easy ways to mess it up and 'kill' a team's ability. So teams are fragile, but powerful once formed. It is in the interest of the company to hang on to that achievement.
@@ -54,8 +50,6 @@ A team that has jelled together and is functioning well can get a lot of things 
 > If a team does knit, don't break it up. At least give people the option to undertake another project together. When teams stay together from one project to the next, they start out each new endeavor with tremendous momentum. ~p.155
 
 Somehow SEP has managed to be successful with an almost complete lack of continuity in teams, as far as I can tell. Our mix-and-regroup method is working great, but I wonder if experimenting with continuity might lead to an even better system. It would be good to try.
-
-There's no better way for me to start this push for improvement than by asking...
 
 # Who should read this book?
 
