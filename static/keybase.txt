@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/ryansclarke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ryanclarke.net
+  * I am ryansclarke (https://keybase.io/ryansclarke) on keybase.
+  * I have a public key with fingerprint 3E55 93D2 B243 48B8 1996  4A47 7378 4187 37B2 03BC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3e5593d2b24348b819964a477378418737b203bc",
+            "host": "keybase.io",
+            "key_id": "7378418737b203bc",
+            "kid": "01010ffcc2ca4bf9d47c20864ac64b44b00886ad159e2f5c5140607e8555ea9905660a",
+            "uid": "604ca098359b71b83d4d0b2efac3a319",
+            "username": "ryansclarke"
+        },
+        "service": {
+            "hostname": "ryanclarke.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434017338,
+    "expire_in": 157680000,
+    "prev": "539dd189c9552f9278c588f892791fcf07f7c43e041ec4532a5c6a52b2c32577",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIjAnicbZJ5SBVBHMefZpd02EFRf0StFREWe83uzEsowg4LosMitHrMzs7qeuy+
+9u179rCCBxFF9AqisAOLSszuwgzttoiiBBMq0wqRtAOjgw6xrGatoD+a+eM3M7/P
+7zvz+83v1uA+vuSEH49m3IweuaIl3LsxJ+xbHl3jL+E0W49yzBbQXmOYVi51go5p
+uZyfkygASNJFTZQlGWpQQEiRsayqkgplATKjibykES6Ny7NDXgST0XCITjdtdsY2
+AVNnp//hC3odvMCmYRAiEixrBtJllYg8ZJcQRdZkWeN5CBWsCwBR0QAECDKv8CqF
+AACKEeKBovCYyYV75RReJphHUAJIUwUNSrqs85pIDUwkLAnIA0PUsXARZbQTxVaI
+FGKngHIb0jjmiJiEelXwkvkH+s1Mt6jLBIKO7drELmS+PNcN+r1QNxr02GKqBf6o
+BDTT0lktWUCEOiHTtji/wEjimp6swOrJC6okwTSOrguaDg2YHgFUBfJseNfQCJME
+EtJ1ASKCABANJKqQAAgNyFZIMIjBq4ZKZInyskCJDCQRA6JgwH6MSCJQVc7La61l
+c37AnolzmWTIzLWwG3ZY0nXXVyX5EpJ9/fomet3gSx6Y8rdHOnYP8DXs+pFYpz4N
+BEYbVXV7rcQX27uazn1LP/E8obZi1tHm7LLGmYfmFx97O3leU1t+9ZfKxReeVeXE
+Fvte1bVICx/WjN1cuTap5PDSmp/dc1rbi96nVL884f+UsmtalzlvYZ/xpSPSh81e
+Ym3L3Pq4ZG5ZXHAv72y+0dlyammgOR9vKR083M7qOHD1dmHs7PKPr7NiQ6MzI1mD
+kiobQFydtG9MfA+Z+Pn+BKu959uO8+GjFZ8WfMiudXLQpYdv6jMGdD/5fLI8s3PI
+5anxZaNHLevZcnFRcWMwfUlq5oPjp6asvJu6WmlbH9t+p74surH17EF8pv+7TeU9
+9FpXx4rTNzO+jtuvfFnxfeQvvbkzAg==
+=AmeC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ryansclarke
+
+==================================================================
+
