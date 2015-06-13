@@ -100,6 +100,26 @@
     </item>
     
     <item>
+      <title>Book Review: The Book of F# by Dave Fancher</title>
+      <link>http://www.ryanclarke.net/post/the-book-of-f-sharp/</link>
+      <pubDate>Sun, 28 Dec 2014 06:20:14 EST</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
+      <description>&lt;p&gt;I really like LINQ.&lt;/p&gt;
+
+&lt;p&gt;LINQ is the functional side of C#, and it&amp;rsquo;s my favorite part. I love making extension methods so I can keep the dot-chain going. Naturally I was interested in F#. It&amp;rsquo;s the &amp;ldquo;functional C#&amp;rdquo;, right?&lt;/p&gt;
+
+&lt;p&gt;This book starts great in chapter 1 with getting setup and &amp;lsquo;writing&amp;rsquo; a first app. Happily, it was not another boring &amp;ldquo;Hello World&amp;rdquo;: it was a full Reverse Polish Notation calculator! It took up half a page and looked delightfully strange to my C# trained eyes: there were so many things I didn&amp;rsquo;t understand. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand it, Dave says, because this demos all the cool features you get to learn. And then I wanted to read the whole book, just to understand all those awesome new things.&lt;/p&gt;
+
+&lt;p&gt;Oddly (but, in retrospect, brilliantly), &amp;ldquo;Fundamentals&amp;rdquo; is not chapter 2, it&amp;rsquo;s 3. Chapter 2 is &amp;ldquo;F# Interactive.&amp;rdquo; The FSI is a terminal window in Visual Studio that can run arbitrary pieces of F# code. It&amp;rsquo;s amazing… well, just read the book. It&amp;rsquo;s too much for me to explain here, but it&amp;rsquo;s great. I use it even in C# development if I need a random number or a GUID. Basically any .NET class you can new up (or statically call), you can type into FSI to get a quick output. It&amp;rsquo;s really handy.&lt;/p&gt;
+
+&lt;p&gt;So the big question: have you written anything in F#? I have to hang my head in shame as I answer &amp;ldquo;no.&amp;rdquo; But I&amp;rsquo;m confident that it will be &amp;ldquo;yes&amp;rdquo; very soon now that I&amp;rsquo;ve read this book. I&amp;rsquo;ve got a hammer and everything is starting to look like a nail.&lt;/p&gt;
+
+&lt;p&gt;Disclosure: I won this book in a raffle at a &lt;a href=&#34;http://indysa.org/&#34;&gt;Indy Software Artisans&lt;/a&gt;. It has been signed by the author (in pen) and my child (in purple crayon).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My year as an apprentice software engineer</title>
       <link>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</link>
       <pubDate>Mon, 24 Nov 2014 11:00:00 EST</pubDate>
@@ -887,91 +907,6 @@ public ActionResult Index(int p = 1)
 &lt;p&gt;I popped the install disk into my little old laptop-a sacrificial gesture so that any weird issues wouldn&amp;rsquo;t effect my main battletower-and would you know it: I&amp;rsquo;d done it again. On this First day of March in the Year of Our Lord Two Thousand Twelve, Windows 8 Consumer Preview dawned for me. The laptop did not spend quality time with me last evening: it communed instead with the Personal Backup Solution™. For the third Windows release in a row, I have completely forgotten to backup my marked-for-destruction hard drive until the cheeky little installer asked what partition I&amp;rsquo;d like to feed it.&lt;/p&gt;
 
 &lt;p&gt;Moral: It should have been April 1 today. And Windows 9 will probably get me too.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Source Code for Windows 2000</title>
-      <link>http://www.ryanclarke.net/journal/source-code-windows-2000/</link>
-      <pubDate>Wed, 26 Mar 2008 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/source-code-windows-2000/</guid>
-      <description>&lt;p&gt;This is a hilarious bit of joke code I found.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/* Source Code Windows 2000 */
-#include &amp;quot;win31.h&amp;quot;
-#include &amp;quot;win95.h&amp;quot;
-#include &amp;quot;win98.h&amp;quot;
-#include &amp;quot;workst~1.h&amp;quot;
-#include &amp;quot;evenmore.h&amp;quot;
-#include &amp;quot;oldstuff.h&amp;quot;
-#include &amp;quot;billrulz.h&amp;quot;
-#include &amp;quot;mindsweeper.h&amp;quot;
-#include &amp;quot;backdoor.h&amp;quot;
-#define INSTALL = HARD
-char make_prog_look_big(16000000);
-void main()
-{
-  while(!CRASHED)
-  {
-    display_copyright_message();
-    display_bill_rules_message();
-    do_nothing_loop();
-    if (first_time_installation)
-      {
-      make_100_megabyte_swapfile();
-      do_nothing_loop();
-      totally_screw_up_HPFS_file_system();
-      search_and_destroy_the_rest_of-OS2();
-      make_futile_attempt_to_damage_Linux();
-      disable_Netscape();
-      disable_RealPlayer();
-      disable_Lotus_Products();
-      hang_system();
-      } //if
-    write_something(anything);
-    display_copyright_message();
-    do_nothing_loop();
-    do_some_stuff();
-    if (still_not_crashed)
-    {
-    display_copyright_message();
-    do_nothing_loop();
-    basically_run_windows_31();
-    do_nothing_loop();
-    } // if
-  } //while
-  if (detect_cache())
-    disable_cache();
-  if (fast_cpu())
-    {
-    set_wait_states(lots);
-    set_mouse(speed,very_slow);
-    set_mouse(action,jumpy);
-    set_mouse(reaction,sometimes);
-    } //if
-  /* printf(&amp;quot;Welcome to Windows 3.1&amp;quot;);    */
-  /* printf(&amp;quot;Welcome to Windows 3.11&amp;quot;);   */
-  /* printf(&amp;quot;Welcome to Windows 95&amp;quot;);     */
-  /* printf(&amp;quot;Welcome to Windows NT 3.0&amp;quot;); */
-  /* printf(&amp;quot;Welcome to Windows 98&amp;quot;);     */
-  /* printf(&amp;quot;Welcome to Windows NT 4.0&amp;quot;); */
-  printf(&amp;quot;Welcome to Windows 2000&amp;quot;);
-  if (system_ok())
-    crash(to_dos_prompt)
-  else
-    system_memory = open(&amp;quot;a:\swp0001.swp&amp;quot;,O_CREATE);
-  while(something)
-    {
-    sleep(5);
-    get_user_input();
-    sleep(5);
-    act_on_user_input();
-    sleep(5);
-    } // while
-  create_general_protection_fault();
-} // main
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

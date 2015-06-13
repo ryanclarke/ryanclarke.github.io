@@ -70,6 +70,26 @@
     </item>
     
     <item>
+      <title>Book Review: The Book of F# by Dave Fancher</title>
+      <link>http://www.ryanclarke.net/post/the-book-of-f-sharp/</link>
+      <pubDate>Sun, 28 Dec 2014 06:20:14 EST</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
+      <description>&lt;p&gt;I really like LINQ.&lt;/p&gt;
+
+&lt;p&gt;LINQ is the functional side of C#, and it&amp;rsquo;s my favorite part. I love making extension methods so I can keep the dot-chain going. Naturally I was interested in F#. It&amp;rsquo;s the &amp;ldquo;functional C#&amp;rdquo;, right?&lt;/p&gt;
+
+&lt;p&gt;This book starts great in chapter 1 with getting setup and &amp;lsquo;writing&amp;rsquo; a first app. Happily, it was not another boring &amp;ldquo;Hello World&amp;rdquo;: it was a full Reverse Polish Notation calculator! It took up half a page and looked delightfully strange to my C# trained eyes: there were so many things I didn&amp;rsquo;t understand. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand it, Dave says, because this demos all the cool features you get to learn. And then I wanted to read the whole book, just to understand all those awesome new things.&lt;/p&gt;
+
+&lt;p&gt;Oddly (but, in retrospect, brilliantly), &amp;ldquo;Fundamentals&amp;rdquo; is not chapter 2, it&amp;rsquo;s 3. Chapter 2 is &amp;ldquo;F# Interactive.&amp;rdquo; The FSI is a terminal window in Visual Studio that can run arbitrary pieces of F# code. It&amp;rsquo;s amazing… well, just read the book. It&amp;rsquo;s too much for me to explain here, but it&amp;rsquo;s great. I use it even in C# development if I need a random number or a GUID. Basically any .NET class you can new up (or statically call), you can type into FSI to get a quick output. It&amp;rsquo;s really handy.&lt;/p&gt;
+
+&lt;p&gt;So the big question: have you written anything in F#? I have to hang my head in shame as I answer &amp;ldquo;no.&amp;rdquo; But I&amp;rsquo;m confident that it will be &amp;ldquo;yes&amp;rdquo; very soon now that I&amp;rsquo;ve read this book. I&amp;rsquo;ve got a hammer and everything is starting to look like a nail.&lt;/p&gt;
+
+&lt;p&gt;Disclosure: I won this book in a raffle at a &lt;a href=&#34;http://indysa.org/&#34;&gt;Indy Software Artisans&lt;/a&gt;. It has been signed by the author (in pen) and my child (in purple crayon).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My year as an apprentice software engineer</title>
       <link>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</link>
       <pubDate>Mon, 24 Nov 2014 11:00:00 EST</pubDate>
