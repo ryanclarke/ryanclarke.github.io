@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Book of F# by Dave Fancher"
 slug: "the-book-of-f-sharp"
-date: 2014-12-28T06:20:14-05:00
+date: 2015-06-13T011:00:14-04:00
 tags: ["SEP", "book review"]
 categories: ["Technology"]
 frameworks: []
@@ -21,5 +21,5 @@ Oddly (but, in retrospect, brilliantly), "Fundamentals" is not chapter 2, it's 3
 
 So the big question: have you written anything in F#? I have to hang my head in shame as I answer "no." But I'm confident that it will be "yes" very soon now that I've read this book. I've got a hammer and everything is starting to look like a nail.
 
-Disclosure: I won this book in a raffle at a [Indy Software Artisans](http://indysa.org/). It has been signed by the author (in pen) and my child (in purple crayon).
+Disclosure: I won this book in a raffle at a [Indy Software Artisans](http://indysa.org/). It has been signed by [the author](http://davefancher.com/) (in pen) and my child (in purple crayon).
 
