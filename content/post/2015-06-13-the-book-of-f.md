@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Book of F# by Dave Fancher"
 slug: "the-book-of-f-sharp"
-date: 2015-06-13T011:00:14-04:00
+date: 2015-06-13T11:00:14-04:00
 tags: ["SEP", "book review"]
 categories: ["Technology"]
 frameworks: []
