@@ -1,8 +1,8 @@
 ---
-title: "Peopleware"
+title: "Book Review: Peopleware by DeMarco and Lister"
 slug: "peopleware"
 date: 2015-03-25T20:30:10-04:00
-tags: ["SEP"]
+tags: ["SEP", "book review"]
 categories: ["Technology"]
 frameworks: []
 description: ""
