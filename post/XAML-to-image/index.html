@@ -115,13 +115,13 @@
 
 <p>I needed to take a xaml view and turn it into a bitmap. My Windows Phone app needed a live tile and the so I used <code>FlipTileData</code> with the <code>BackgroundImage</code> property set to my image URI. Almost every app has a tile so how hard can it be? Good news, it isn&rsquo;t hard! Here&rsquo;s how I turned the xaml view for my tile into the image I needed.</p>
 
-<h2 id="toc_0">We&rsquo;ll call this the starting point</h2>
+<h2 id="we-ll-call-this-the-starting-point">We&rsquo;ll call this the starting point</h2>
 
 <p>Your xaml should be a <code>UserControl</code>, which works really well with <code>WriteableBitmap</code>&rsquo;s <code>Render</code> method which takes a <code>UIElement</code> as it&rsquo;s first parameter. Then you call <code>SaveJpeg</code> on the bitmap and you&rsquo;ve got an image.</p>
 
 <p>Sounds simple, but there are a number of little details which you must get right or you&rsquo;ll end up with a mess and the image will not look right. In fact, in my original attempts at this tile it seemed like Windows Phone didn&rsquo;t understand basic xaml controls, like <code>Grid</code> and <code>StackPanel</code>. Scary.</p>
 
-<h2 id="toc_1">In which pixels matter for future reasons</h2>
+<h2 id="in-which-pixels-matter-for-future-reasons">In which pixels matter for future reasons</h2>
 
 <p>Before we start writing all the super cool code, we need to get the tile dimensions right. I&rsquo;ll be showing a normal/medium sized square tile, so it&rsquo;s just 336 by 336 pixels. Wide tiles are 336 by 691, and the tiny tiles can&rsquo;t be live (so its dimensions are just mental cruft which I decided not to aquire). You will be putting this width and height as properties on your tile control&rsquo;s root xaml element. You will also be using them a lot of times in the code so we&rsquo;ll just &lsquo;save&rsquo; them in a nice DRY place.</p>
 
@@ -132,7 +132,7 @@ var tileWidth = 336;
 var tileHeight = 336;
 </code></pre>
 
-<h2 id="toc_2">The beating heart of the essay</h2>
+<h2 id="the-beating-heart-of-the-essay">The beating heart of the essay</h2>
 
 <p>Then we need to tell the tile what size it should be, since the properties on the root xaml element don&rsquo;t fully do the job.</p>
 
@@ -155,7 +155,7 @@ bitmap.Render(tileControl, null); // Don't need a transform
 <pre><code>bitmap.Invalidate();
 </code></pre>
 
-<h2 id="toc_3">Once more in case you missed it</h2>
+<h2 id="once-more-in-case-you-missed-it">Once more in case you missed it</h2>
 
 <p>So here&rsquo;s the formula for success written all in one go.</p>
 
@@ -171,7 +171,7 @@ bitmap.Render(tileControl, null);
 bitmap.Invalidate();
 </code></pre>
 
-<h2 id="toc_4">Finishing the deed</h2>
+<h2 id="finishing-the-deed">Finishing the deed</h2>
 
 <p>Then we just call <code>SaveJpeg</code> on the bitmap. It&rsquo;s not particularly interesting, mostly file-related stuff, but I&rsquo;ll include the code here just for completeness.</p>
 
@@ -193,7 +193,7 @@ catch (Exception ex)
 }
 </code></pre>
 
-<h2 id="toc_5">Final disclaimers</h2>
+<h2 id="final-disclaimers">Final disclaimers</h2>
 
 <p>That&rsquo;s pretty much it. Of course, there are a number of other things to make the code not crash in normal use. I double check that the jpeg write succeeded, I verify that the uri I give to the tile is valid. I have try-catches around all the dangerous code. I generate jpeg paths using a guid so I ensure the image gets recognized as new (and I delete all the old tile images to keep from using up space).</p>
 

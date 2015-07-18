@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/windows-universal-apps/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/windows-universal-apps/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -27,13 +27,11 @@
 
 &lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Privacy Policy&lt;/h3&gt;
+&lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
 
 &lt;p&gt;This app knows nothing about anything. Privacy policy unnecessary.&lt;/p&gt;
 </description>

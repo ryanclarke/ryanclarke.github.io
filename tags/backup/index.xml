@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/backup/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/backup/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -15,8 +15,7 @@
       <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
       <author>Ryan Clarke</author>
       <guid>http://www.ryanclarke.net/journal/march-1st-is-windows-8-day/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So there I was&amp;hellip;&lt;/p&gt;
 

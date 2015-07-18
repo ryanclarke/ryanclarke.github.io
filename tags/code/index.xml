@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/code/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/code/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -17,8 +17,7 @@
       <guid>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
 

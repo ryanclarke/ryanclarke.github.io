@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/books/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/books/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -63,7 +63,7 @@
 
 &lt;p&gt;Of course, the future is still uncertain. I am currently unsure of where the path leads beginning in June. Currently, the several options I am considering are so good I wish I could do them all. I guess that is one of those things about stuff like that, if I knew what was going to happen I would just write the 2009 year in review now. But I do not, so I will keep trust God.&lt;/p&gt;
 
-&lt;h4 id=&#34;toc_0&#34;&gt;Books in Review&lt;/h4&gt;
+&lt;h4 id=&#34;books-in-review&#34;&gt;Books in Review&lt;/h4&gt;
 
 &lt;p&gt;You may have noticed have the light dry style of my year in review. That was partially due to the recent influence of Wodehouse as you can see from my following reading list from 2008. This is probably the shortest yearly reading list I’ve ever had, but it should grow a little as I remember various volumes which slip my mind now.&lt;/p&gt;
 
@@ -107,7 +107,7 @@
 
 &lt;p&gt;Here&amp;rsquo;s a quick list of books that I read this year. I know this isn&amp;rsquo;t complete, but it&amp;rsquo;s all the ones either on my desk or remembered for some reason.&lt;/p&gt;
 
-&lt;h4 id=&#34;toc_0&#34;&gt;Christian&lt;/h4&gt;
+&lt;h4 id=&#34;christian&#34;&gt;Christian&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Caring People&lt;/em&gt; by Warren W. Wiersbe&lt;/li&gt;
@@ -123,7 +123,7 @@
 &lt;li&gt;&lt;em&gt;Mere Christianity&lt;/em&gt; by C. S. Lewis&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;toc_1&#34;&gt;Secular&lt;/h4&gt;
+&lt;h4 id=&#34;secular&#34;&gt;Secular&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Cabbages and Kings&lt;/em&gt; by O. Henry&lt;/li&gt;
@@ -142,7 +142,7 @@
 &lt;li&gt;&lt;em&gt;The Rights of Man&lt;/em&gt; by Thomas Paine&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;toc_2&#34;&gt;Web (Tech) News&lt;/h4&gt;
+&lt;h4 id=&#34;web-tech-news&#34;&gt;Web (Tech) News&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.winsupersite.com&#34;&gt;www.winsupersite.com&lt;/a&gt;&lt;/li&gt;

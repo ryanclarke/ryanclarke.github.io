@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/work/index.xml/</link>
+    <link>http://www.ryanclarke.net/tags/work/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -19,8 +19,7 @@
 
 &lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
 
@@ -196,7 +195,7 @@ public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;Acc
 
 &lt;p&gt;As we passed through The Commons during the first-day tour, Laura from HR said &amp;ldquo;there shall be fruit&amp;rdquo; and, unfortunately, there was no fruit. In my hour of need: fresh out. To quote the great Barney Fife, &amp;ldquo;Well, Andy, a slender high-spirited person needs a sugar pick-me-up late in the day.&amp;rdquo; I had to settle for a cup of ice. Just then, something happened…&lt;/p&gt;
 
-&lt;h5 id=&#34;toc_0&#34;&gt;Chapter 2&lt;/h5&gt;
+&lt;h5 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h5&gt;
 
 &lt;p&gt;&lt;em&gt;Just when hope is almost lost, things start to look brighter for our young heroes.&lt;/em&gt;&lt;/p&gt;
 
@@ -213,7 +212,7 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
 
 &lt;p&gt;I also don&amp;rsquo;t know about many company policies. For instance, do lowly developers need an official sanction from IT to brazenly install Ubuntu VMs on our machines (no). And I haven&amp;rsquo;t even started on all the questions we had about the résumé website&amp;rsquo;s architecture and history.&lt;/p&gt;
 
-&lt;h5 id=&#34;toc_1&#34;&gt;Chapter 3&lt;/h5&gt;
+&lt;h5 id=&#34;chapter-3&#34;&gt;Chapter 3&lt;/h5&gt;
 
 &lt;p&gt;&lt;em&gt;Sorry about chapter 2, this is where things actually get better.&lt;/em&gt;&lt;/p&gt;
 

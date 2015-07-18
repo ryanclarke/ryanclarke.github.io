@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/frameworks/windows-8.1/index.xml/</link>
+    <link>http://www.ryanclarke.net/frameworks/windows-8/index.1/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -27,13 +27,11 @@
 
 &lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Privacy Policy&lt;/h3&gt;
+&lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
 
 &lt;p&gt;This app knows nothing about anything. Privacy policy unnecessary.&lt;/p&gt;
 </description>
@@ -53,11 +51,11 @@
 
 &lt;p&gt;It&amp;rsquo;s a little more involved than, say, a favicon but it&amp;rsquo;s really not hard. Especially for the value you get. Microsoft has a lot of documentation to make this easy. What can be hard is finding the right page since it&amp;rsquo;s not all in one place. Here are some links to help you avoid wasted time and pain.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Quick start&lt;/h3&gt;
+&lt;h3 id=&#34;quick-start&#34;&gt;Quick start&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.buildmypinnedsite.com&#34; title=&#34;http://www.buildmypinnedsite.com&#34;&gt;buildmypinnedsite.com&lt;/a&gt;- This is the very first place you should go if you want slivets. This easy wizard will get you up and running in no time. You will probably want to replace the images with something more professional and customize the urls to match your site, but it quickly gives you something that&amp;rsquo;s working and gives you a good place from which to start customizing. It&amp;rsquo;s basically the File &amp;gt; New of slivets. &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34;&gt;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&lt;/a&gt; - I&amp;rsquo;m not going to give a complete how-to because Scott Hanselman already has and his is better than mine would be. He walks you through the wizard site above and explains what it all means.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_1&#34;&gt;Designing&lt;/h3&gt;
+&lt;h3 id=&#34;designing&#34;&gt;Designing&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn455115%28v=vs.85%29.aspx&#34;&gt;Create live tiles for your websites in IE11&lt;/a&gt; - This is the jumping off place to explore the Microsoft help for slivets. Start here with questions.&lt;/p&gt;
 
@@ -65,7 +63,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/hh761491.aspx&#34;&gt;The tile template catalog (Windows Runtime apps)&lt;/a&gt; - You&amp;rsquo;ll want to pick your tiles to fit the data you are displaying. This is the comprehensive list of all possible tiles with example xml and result photo to get you started. You should find several you like. Of course, you can make the tile look like whatever you want by simply picking the single photo template and generating the custom-formatted image yourself. But that would take more server infrastructure on your end and would risk making your tiles clash with the aesthetic of the OS. Still, the option is there.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_2&#34;&gt;Debugging&lt;/h3&gt;
+&lt;h3 id=&#34;debugging&#34;&gt;Debugging&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34; title=&#34;http://msdn.microsoft.com/en-us/library/ie/dn439794%28v=vs.85%29.aspx&#34;&gt;Build a live tile&lt;/a&gt; - This starts out as Microsoft&amp;rsquo;s how-to guide but important part is at the very bottom under &amp;ldquo;Testing and finding problems with live tiles.&amp;rdquo; Slivets are designed to light up with whatever pieces are present and if they aren&amp;rsquo;t there, fallback to normal behavior. This is really nice for end-users, but it can make development difficult because when something doesn&amp;rsquo;t work, IE is quite taciturn about reasons. The tips at this link are simple but indispensable.&lt;/p&gt;
 
@@ -85,17 +83,17 @@
 
 &lt;p&gt;Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that&amp;rsquo;s impossible. But you &lt;em&gt;can&lt;/em&gt; get 75%* of the way there with an awesome new Internet Explorer feature I recently implemented on one of SEP&amp;rsquo;s sites called Pinned Site Live Tiles.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;What are Pinned Site Live Tiles?&lt;/h3&gt;
+&lt;h3 id=&#34;what-are-pinned-site-live-tiles&#34;&gt;What are Pinned Site Live Tiles?&lt;/h3&gt;
 
 &lt;p&gt;I am sure you are familiar with live tiles. They first came with the launch of Windows Phone and now are a defining feature of Windows 8+ as well. Live tiles allow apps that have been pinned to the user&amp;rsquo;s start screen to update their tile with dynamically generated and presumably relevant information. Pinned SLTs (which I will now call slivets) bring that feature to Windows 8.1&amp;rsquo;s IE11 when you pin a web link to the start screen. They basically transform a simple bookmark with a blurry favicon into something almost indistinguishable from a real app. Scott Hanselman wrote an &lt;a href=&#34;http://www.hanselman.com/blog/MakeAWindows81PinnedLiveTileForYOURWebsiteInMinutes.aspx&#34; title=&#34;Make a Windows 8.1 Pinned Live Tile for YOUR website in minutes&#34;&gt;easy how-to guide&lt;/a&gt; on his blog.&lt;/p&gt;
 
 &lt;p&gt;But things just got better. Nestled deep within &lt;a href=&#34;https://twitter.com/matthidinger&#34; title=&#34;Twitter @MattHidinger&#34;&gt;Matt Hidinger&lt;/a&gt;&amp;rsquo;s interesting &amp;ldquo;&lt;a href=&#34;http://channel9.msdn.com/Events/Build/2014/2-523&#34; title=&#34;MSDN Channel9&#34;&gt;Live Tiles Enhancements&lt;/a&gt;&amp;rdquo; talk from Microsoft&amp;rsquo;s BUILD conference was a cool little revelation: slivets work on Windows Phone 8.1 as well as Windows 8.1. So now they work on all of Microsoft&amp;rsquo;s desktop, tablet, and phone platforms.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_1&#34;&gt;A Disclaimer&lt;/h3&gt;
+&lt;h3 id=&#34;a-disclaimer&#34;&gt;A Disclaimer&lt;/h3&gt;
 
 &lt;p&gt;I guess it&amp;rsquo;s worth mentioning that slivets only work when IE11 is the default browser. But that limitation doesn&amp;rsquo;t matter since it won&amp;rsquo;t affect your target audience. Anyone interested in apps, namely users of Windows tablets and Windows Phones, are almost certain to have IE as their default browser. And frankly, many desktop users never change their default browser away from IE.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_2&#34;&gt;The Case for Pinned Site Live Tiles&lt;/h3&gt;
+&lt;h3 id=&#34;the-case-for-pinned-site-live-tiles&#34;&gt;The Case for Pinned Site Live Tiles&lt;/h3&gt;
 
 &lt;p&gt;Slivets work for almost the entire the app-inclined Windows user base and for all of Windows Phone users. This is a large market, and although currently perched at third place in worldwide market share, it is an underserved market too. Some may scoff at the size of this user base in comparison with Android and iOS. But anyone with a great website who wants apps is likely already going the Android/iOS route since they give the most bang for the many bucks it takes to build an app. That leaves just the Windows platforms in need of apps, and slivets fills those exact markets.&lt;/p&gt;
 

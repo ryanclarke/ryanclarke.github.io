@@ -3,7 +3,7 @@
   <channel>
       <title>Ryan Clarke </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/frameworks/.net-4.5/index.xml/</link>
+    <link>http://www.ryanclarke.net/frameworks/.net-4/index.5/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
@@ -19,13 +19,13 @@
 
 &lt;p&gt;I needed to take a xaml view and turn it into a bitmap. My Windows Phone app needed a live tile and the so I used &lt;code&gt;FlipTileData&lt;/code&gt; with the &lt;code&gt;BackgroundImage&lt;/code&gt; property set to my image URI. Almost every app has a tile so how hard can it be? Good news, it isn&amp;rsquo;t hard! Here&amp;rsquo;s how I turned the xaml view for my tile into the image I needed.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_0&#34;&gt;We&amp;rsquo;ll call this the starting point&lt;/h2&gt;
+&lt;h2 id=&#34;we-ll-call-this-the-starting-point&#34;&gt;We&amp;rsquo;ll call this the starting point&lt;/h2&gt;
 
 &lt;p&gt;Your xaml should be a &lt;code&gt;UserControl&lt;/code&gt;, which works really well with &lt;code&gt;WriteableBitmap&lt;/code&gt;&amp;rsquo;s &lt;code&gt;Render&lt;/code&gt; method which takes a &lt;code&gt;UIElement&lt;/code&gt; as it&amp;rsquo;s first parameter. Then you call &lt;code&gt;SaveJpeg&lt;/code&gt; on the bitmap and you&amp;rsquo;ve got an image.&lt;/p&gt;
 
 &lt;p&gt;Sounds simple, but there are a number of little details which you must get right or you&amp;rsquo;ll end up with a mess and the image will not look right. In fact, in my original attempts at this tile it seemed like Windows Phone didn&amp;rsquo;t understand basic xaml controls, like &lt;code&gt;Grid&lt;/code&gt; and &lt;code&gt;StackPanel&lt;/code&gt;. Scary.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;In which pixels matter for future reasons&lt;/h2&gt;
+&lt;h2 id=&#34;in-which-pixels-matter-for-future-reasons&#34;&gt;In which pixels matter for future reasons&lt;/h2&gt;
 
 &lt;p&gt;Before we start writing all the super cool code, we need to get the tile dimensions right. I&amp;rsquo;ll be showing a normal/medium sized square tile, so it&amp;rsquo;s just 336 by 336 pixels. Wide tiles are 336 by 691, and the tiny tiles can&amp;rsquo;t be live (so its dimensions are just mental cruft which I decided not to aquire). You will be putting this width and height as properties on your tile control&amp;rsquo;s root xaml element. You will also be using them a lot of times in the code so we&amp;rsquo;ll just &amp;lsquo;save&amp;rsquo; them in a nice DRY place.&lt;/p&gt;
 
@@ -36,7 +36,7 @@ var tileWidth = 336;
 var tileHeight = 336;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_2&#34;&gt;The beating heart of the essay&lt;/h2&gt;
+&lt;h2 id=&#34;the-beating-heart-of-the-essay&#34;&gt;The beating heart of the essay&lt;/h2&gt;
 
 &lt;p&gt;Then we need to tell the tile what size it should be, since the properties on the root xaml element don&amp;rsquo;t fully do the job.&lt;/p&gt;
 
@@ -59,7 +59,7 @@ bitmap.Render(tileControl, null); // Don&#39;t need a transform
 &lt;pre&gt;&lt;code&gt;bitmap.Invalidate();
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_3&#34;&gt;Once more in case you missed it&lt;/h2&gt;
+&lt;h2 id=&#34;once-more-in-case-you-missed-it&#34;&gt;Once more in case you missed it&lt;/h2&gt;
 
 &lt;p&gt;So here&amp;rsquo;s the formula for success written all in one go.&lt;/p&gt;
 
@@ -75,7 +75,7 @@ bitmap.Render(tileControl, null);
 bitmap.Invalidate();
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_4&#34;&gt;Finishing the deed&lt;/h2&gt;
+&lt;h2 id=&#34;finishing-the-deed&#34;&gt;Finishing the deed&lt;/h2&gt;
 
 &lt;p&gt;Then we just call &lt;code&gt;SaveJpeg&lt;/code&gt; on the bitmap. It&amp;rsquo;s not particularly interesting, mostly file-related stuff, but I&amp;rsquo;ll include the code here just for completeness.&lt;/p&gt;
 
@@ -97,7 +97,7 @@ catch (Exception ex)
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;Final disclaimers&lt;/h2&gt;
+&lt;h2 id=&#34;final-disclaimers&#34;&gt;Final disclaimers&lt;/h2&gt;
 
 &lt;p&gt;That&amp;rsquo;s pretty much it. Of course, there are a number of other things to make the code not crash in normal use. I double check that the jpeg write succeeded, I verify that the uri I give to the tile is valid. I have try-catches around all the dangerous code. I generate jpeg paths using a guid so I ensure the image gets recognized as new (and I delete all the old tile images to keep from using up space).&lt;/p&gt;
 
