@@ -7,7 +7,33 @@
     <language>en-us</language>
     <author>Ryan Clarke</author>
     <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Sat, 13 Jun 2015 11:00:14 EDT</updated>
+    <updated>Fri, 17 Jul 2015 19:11:19 EDT</updated>
+    
+    <item>
+      <title>Book Review: User Interface Design for Programmers by Joel Spolsky</title>
+      <link>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</link>
+      <pubDate>Fri, 17 Jul 2015 19:11:19 EDT</pubDate>
+      <author>Ryan Clarke</author>
+      <guid>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</guid>
+      <description>&lt;p&gt;We programmers are notoriously horrible at user interface design. Regardless of whether this stereotype is fair, I&amp;rsquo;m sure we can all think of awful user interfaces we&amp;rsquo;ve been forced to use or, at least, see. In spite of this aknowledged lack of skill, we are regularly called on to design the user interfaces of the software we write. Joel Spolsky noticed this problem all the way back in 2001 and wrote a book to help us. I think it&amp;rsquo;s rather good.&lt;/p&gt;
+
+&lt;p&gt;Of course, this book will not make you a great designer. That takes creativity and experience and probably magic. I think a better title would be &amp;ldquo;Basic User Experience for Programmers&amp;rdquo; since it focuses on program functionality much more than the &amp;lsquo;art.&amp;rsquo; This book will help you be &lt;em&gt;aware&lt;/em&gt; of some basic rules for handling page layout and navigation. Maybe you&amp;rsquo;ll avoid some stupid mistakes next time it falls to you to make some design choices.&lt;/p&gt;
+
+&lt;p&gt;In the middle of the book, Joel devotees one chapter each to three big points. It&amp;rsquo;d be under-selling the book to say these are the main points, but they were particularly impactful to me. They are, and I list:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;People can&amp;rsquo;t read&lt;/li&gt;
+&lt;li&gt;People can&amp;rsquo;t control the mouse&lt;/li&gt;
+&lt;li&gt;People can&amp;rsquo;t remember&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may be tempted to read that as &amp;ldquo;People &lt;em&gt;won&amp;rsquo;t&lt;/em&gt; remember&amp;rdquo; or &amp;ldquo;People &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; read.&amp;rdquo; That would be a mistake. You may think these only apply to novice users, but advanced users struggle with these as well. I&amp;rsquo;m a programmer and I don&amp;rsquo;t read error dialog boxes. I have trouble remembering the kaleidescope of urls and apis I see on a daily basis. I also have tons of trouble using a mouse: it&amp;rsquo;s slower than a keyboard, it&amp;rsquo;s unforgiving with those pixel perfect click zones, and it&amp;rsquo;s really laggy on a remote computer. I know a company that built an expensive database system to store lots of precise technical records. To save money and speed up development they left out all data validation because their users were a small group of highly trained experts. Shortly after launching they started a massive effort to add validation onto the application because even highly trained experts make mistakes. They get sick, or move too fast under deadline pressure, or any number of things. And that&amp;rsquo;s under the best conditions.&lt;/p&gt;
+
+&lt;p&gt;The epiphany for me was that usibility is not just for novices, experts need it too. I used to think usability was just a nice extra for power users, now I realize it&amp;rsquo;s often essential. At the least, it makes life better. As Joel points out, the large handles on hotel showers might be there for disabled people, but everyone finds them nice to use.&lt;/p&gt;
+
+&lt;p&gt;I recommend that you read this book if you are a programmer. It&amp;rsquo;s easy and fun to read and it will get you pointed in the right direction.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book Review: The Book of F# by Dave Fancher</title>
