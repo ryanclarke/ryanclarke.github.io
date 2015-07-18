@@ -1,17 +1,16 @@
 ---
 title: "Book Review: User Interface Design for Programmers by Joel Spolsky"
 slug: "user-interface-design-for-programmers"
-date: 2015-06-18T08:11:19-04:00
+date: 2015-07-17T19:11:19-04:00
 tags: ["SEP", "book review"]
 categories: ["Technology"]
 frameworks: []
 description: ""
 featured: ""
-draft: true
 
 ---
 
-Programmers are notoriously horrible at user interface design. Regardless of whether this stereotype is fair, I'm sure we can all think of awful user interfaces we've been forced to use or, at least, see. In spite of this aknowledged lack of skill, programmers are regularly called on to design the user interfaces of the software they write. Joel Spolsky noticed this problem all the way back in 2001 and wrote a book to help. I think it's rather good.
+We programmers are notoriously horrible at user interface design. Regardless of whether this stereotype is fair, I'm sure we can all think of awful user interfaces we've been forced to use or, at least, see. In spite of this aknowledged lack of skill, we are regularly called on to design the user interfaces of the software we write. Joel Spolsky noticed this problem all the way back in 2001 and wrote a book to help us. I think it's rather good.
 
 Of course, this book will not make you a great designer. That takes creativity and experience and probably magic. I think a better title would be "Basic User Experience for Programmers" since it focuses on program functionality much more than the 'art.' This book will help you be _aware_ of some basic rules for handling page layout and navigation. Maybe you'll avoid some stupid mistakes next time it falls to you to make some design choices.
 
@@ -25,5 +24,5 @@ You may be tempted to read that as "People _won't_ remember" or "People _don't_ 
 
 The epiphany for me was that usibility is not just for novices, experts need it too. I used to think usability was just a nice extra for power users, now I realize it's often essential. At the least, it makes life better. As Joel points out, the large handles on hotel showers might be there for disabled people, but everyone finds them nice to use.
 
-I recommend this book to all programmers. It's easy and fun to read and it gets you pointed in the right direction.
+I recommend that you read this book if you are a programmer. It's easy and fun to read and it will get you pointed in the right direction.
 
