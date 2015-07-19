@@ -1,5 +1,5 @@
 ---
-BaseURL: "http://www.ryanclarke.net"
+BaseURL: "http://www.ryanclarke.net/"
 LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
@@ -12,7 +12,7 @@ Params:
   Description: "The blog of Ryan Clarke"
   Tagline: "Varied submissions of an adventurer"
   AuthorName: "Ryan Clarke"
-  AuthorNameUrl: "/about"
+  AuthorNameUrl: "about"
   Github: "ryanclarke"
   Twitter: "RyanSClarke"
 Taxonomies:
