@@ -3,7 +3,7 @@ title: "Bending Linq-to-Entities to my will"
 slug: "bending-linq-to-entities-to-my-will"
 wordpress_url: "http://www.ryanclarke.net/post/bending-linq-to-entities-to-my-will/"
 date: 2013-02-06
-tags: ["ASP.NET MVC", "C#", "Programming"]
+tags: ["ASP.NET MVC", "C Sharp", "Programming"]
 categories: ["Technology"]
 frameworks: ["ASP.NET MVC 4"]
 description: "Recently I ran into something that gave me many problems and I had great trouble finding any help online. I've now solved it, twice."

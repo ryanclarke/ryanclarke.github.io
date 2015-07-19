@@ -1,5 +1,5 @@
 ---
-BaseUrl: "http://www.ryanclarke.net/"
+BaseURL: "http://www.ryanclarke.net"
 LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
@@ -23,4 +23,6 @@ Menu:
   Main:
   - Url: "/about"
     Name: "About"
+Blackfriday:
+  PlainIdAnchors: true
 ...
