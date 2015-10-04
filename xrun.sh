@@ -1,9 +1,9 @@
 #!/bin/bash
 
-outputdir=gh-pages
+outputdir=public-site
 
 find . -iname "Thumbs.db" | xargs rm
-find gh-pages/* \( ! -path "gh-pages/.git/*" ! -path "gh-pages/.git" \) | xargs rm -rf
+find public-site/* \( ! -path "public-site/.git/*" ! -path "public-site/.git" \) | xargs rm -rf
 # xhugo.exe -D $@
 xhugo.exe $@
 cp $outputdir/index.xml $outputdir/all.xml
