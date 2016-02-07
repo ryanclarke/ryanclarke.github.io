@@ -24,5 +24,5 @@ Menu:
   - Url: "/about"
     Name: "About"
 Blackfriday:
-  PlainIdAnchors: true
+  PlainIDAnchors: true
 ...
