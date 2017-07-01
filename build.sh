@@ -1,7 +1,7 @@
 #!/bin/bash
 
 outputdir=public-site
-app=hugo_15.exe
+app=hugo.exe
 
 find . -iname "Thumbs.db" | xargs rm
 (cd $outputdir; find * \( ! -path ".git/*" ! -path ".git" \) | xargs rm -rf --) 
