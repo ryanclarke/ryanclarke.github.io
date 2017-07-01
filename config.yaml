@@ -4,7 +4,7 @@ LanguageCode: "en-us"
 Title: "Ryan Clarke"
 MetaDataFormat: "yaml"
 Theme: "lagom"
-PublishDir: "public-site"
+PublishDir: "public"
 Copyright: "© 2017 Ryan Clarke"
 Author:
   name: "Ryan Clarke"
