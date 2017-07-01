@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://www.ryanclarke.net/</loc>
-    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</loc>
@@ -33,7 +28,7 @@
   </url>
   
   <url>
-    <loc>http://www.ryanclarke.net/post/XAML-to-image/</loc>
+    <loc>http://www.ryanclarke.net/post/xaml-to-image/</loc>
     <lastmod>2014-11-12T10:19:31-05:00</lastmod>
   </url>
   
@@ -103,7 +98,7 @@
   </url>
   
   <url>
-    <loc>http://www.ryanclarke.net/about</loc>
+    <loc>http://www.ryanclarke.net/about/</loc>
     <lastmod>2011-06-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -3705,6 +3700,509 @@
   <url>
     <loc>http://www.ryanclarke.net/journal/tuesday-october-26-2004/</loc>
     <lastmod>2004-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/.net-4.5/</loc>
+    <lastmod>2014-11-12T10:19:31-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/adventure/</loc>
+    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/android/</loc>
+    <lastmod>2014-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/android-api-level-15/</loc>
+    <lastmod>2014-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/asp.net-mvc/</loc>
+    <lastmod>2013-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/asp.net-mvc-4/</loc>
+    <lastmod>2013-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/backup/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/bible/</loc>
+    <lastmod>2008-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/book-review/</loc>
+    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/books/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/c-sharp/</loc>
+    <lastmod>2013-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/cellphone/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/children/</loc>
+    <lastmod>2012-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/chinese/</loc>
+    <lastmod>2007-05-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/christianity/</loc>
+    <lastmod>2013-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/christmas/</loc>
+    <lastmod>2007-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/church/</loc>
+    <lastmod>2007-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/code/</loc>
+    <lastmod>2014-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/computers/</loc>
+    <lastmod>2012-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/faith/</loc>
+    <lastmod>2008-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/family/</loc>
+    <lastmod>2007-05-24T02:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/food/</loc>
+    <lastmod>2007-10-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/</loc>
+    <lastmod>2014-11-12T10:19:31-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/fun-fact/</loc>
+    <lastmod>2007-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/funny/</loc>
+    <lastmod>2009-10-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/god-is-good/</loc>
+    <lastmod>2007-08-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/gods-will/</loc>
+    <lastmod>2007-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/health/</loc>
+    <lastmod>2009-10-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/idea/</loc>
+    <lastmod>2007-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/ie-11/</loc>
+    <lastmod>2014-06-23T09:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/internet-explorer/</loc>
+    <lastmod>2014-06-23T09:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/james-whitcomb-riley/</loc>
+    <lastmod>2008-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/journal/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/journal/</loc>
+    <lastmod>2012-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/life-is-weird/</loc>
+    <lastmod>2007-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/links/</loc>
+    <lastmod>2008-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/made-it-work/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/milestone/</loc>
+    <lastmod>2007-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/money/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/music/</loc>
+    <lastmod>2007-09-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/on-a-personal-note/</loc>
+    <lastmod>2007-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/oops/</loc>
+    <lastmod>2007-07-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/page/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/paintball/</loc>
+    <lastmod>2007-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/parenting/</loc>
+    <lastmod>2012-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/payson-az/</loc>
+    <lastmod>2007-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/pictures/</loc>
+    <lastmod>2007-09-13T02:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/poetry/</loc>
+    <lastmod>2012-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/post/</loc>
+    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/programming/</loc>
+    <lastmod>2013-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/project/</loc>
+    <lastmod>2015-03-18T01:22:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/quotes/</loc>
+    <lastmod>2008-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/rci/</loc>
+    <lastmod>2008-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/religion/</loc>
+    <lastmod>2008-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/rules-to-live-by/</loc>
+    <lastmod>2012-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/</loc>
+    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/sep/</loc>
+    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/shared/</loc>
+    <lastmod>2007-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/skills/</loc>
+    <lastmod>2008-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/</loc>
+    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/technology/</loc>
+    <lastmod>2015-07-17T19:11:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/testing/</loc>
+    <lastmod>2014-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/the-news/</loc>
+    <lastmod>2007-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/things-to-work-on/</loc>
+    <lastmod>2007-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/thoughts/</loc>
+    <lastmod>2013-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/travel/</loc>
+    <lastmod>2007-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/truth/</loc>
+    <lastmod>2007-12-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/uncategorized/</loc>
+    <lastmod>2007-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/vancouver-bc/</loc>
+    <lastmod>2007-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/verity/</loc>
+    <lastmod>2008-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/wedding/</loc>
+    <lastmod>2007-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/windows/</loc>
+    <lastmod>2014-06-23T09:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/windows-8/</loc>
+    <lastmod>2012-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/windows-8.1/</loc>
+    <lastmod>2015-03-18T01:22:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/windows-phone/</loc>
+    <lastmod>2015-03-18T01:22:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/windows-phone-8/</loc>
+    <lastmod>2014-11-12T10:19:31-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/frameworks/windows-phone-8.1/</loc>
+    <lastmod>2015-03-18T01:22:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/windows-universal-apps/</loc>
+    <lastmod>2015-03-18T01:22:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/work/</loc>
+    <lastmod>2014-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/writings/</loc>
+    <lastmod>2013-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/categories/xanga/</loc>
+    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/xangapictures/</loc>
+    <lastmod>2007-09-13T02:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ryanclarke.net/tags/year-in-review/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

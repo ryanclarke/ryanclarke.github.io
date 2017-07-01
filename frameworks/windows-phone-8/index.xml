@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Ryan Clarke </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Ryan Clarke </title>
+    <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://www.ryanclarke.net/frameworks/windows-phone-8/</link>
     <language>en-us</language>
     <author>Ryan Clarke</author>
@@ -11,10 +11,10 @@
     
     <item>
       <title>How to save a XAML view as an image</title>
-      <link>http://www.ryanclarke.net/post/XAML-to-image/</link>
+      <link>http://www.ryanclarke.net/post/xaml-to-image/</link>
       <pubDate>Wed, 12 Nov 2014 10:19:31 EST</pubDate>
       <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/XAML-to-image/</guid>
+      <guid>http://www.ryanclarke.net/post/xaml-to-image/</guid>
       <description>
 
 &lt;p&gt;I needed to take a xaml view and turn it into a bitmap. My Windows Phone app needed a live tile and the so I used &lt;code&gt;FlipTileData&lt;/code&gt; with the &lt;code&gt;BackgroundImage&lt;/code&gt; property set to my image URI. Almost every app has a tile so how hard can it be? Good news, it isn&amp;rsquo;t hard! Here&amp;rsquo;s how I turned the xaml view for my tile into the image I needed.&lt;/p&gt;
