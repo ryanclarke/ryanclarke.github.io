@@ -25,4 +25,5 @@ Menu:
     Name: "About"
 Blackfriday:
   PlainIDAnchors: true
+RssLimit: 10
 ...
