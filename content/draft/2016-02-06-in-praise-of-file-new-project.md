@@ -34,13 +34,15 @@ Another thing you will find when you start a new side project: your...
 
 ## New Ideas Improve Your Other Projects.
 
+If your goal in starting a new project is to learn something new, like a new language, then you win just by starting. You don't have to actually finish the preject unless you want to. I am still not finished with my F# project, but I have already learned a lot of thing and some of those things have helped me in my day job.
+
 The biggest thing I've taking from the F# shenanigans so far is the importance of referential transparency. An expression is referential transparent if all the functions in the expression are pure functions. A function is pure if it always returns the same result for a given input and if it has no observable side effects.
 
 This last month at my day job I've been trying to write my C# methods to be more referentially transparent. Or at least not quite so opaque. Pure functions are just so much easier to test!
 
 Additionally, I've been trying to keep state in a more immutable way. State is tricky to deal with, and if I can reduce the amount the state changes I can reduce my risk for errors.
 
-My goal with all this is to write bug-free code. It's funny, because a lot of the code I'm writing write now is bug fixes and the accompanying refactorings. I believe that my recent fun foray into F# has helped my write better C# at work.
+My goal with all this is to write bug-free code. It's funny, because a lot of the code I'm writing write now is bug fixes and the accompanying refactorings. I believe that my recent fun foray into F# has helped me write better C# at work.
 
 ## So...
 
