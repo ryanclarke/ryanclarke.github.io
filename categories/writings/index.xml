@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/categories/writings/</link>
+    <title>Writings on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/categories/writings/</link>
+    <description>Recent content in Writings on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Wed, 17 Apr 2013 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Wed, 17 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/categories/writings/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>6 Tips for Maximum Adventure Between 20 and 28</title>
-      <link>http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
-      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
+      <link>//www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/6-tips-for-maximum-adventure-between-20-and-28/</guid>
       <description>
 
 &lt;h3 id=&#34;advice-on-your-20th-birthday-from-the-perspective-of-28-years&#34;&gt;Advice on Your 20th Birthday from the Perspective of 28 Years&lt;/h3&gt;
@@ -25,7 +26,7 @@
 
 &lt;p&gt;When I was 20, I had lived my entire life in a conservative Christian environment. I was homeschooled, and I earned my bachelor&amp;rsquo;s at Verity Institute. I was a well-learned kid.&lt;/p&gt;
 
-&lt;p&gt;Since then I have held 8 job titles at 5 departments of 3 companies in 3 states. I&amp;rsquo;ve been on three international business trips. I&amp;rsquo;ve taken 20 church youth group kids to &lt;a href=&#34;http://www.ryanclarke.net/journal/thursday-october-12-2006/&#34; title=&#34;Magic Mountain in L.A.&#34;&gt;Magic Mountain in L.A.&lt;/a&gt; I&amp;rsquo;ve been turned down by the girl I loved. I&amp;rsquo;ve &lt;a href=&#34;http://www.ryanclarke.net/journal/tuesday-september-5-2006/&#34; title=&#34;Surfing in San Diego&#34;&gt;taught Austrian tourists how to surf&lt;/a&gt;. I&amp;rsquo;ve been &lt;a href=&#34;http://www.ryanclarke.net/post/this-is-my-thanksgiving/&#34; title=&#34;This is My Thanksgiving&#34;&gt;let go from my job&lt;/a&gt;. I&amp;rsquo;ve eaten from street vendor carts in Mexico. I&amp;rsquo;ve been in 6 weddings: thrice as groomsman, twice as best man, and once as groom. I&amp;rsquo;ve been &lt;a href=&#34;http://www.ryanclarke.net/journal/lost-in-the-superstition-mountains/&#34; title=&#34;Lost in the Superstition Mountains&#34;&gt;lost in the&lt;/a&gt; &lt;a href=&#34;http://www.ryanclarke.net/journal/lost-in-the-superstition-mountains-part-2/&#34; title=&#34;Lost in the Superstition Mountains, Part 2&#34;&gt;desert for two days&lt;/a&gt; waiting for a helicopter to find us. I&amp;rsquo;ve moved 6 times. I&amp;rsquo;ve had a daughter (another one on is the way). I&amp;rsquo;ve laughed a lot.&lt;/p&gt;
+&lt;p&gt;Since then I have held 8 job titles at 5 departments of 3 companies in 3 states. I&amp;rsquo;ve been on three international business trips. I&amp;rsquo;ve taken 20 church youth group kids to &lt;a href=&#34;//www.ryanclarke.net/journal/thursday-october-12-2006/&#34; title=&#34;Magic Mountain in L.A.&#34;&gt;Magic Mountain in L.A.&lt;/a&gt; I&amp;rsquo;ve been turned down by the girl I loved. I&amp;rsquo;ve &lt;a href=&#34;//www.ryanclarke.net/journal/tuesday-september-5-2006/&#34; title=&#34;Surfing in San Diego&#34;&gt;taught Austrian tourists how to surf&lt;/a&gt;. I&amp;rsquo;ve been &lt;a href=&#34;//www.ryanclarke.net/post/this-is-my-thanksgiving/&#34; title=&#34;This is My Thanksgiving&#34;&gt;let go from my job&lt;/a&gt;. I&amp;rsquo;ve eaten from street vendor carts in Mexico. I&amp;rsquo;ve been in 6 weddings: thrice as groomsman, twice as best man, and once as groom. I&amp;rsquo;ve been &lt;a href=&#34;//www.ryanclarke.net/journal/lost-in-the-superstition-mountains/&#34; title=&#34;Lost in the Superstition Mountains&#34;&gt;lost in the&lt;/a&gt; &lt;a href=&#34;//www.ryanclarke.net/journal/lost-in-the-superstition-mountains-part-2/&#34; title=&#34;Lost in the Superstition Mountains, Part 2&#34;&gt;desert for two days&lt;/a&gt; waiting for a helicopter to find us. I&amp;rsquo;ve moved 6 times. I&amp;rsquo;ve had a daughter (another one on is the way). I&amp;rsquo;ve laughed a lot.&lt;/p&gt;
 
 &lt;p&gt;Life goes crazy after you turn twenty: after you leave schooling behind and start doing. There are lots of things to do and lots of things to have happen. Embrace it. Here are a few tips to get you started.&lt;/p&gt;
 
@@ -51,7 +52,7 @@
 
 &lt;h5 id=&#34;make-people-happy&#34;&gt;Make People Happy.&lt;/h5&gt;
 
-&lt;p&gt;Jesus said, &amp;ldquo;Sufficient for the day is the evil thereof.&amp;rdquo; (Matt. 6:24) Sometimes the word evil sounds like the simplest description. People live with hearts full of hurt, pain, disappointment (or in the words of &lt;em&gt;Les Miserables&lt;/em&gt; &amp;ldquo;Life has killed the dream I dreamed&amp;rdquo;): Help ease other&amp;rsquo;s burdens being bring a wee bit o&amp;rsquo; joy where ever possible. A merry heart is so powerful the FDA should regulate it (Prov. 17:22). This decade is &lt;a href=&#34;http://www.ryanclarke.net/post/true-adventure/&#34; title=&#34;True Adventure&#34;&gt;fraught with adventure&lt;/a&gt;. If you live according to my advice, and even more so if you follow the Bible&amp;rsquo;s wisdom, you can experience much adventure. A word of warning, adventure is sometimes difficult, but it&amp;rsquo;s always rewarding.&lt;/p&gt;
+&lt;p&gt;Jesus said, &amp;ldquo;Sufficient for the day is the evil thereof.&amp;rdquo; (Matt. 6:24) Sometimes the word evil sounds like the simplest description. People live with hearts full of hurt, pain, disappointment (or in the words of &lt;em&gt;Les Miserables&lt;/em&gt; &amp;ldquo;Life has killed the dream I dreamed&amp;rdquo;): Help ease other&amp;rsquo;s burdens being bring a wee bit o&amp;rsquo; joy where ever possible. A merry heart is so powerful the FDA should regulate it (Prov. 17:22). This decade is &lt;a href=&#34;//www.ryanclarke.net/post/true-adventure/&#34; title=&#34;True Adventure&#34;&gt;fraught with adventure&lt;/a&gt;. If you live according to my advice, and even more so if you follow the Bible&amp;rsquo;s wisdom, you can experience much adventure. A word of warning, adventure is sometimes difficult, but it&amp;rsquo;s always rewarding.&lt;/p&gt;
 
 &lt;p&gt;May God&amp;rsquo;s ample blessings comfort you and bring you joy and peace.&lt;/p&gt;
 
@@ -61,10 +62,10 @@
     
     <item>
       <title>On the other side of childhood</title>
-      <link>http://www.ryanclarke.net/journal/on-the-other-side-of-childhood/</link>
-      <pubDate>Wed, 07 Mar 2012 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/on-the-other-side-of-childhood/</guid>
+      <link>//www.ryanclarke.net/journal/on-the-other-side-of-childhood/</link>
+      <pubDate>Wed, 07 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/on-the-other-side-of-childhood/</guid>
       <description>&lt;p&gt;On the other side of childhood&lt;br /&gt;
 When youth’s young bud has grown&lt;br /&gt;
 And some flowers it has bloomed produce&lt;br /&gt;
@@ -86,10 +87,10 @@ Recall where once you stood.&lt;/p&gt;
     
     <item>
       <title>The Fable of Simon McDarpet</title>
-      <link>http://www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</link>
-      <pubDate>Tue, 06 Oct 2009 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</guid>
+      <link>//www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</link>
+      <pubDate>Tue, 06 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</guid>
       <description>&lt;p&gt;I give you the fable of Simon McDarpet,&lt;br /&gt;
 A boy, it would seem, with a hatred for carpet;&lt;br /&gt;
 And tables, of course, and most anything wooden&lt;br /&gt;

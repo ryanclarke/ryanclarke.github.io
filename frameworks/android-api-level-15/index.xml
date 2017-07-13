@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/frameworks/android-api-level-15/</link>
+    <title>Android Api Level 15 on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/frameworks/android-api-level-15/</link>
+    <description>Recent content in Android Api Level 15 on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Fri, 25 Apr 2014 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Fri, 25 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/frameworks/android-api-level-15/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
-      <link>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</link>
-      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
+      <link>//www.ryanclarke.net/post/checked-multi-choice-listviews/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
 
@@ -68,15 +69,15 @@ public View getView(int position, View convertView, ViewGroup parent) {
     
     <item>
       <title>Using factories for cleanliness in Android testing</title>
-      <link>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
-      <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
+      <link>//www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
       <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
 
 &lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
 

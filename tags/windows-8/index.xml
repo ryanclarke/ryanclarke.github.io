@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/windows-8/</link>
+    <title>Windows 8 on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/tags/windows-8/</link>
+    <description>Recent content in Windows 8 on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Wed, 29 Aug 2012 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Wed, 29 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/tags/windows-8/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Every screen is a touch screen</title>
-      <link>http://www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</link>
-      <pubDate>Wed, 29 Aug 2012 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;&lt;/p&gt;
+      <link>//www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</link>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/every-screen-is-a-touch-screen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/BabiesBelieveInTouchScreens.png&#34; alt=&#34;Babies believe in touch screens&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There is much talk and controversy in the tech world surrounding Windows 8. One consistant charge is that it might be fine for a tablet, but nobody wants a a touch screen for a &amp;ldquo;serious&amp;rdquo; work computer like a laptop or desktop. I disagree.&lt;/p&gt;
 
@@ -29,11 +30,11 @@
     
     <item>
       <title>March 1st is Windows 8 day!</title>
-      <link>http://www.ryanclarke.net/journal/march-1st-is-windows-8-day/</link>
-      <pubDate>Thu, 01 Mar 2012 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/march-1st-is-windows-8-day/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;&lt;/p&gt;
+      <link>//www.ryanclarke.net/journal/march-1st-is-windows-8-day/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/march-1st-is-windows-8-day/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/Win8CPStartScreen.png&#34; alt=&#34;Windows 8 Consumer Preview start screen&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So there I was&amp;hellip;&lt;/p&gt;
 

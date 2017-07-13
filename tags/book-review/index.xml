@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/book-review/</link>
+    <title>Book Review on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/tags/book-review/</link>
+    <description>Recent content in Book Review on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Fri, 17 Jul 2015 19:11:19 EDT</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Fri, 17 Jul 2015 19:11:19 -0400</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/tags/book-review/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Book Review: User Interface Design for Programmers by Joel Spolsky</title>
-      <link>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</link>
-      <pubDate>Fri, 17 Jul 2015 19:11:19 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</guid>
+      <link>//www.ryanclarke.net/post/user-interface-design-for-programmers/</link>
+      <pubDate>Fri, 17 Jul 2015 19:11:19 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/user-interface-design-for-programmers/</guid>
       <description>&lt;p&gt;We programmers are notoriously horrible at user interface design. Regardless of whether this stereotype is fair, I&amp;rsquo;m sure we can all think of awful user interfaces we&amp;rsquo;ve been forced to use or, at least, see. In spite of this aknowledged lack of skill, we are regularly called on to design the user interfaces of the software we write. Joel Spolsky noticed this problem all the way back in 2001 and wrote a book to help us. I think it&amp;rsquo;s rather good.&lt;/p&gt;
 
 &lt;p&gt;Of course, this book will not make you a great designer. That takes creativity and experience and probably magic. I think a better title would be &amp;ldquo;Basic User Experience for Programmers&amp;rdquo; since it focuses on program functionality much more than the &amp;lsquo;art.&amp;rsquo; This book will help you be &lt;em&gt;aware&lt;/em&gt; of some basic rules for handling page layout and navigation. Maybe you&amp;rsquo;ll avoid some stupid mistakes next time it falls to you to make some design choices.&lt;/p&gt;
@@ -37,10 +38,10 @@
     
     <item>
       <title>Book Review: The Book of F# by Dave Fancher</title>
-      <link>http://www.ryanclarke.net/post/the-book-of-f-sharp/</link>
-      <pubDate>Sat, 13 Jun 2015 11:00:14 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
+      <link>//www.ryanclarke.net/post/the-book-of-f-sharp/</link>
+      <pubDate>Sat, 13 Jun 2015 11:00:14 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
       <description>&lt;p&gt;I really like LINQ.&lt;/p&gt;
 
 &lt;p&gt;LINQ is the functional side of C#, and it&amp;rsquo;s my favorite part. I love making extension methods so I can keep the dot-chain going. Naturally I was interested in F#. It&amp;rsquo;s the &amp;ldquo;functional C#&amp;rdquo;, right?&lt;/p&gt;
@@ -57,10 +58,10 @@
     
     <item>
       <title>Book Review: Peopleware by DeMarco and Lister</title>
-      <link>http://www.ryanclarke.net/post/peopleware/</link>
-      <pubDate>Wed, 25 Mar 2015 20:30:10 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/peopleware/</guid>
+      <link>//www.ryanclarke.net/post/peopleware/</link>
+      <pubDate>Wed, 25 Mar 2015 20:30:10 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/peopleware/</guid>
       <description>
 
 &lt;p&gt;Last week I was sick. So I curled up on the couch and read &lt;em&gt;Peopleware: Productive Projects and Teams, 2nd Ed.&lt;/em&gt; by Tom DeMarco and Timothy Lister. &lt;a href=&#34;https://larry-price.com/blog/2015/02/22/peopleware/&#34;&gt;Larry Price&amp;rsquo;s fantastic review&lt;/a&gt; the week before moved it from unknown to the top of my reading list.&lt;/p&gt;

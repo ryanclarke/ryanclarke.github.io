@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/project/</link>
+    <title>Projects on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/project/</link>
+    <description>Recent content in Projects on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Wed, 18 Mar 2015 01:22:35 EDT</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Wed, 18 Mar 2015 01:22:35 -0400</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/project/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TalkTimer</title>
-      <link>http://www.ryanclarke.net/project/talktimer/</link>
-      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/project/talktimer/</guid>
+      <link>//www.ryanclarke.net/project/talktimer/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/project/talktimer/</guid>
       <description>
 
 &lt;p&gt;How often have you needed a simple timer app that counts down the minutes and seconds to zero? If you said even once, then you might benefit from this app. Ninety-eight and three quarters percent guaranteed.&lt;/p&gt;
@@ -27,9 +28,9 @@
 
 &lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
 
@@ -39,17 +40,17 @@
     
     <item>
       <title>Crosswind</title>
-      <link>http://www.ryanclarke.net/project/crosswind/</link>
-      <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/project/crosswind/</guid>
+      <link>//www.ryanclarke.net/project/crosswind/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/project/crosswind/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
 &lt;p&gt;So I built Crosswind.&lt;/p&gt;
 
 &lt;p&gt;Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/crosswind/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/crosswind/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 &lt;a href=&#34;http://www.sep.com/labs/startupweekend/&#34;&gt;SEP Startup Weekend&lt;/a&gt;. It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.&lt;/p&gt;
 
@@ -57,7 +58,7 @@
 
 &lt;p&gt;And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! &lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This one’s for you, Dad.&lt;/p&gt;
 </description>

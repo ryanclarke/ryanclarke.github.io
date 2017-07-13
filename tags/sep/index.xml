@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/sep/</link>
+    <title>Sep on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/tags/sep/</link>
+    <description>Recent content in Sep on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Fri, 17 Jul 2015 19:11:19 EDT</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Fri, 17 Jul 2015 19:11:19 -0400</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/tags/sep/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Book Review: User Interface Design for Programmers by Joel Spolsky</title>
-      <link>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</link>
-      <pubDate>Fri, 17 Jul 2015 19:11:19 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/user-interface-design-for-programmers/</guid>
+      <link>//www.ryanclarke.net/post/user-interface-design-for-programmers/</link>
+      <pubDate>Fri, 17 Jul 2015 19:11:19 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/user-interface-design-for-programmers/</guid>
       <description>&lt;p&gt;We programmers are notoriously horrible at user interface design. Regardless of whether this stereotype is fair, I&amp;rsquo;m sure we can all think of awful user interfaces we&amp;rsquo;ve been forced to use or, at least, see. In spite of this aknowledged lack of skill, we are regularly called on to design the user interfaces of the software we write. Joel Spolsky noticed this problem all the way back in 2001 and wrote a book to help us. I think it&amp;rsquo;s rather good.&lt;/p&gt;
 
 &lt;p&gt;Of course, this book will not make you a great designer. That takes creativity and experience and probably magic. I think a better title would be &amp;ldquo;Basic User Experience for Programmers&amp;rdquo; since it focuses on program functionality much more than the &amp;lsquo;art.&amp;rsquo; This book will help you be &lt;em&gt;aware&lt;/em&gt; of some basic rules for handling page layout and navigation. Maybe you&amp;rsquo;ll avoid some stupid mistakes next time it falls to you to make some design choices.&lt;/p&gt;
@@ -37,10 +38,10 @@
     
     <item>
       <title>Book Review: The Book of F# by Dave Fancher</title>
-      <link>http://www.ryanclarke.net/post/the-book-of-f-sharp/</link>
-      <pubDate>Sat, 13 Jun 2015 11:00:14 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
+      <link>//www.ryanclarke.net/post/the-book-of-f-sharp/</link>
+      <pubDate>Sat, 13 Jun 2015 11:00:14 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/the-book-of-f-sharp/</guid>
       <description>&lt;p&gt;I really like LINQ.&lt;/p&gt;
 
 &lt;p&gt;LINQ is the functional side of C#, and it&amp;rsquo;s my favorite part. I love making extension methods so I can keep the dot-chain going. Naturally I was interested in F#. It&amp;rsquo;s the &amp;ldquo;functional C#&amp;rdquo;, right?&lt;/p&gt;
@@ -57,10 +58,10 @@
     
     <item>
       <title>Book Review: Peopleware by DeMarco and Lister</title>
-      <link>http://www.ryanclarke.net/post/peopleware/</link>
-      <pubDate>Wed, 25 Mar 2015 20:30:10 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/peopleware/</guid>
+      <link>//www.ryanclarke.net/post/peopleware/</link>
+      <pubDate>Wed, 25 Mar 2015 20:30:10 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/peopleware/</guid>
       <description>
 
 &lt;p&gt;Last week I was sick. So I curled up on the couch and read &lt;em&gt;Peopleware: Productive Projects and Teams, 2nd Ed.&lt;/em&gt; by Tom DeMarco and Timothy Lister. &lt;a href=&#34;https://larry-price.com/blog/2015/02/22/peopleware/&#34;&gt;Larry Price&amp;rsquo;s fantastic review&lt;/a&gt; the week before moved it from unknown to the top of my reading list.&lt;/p&gt;
@@ -117,10 +118,10 @@
     
     <item>
       <title>TalkTimer</title>
-      <link>http://www.ryanclarke.net/project/talktimer/</link>
-      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/project/talktimer/</guid>
+      <link>//www.ryanclarke.net/project/talktimer/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/project/talktimer/</guid>
       <description>
 
 &lt;p&gt;How often have you needed a simple timer app that counts down the minutes and seconds to zero? If you said even once, then you might benefit from this app. Ninety-eight and three quarters percent guaranteed.&lt;/p&gt;
@@ -133,9 +134,9 @@
 
 &lt;p&gt;Available now on all your devices! &lt;em&gt;as long as they run Windows 8.1+ or Windows Phone 8.1+.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apps.microsoft.com/windows/app/talktimer/ea2e3a6d-8931-4e63-8cee-4872f519b677&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/WindowsStore_badge_en_English_Green_med_258x67.png&#34; alt=&#34;Windows Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/talktimer/c1dcaefe-298d-42ce-858a-847d7fc7d6a9&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h3&gt;
 
@@ -145,10 +146,10 @@
     
     <item>
       <title>My year as an apprentice software engineer</title>
-      <link>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</link>
-      <pubDate>Mon, 24 Nov 2014 11:00:00 EST</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</guid>
+      <link>//www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</link>
+      <pubDate>Mon, 24 Nov 2014 11:00:00 -0500</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/my-year-as-an-apprentice-software-engineer/</guid>
       <description>
 
 &lt;h2 id=&#34;the-unlikely-programmer&#34;&gt;The unlikely programmer&lt;/h2&gt;
@@ -223,10 +224,10 @@
     
     <item>
       <title>How to save a XAML view as an image</title>
-      <link>http://www.ryanclarke.net/post/xaml-to-image/</link>
-      <pubDate>Wed, 12 Nov 2014 10:19:31 EST</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/xaml-to-image/</guid>
+      <link>//www.ryanclarke.net/post/xaml-to-image/</link>
+      <pubDate>Wed, 12 Nov 2014 10:19:31 -0500</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/xaml-to-image/</guid>
       <description>
 
 &lt;p&gt;I needed to take a xaml view and turn it into a bitmap. My Windows Phone app needed a live tile and the so I used &lt;code&gt;FlipTileData&lt;/code&gt; with the &lt;code&gt;BackgroundImage&lt;/code&gt; property set to my image URI. Almost every app has a tile so how hard can it be? Good news, it isn&amp;rsquo;t hard! Here&amp;rsquo;s how I turned the xaml view for my tile into the image I needed.&lt;/p&gt;
@@ -319,17 +320,17 @@ catch (Exception ex)
     
     <item>
       <title>Crosswind</title>
-      <link>http://www.ryanclarke.net/project/crosswind/</link>
-      <pubDate>Tue, 02 Sep 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/project/crosswind/</guid>
+      <link>//www.ryanclarke.net/project/crosswind/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/project/crosswind/</guid>
       <description>&lt;p&gt;While on vacation with my parents earlier this year, my father, the airline pilot, asked me to make him an app. Often when he’s coming in for a landing he wants to know the crosswind on the runway. He knows the runway heading, he knows the wind heading and speed, he knows he has robust tools in his fight kit to do the calculations. But all he really wants to know is if the crosswind is close enough to the plane’s crosswind rating to worry about it. He wants an estimate, he wants it quick, and he wants to get on with the landing.&lt;/p&gt;
 
 &lt;p&gt;So I built Crosswind.&lt;/p&gt;
 
 &lt;p&gt;Crosswind is a single-purpose Windows Phone app that can take three inputs, do a sine for the result, and get out of the way. It was designed to be simple, beautiful, and (most of all) fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/crosswind/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/crosswind/CrosswindMainPage.png&#34; alt=&#34;Crosswind Main Page&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Though I receive my commission at the end of May, I didn’t start work on Crosswind until the beginning of August during the Summer 2014 &lt;a href=&#34;http://www.sep.com/labs/startupweekend/&#34;&gt;SEP Startup Weekend&lt;/a&gt;. It wasn’t until this last week that I had an opportunity to finish it up and publish it. I have probably put 40 hours into it so far and though there are still several changes I’d like to make to the code, it is published and live on the Windows Phone app store. It is my first mobile app.&lt;/p&gt;
 
@@ -337,7 +338,7 @@ catch (Exception ex)
 
 &lt;p&gt;And now, the link you’ve all been waiting for: check out “Crosswind” in the Windows Phone Store! &lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.windowsphone.com/en-us/store/app/crosswind/285e269d-0574-46ac-97e7-7f5386d154b2&#34;&gt;&lt;img src=&#34;//www.ryanclarke.net/images/project/258x67_WPS_Download_cyan.png&#34; alt=&#34;Windows Phone Store link&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This one’s for you, Dad.&lt;/p&gt;
 </description>
@@ -345,10 +346,10 @@ catch (Exception ex)
     
     <item>
       <title>Creating a Pinned Site Live Tile easily and without pain</title>
-      <link>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
-      <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
+      <link>//www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</link>
+      <pubDate>Mon, 23 Jun 2014 09:00:00 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/creating-a-pinned-site-live-tile-easily-and-without-pain/</guid>
       <description>
 
 &lt;p&gt;The list of things a developer must add to their website is constantly growing. I&amp;rsquo;m not talking about the big things; I&amp;rsquo;m talking about the little stuff that would be stupid to leave out. For instance, favicons were introduced by Internet Explorer 5 in 1999 (they made it into the HTML 4.01 recommendation later that year). Your site would function just as well without a favicon but you would be crazy not to have one. It&amp;rsquo;s basically a requirement. The same thing goes for the description meta tag and apple-touch-icon, among others.&lt;/p&gt;
@@ -381,10 +382,10 @@ catch (Exception ex)
     
     <item>
       <title>Pinned Site Live Tiles belong on all sites</title>
-      <link>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</link>
-      <pubDate>Mon, 23 Jun 2014 08:00:00 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
+      <link>//www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</link>
+      <pubDate>Mon, 23 Jun 2014 08:00:00 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/pinned-site-live-tiles-belong-on-all-sites/</guid>
       <description>
 
 &lt;p&gt;Imagine if you could take your existing website and turn it into an app with minimal effort. Of course, that&amp;rsquo;s impossible. But you &lt;em&gt;can&lt;/em&gt; get 75%* of the way there with an awesome new Internet Explorer feature I recently implemented on one of SEP&amp;rsquo;s sites called Pinned Site Live Tiles.&lt;/p&gt;
@@ -415,13 +416,13 @@ catch (Exception ex)
     
     <item>
       <title>Wrestling with CheckedTextViews in an Android Multi-Choice ListView</title>
-      <link>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</link>
-      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
+      <link>//www.ryanclarke.net/post/checked-multi-choice-listviews/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/checked-multi-choice-listviews/</guid>
       <description>&lt;p&gt;I was building an Android ListView in an AlertDialog.Builder that allowed multi-choice. It displayed a list of accounts and you could select the one or more you wanted to operate on. I also needed to be able to set certain accounts as checked by default.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/multichooser.png&#34; alt=&#34;Android MultiChooser AlertDialog&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t use the built in &lt;code&gt;AlertDialog.Builder(context).setMultiChoiceItems()&lt;/code&gt; method because it only accepts an array of strings of display data and I needed a custom list item view with the more complex AccountSummary object.&lt;/p&gt;
 
@@ -467,221 +468,6 @@ public View getView(int position, View convertView, ViewGroup parent) {
 &lt;p&gt;Instead of checking the item, I tell the ListView to set checked on the correct item. According to the Android source, AbsListView keeps all the checked state in a SparseBooleanArray so the checked state in the TextView goes nowhere and has no effect. I&amp;rsquo;m not sure I understand the full picture, but just set the checked state on the ListView, not the list item.&lt;/p&gt;
 
 &lt;p&gt;So now you know.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using factories for cleanliness in Android testing</title>
-      <link>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
-      <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
-      <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
-
-&lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
-
-&lt;p&gt;Java is fairly verbose. Factories allow us to hide that boring instantiation and assignment snooze-festing in a separate place from the main test function.&lt;/p&gt;
-
-&lt;p&gt;Take this example from a bit of code I&amp;rsquo;ve been working on recently. I&amp;rsquo;ve added some Arrange, Act, Assert comments to make this easier to follow.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
-public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
-
-    public AccountsListActivityTest() {
-        super(AccountsListActivity.class);
-    }
-
-    @Test
-    public void selectingAccountListItemLaunchesAccountDetail() {
-
-        // Arrange account
-        Account account = new Account();
-        account.id = &amp;quot;checking-account-id&amp;quot;;
-        account.name = &amp;quot;CHECKING&amp;quot;;
-        account.isInCashFlow = false;
-        account.isFavorite = false;
-
-        // Arrange group
-        AccountGroup group = new AccountGroup();
-        group.id = &amp;quot;group-id&amp;quot;;
-        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
-        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
-
-        // Arrange group account
-        group.accounts.add(account);
-
-        // Arrange list item
-        AccountListItem accountListItem = new AccountListItem();
-        accountListItem.build(group, account);
-
-        // Act
-        activity.onItemSelected(accountListItem);
-
-        // Assert
-        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
-        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT, account);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Not very thrilling? At least it is straightforward, especially since you can see exactly what state is necessary to build make this action work. But why do we care that you can only build an accountListItem from a group and an account? Why do we care that account.isFavorite is required? &amp;ldquo;isFavorite = false&amp;rdquo; is my motto when it comes to this load of excess. All of the necessary state arrangements are clear, necessary, and completely irrelevant to what we&amp;rsquo;re testing. The boring explicitness makes the thing we care about hard to find. I told you this was a snooze-fest.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to take all the arrange stuff out and make a private method on my test class to hide all the boring setup.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
-public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
-
-    public AccountsListActivityTest() {
-        super(AccountsListActivity.class);
-    }
-
-    @Test
-    public void selectingAccountListItemLaunchesAccountDetail() {
-        // Arrange
-        AccountListItem accountListItem = setupState();
-
-        // Act
-        activity.onItemSelected(accountListItem);
-
-        // Assert
-        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
-        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT, account);
-    }
-
-    private AccountListItem setupState() {
-        // Arrange account
-        Account account = new Account();
-        account.id = &amp;quot;checking-account-id&amp;quot;;
-        account.name = &amp;quot;CHECKING&amp;quot;;
-        account.isInCashFlow = false;
-        account.isFavorite = false;
-
-        // Arrange group
-        AccountGroup group = new AccountGroup();
-        group.id = &amp;quot;group-id&amp;quot;;
-        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
-        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
-
-        // Arrange group account
-        group.accounts.add(account);
-
-        // Arrange list item
-        AccountListItem accountListItem = new AccountListItem();
-        accountListItem.build(group, account);
-    } 
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The setupState() method is still pretty overwhelming, but we can ignore it when we read the test method and that is an instant readability win.&lt;/p&gt;
-
-&lt;p&gt;Now comes the point of this article. Since we don&amp;rsquo;t care about the details of the state setup for this test and the (redacted) others in this class, we can move all this out into a factory that will build the objects we need for us. Now other test classes that will need similar state just say &amp;ldquo;give me one&amp;rdquo; and no fuss will ensue. The reusability aspect is really nice. The test is now looking clean.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@RunWith(AppTestRunner.class)
-public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;AccountsListActivity&amp;gt; {
-
-    public AccountsListActivityTest() {
-        super(AccountsListActivity.class);
-    }
-
-    @Test
-    public void selectingAccountListItemLaunchesAccountDetail() {
-        activity.onItemSelected(basicAccountListItem());
-
-        Intent startedIntent = assertThat(activity).launchedActivity(AccountDetailActivity.class);
-        assertThat(startedIntent).hasExtra(AppExtras.ACCOUNT_account, account);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In my factory I&amp;rsquo;ve refactored the state into a few simple, reusable methods that I can mix and match. This arrangement grew out of the needs of the various tests as we wrote them and needed different pieces of data.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;public class AccountsFactory {
-
-    private static AccountGroup emptyGroup() {
-        AccountGroup group = new AccountGroup();
-        group.id = &amp;quot;group-id&amp;quot;;
-        group.owners.add(&amp;quot;George E. Meade&amp;quot;);
-        group.owners.add(&amp;quot;Robert E. Lee&amp;quot;);
-
-        return group;
-    }
-
-    public static AccountGroup groupWithAccount(Account account) {
-        AccountGroup group = emptyGroup();
-        group.accounts.add(basicAccount());
-
-        return group;
-    }
-
-    public static Account basicAccount() {
-        Account account = new Account();
-        account.id = &amp;quot;checking-account-id&amp;quot;;
-        account.name = &amp;quot;CHECKING&amp;quot;;
-        account.isInCashFlow = false;
-        account.isFavorite = false;
-
-        return account;
-    }
-
-    public static AccountListItem basicAccountListItem() {
-        AccountListItem accountListItem = new AccountListItem();
-        accountListItem.build(groupWithAccount(), basicAccount());
-
-        return accountListItem;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The Aesop-approved moral to this story is to only put the relevant stuff in the test and hide the rest of the boring state-making in a convenient spot for reuse. On this current project we call them factories, and they work great.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>You have to start somewhere</title>
-      <link>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</link>
-      <pubDate>Fri, 07 Jun 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</guid>
-      <description>
-
-&lt;p&gt;I started fresh in at SEP on Monday and by Tuesday the bananas were fresh out.&lt;/p&gt;
-
-&lt;p&gt;Fellow new guy Jackson and I were tasked with our first project on Monday just before quittin&amp;rsquo; time: update the internal résumé reporting website from &amp;lsquo;ancient&amp;rsquo; to &amp;lsquo;tomorrow.&amp;rsquo; It currently runs on a mid-2006 vintage copy of Ruby on Rails (version 1.1.6). We&amp;rsquo;re supposed to be bringing it up to Rails 4 (coming soon, 2013) but some fundamental pieces of its inner-working were axed from Rails by the end of 2006. We&amp;rsquo;re not supposed to rewrite the project, just bring it up to date, but many important pieces cannot be upgraded.&lt;/p&gt;
-
-&lt;p&gt;Full disclosure: I&amp;rsquo;m fresh in when it comes to Rails (&amp;ldquo;never touched the stuff&amp;rdquo;), so by Tuesday afternoon my brains were fresh out. And, as I said before, so were the bananas.&lt;/p&gt;
-
-&lt;p&gt;As we passed through The Commons during the first-day tour, Laura from HR said &amp;ldquo;there shall be fruit&amp;rdquo; and, unfortunately, there was no fruit. In my hour of need: fresh out. To quote the great Barney Fife, &amp;ldquo;Well, Andy, a slender high-spirited person needs a sugar pick-me-up late in the day.&amp;rdquo; I had to settle for a cup of ice. Just then, something happened…&lt;/p&gt;
-
-&lt;h5 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;Just when hope is almost lost, things start to look brighter for our young heroes.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A remarkable thing about SEP: everyone is willing to help. Not to be too self-critical (and Jackson&amp;rsquo;s effort, to be fair, was nothing short of heroic), but we needed help.
-There are many things I don&amp;rsquo;t know. Rails is not the only thing on that list. Here are a few others to get you started. I don&amp;rsquo;t know:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The name of the git server (easy to guess)&lt;/li&gt;
-&lt;li&gt;The name of the TFS server (impossible to guess, sounds more like a band name)&lt;/li&gt;
-&lt;li&gt;The name of the database server (easy, but after the TFS server I was expecting anything)&lt;/li&gt;
-&lt;li&gt;The name of the project (five-digit number starting with 06)&lt;/li&gt;
-&lt;li&gt;The name of the guy in the next cube (I love the three-monitor setup)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I also don&amp;rsquo;t know about many company policies. For instance, do lowly developers need an official sanction from IT to brazenly install Ubuntu VMs on our machines (no). And I haven&amp;rsquo;t even started on all the questions we had about the résumé website&amp;rsquo;s architecture and history.&lt;/p&gt;
-
-&lt;h5 id=&#34;chapter-3&#34;&gt;Chapter 3&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;Sorry about chapter 2, this is where things actually get better.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Matt Swanson. He has worked on the résumé system. We asked him a lot of dumb questions and he gave us a lot of good answers. He helped us a ton and he&amp;rsquo;s given the project a fresh start.&lt;/p&gt;
-
-&lt;p&gt;I would like to give a You Rock™ card to Matt (like they told us about in orientation), but I don&amp;rsquo;t know where they are.&lt;/p&gt;
-
-&lt;p&gt;P.S. For non-SEPeers: if you are given two You Rock™ cards of the same color or one each of both colors, you can turn them in to receive Good Stuff™.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/work/</link>
+    <title>Work on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/tags/work/</link>
+    <description>Recent content in Work on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Mon, 14 Apr 2014 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Mon, 14 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/tags/work/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using factories for cleanliness in Android testing</title>
-      <link>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
-      <pubDate>Mon, 14 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
+      <link>//www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</link>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/using-factories-for-cleanliness-in-android-testing/</guid>
       <description>&lt;p&gt;I am on a team building a native Android app for a local credit union. We are doing some really cool stuff around testing with unit tests, automated instrumentation tests using spoon, and manual user experience testing. We are working in a low-ceremony, flow-based process with continuous client feedback.&lt;/p&gt;
 
 &lt;p&gt;One tool we are using to greatly improve our test quality is factories. Android uses Java and so the very name &amp;ldquo;factory&amp;rdquo; on a Java project (for a credit union, no less) is probably making you think of BaseAbstractStrategyBuilderFactoryImpl and such, but such enterprisyness is not the case.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ryanclarke.net/images/pollution-295305_6401.png&#34; alt=&#34;Factory chimneys billowing polution&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In reality, factories aren&amp;rsquo;t obligatorily complex: we are simply building an object. If there was any business logic going on I&amp;rsquo;m sure it would be more complex, but we&amp;rsquo;re just using them in tests to make writing, debugging, and understanding them easier. Even with a test-first development flow, many tests end up needing some state setup to run correctly and hit to correct code paths. And state setup is a chore.&lt;/p&gt;
 
@@ -181,10 +182,10 @@ public class AccountsListActivityTest extends AppActivityUnitTestCase&amp;lt;Acc
     
     <item>
       <title>You have to start somewhere</title>
-      <link>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</link>
-      <pubDate>Fri, 07 Jun 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/post/you-have-to-start-somewhere/</guid>
+      <link>//www.ryanclarke.net/post/you-have-to-start-somewhere/</link>
+      <pubDate>Fri, 07 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/post/you-have-to-start-somewhere/</guid>
       <description>
 
 &lt;p&gt;I started fresh in at SEP on Monday and by Tuesday the bananas were fresh out.&lt;/p&gt;
@@ -226,10 +227,10 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
     
     <item>
       <title>The Curse of a Dream Job</title>
-      <link>http://www.ryanclarke.net/journal/the-curse-of-a-dream-job/</link>
-      <pubDate>Tue, 21 Feb 2012 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/the-curse-of-a-dream-job/</guid>
+      <link>//www.ryanclarke.net/journal/the-curse-of-a-dream-job/</link>
+      <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/the-curse-of-a-dream-job/</guid>
       <description>&lt;p&gt;No sooner does a person get a job they love then it starts to destroy them. Jesus said His burden is easy, and it is a good thing, because the ones we give ourselves rarely are. Good employees think that they have to do their best at work. And then the work expands, bringing discouragement or exhaustion.&lt;/p&gt;
 
 &lt;p&gt;The true standard: good employees should do their best in the time they are given. Companies can not own slaves. If they are buying eight hours each day, give them an honest eight. Not ten. Have something else to do with those other hours, besides sleep: develop good hobbies, invest in family. Strong family relationships take time and can not be patched together as easily as work projects.&lt;/p&gt;
@@ -242,10 +243,10 @@ There are many things I don&amp;rsquo;t know. Rails is not the only thing on tha
     
     <item>
       <title>Tuesday August 28, 2007</title>
-      <link>http://www.ryanclarke.net/journal/tuesday-august-28-2007/</link>
-      <pubDate>Tue, 28 Aug 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/tuesday-august-28-2007/</guid>
+      <link>//www.ryanclarke.net/journal/tuesday-august-28-2007/</link>
+      <pubDate>Tue, 28 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/tuesday-august-28-2007/</guid>
       <description>&lt;p&gt;Everything that could go wrong at work went wrong. By about 4:00 it had all been tried, so things started going smooth again. And it happened on a day when I didn&amp;rsquo;t want to work.
 Why do the days I&amp;rsquo;m excited about work end up being slow and the ones where I just want to do my stuff and leave end up going crazy? I guess I need the motivation more when the work is harder to find. And on crazy days it doesn&amp;rsquo;t matter how I feel: the job just has to get done. So while it seems backwards, I guess it&amp;rsquo;s right after all. Huh.
 Well, I learned something new today, so I guess I can go to sleep now.
@@ -256,10 +257,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Thursday August 9, 2007</title>
-      <link>http://www.ryanclarke.net/journal/thursday-august-9-2007/</link>
-      <pubDate>Thu, 09 Aug 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/thursday-august-9-2007/</guid>
+      <link>//www.ryanclarke.net/journal/thursday-august-9-2007/</link>
+      <pubDate>Thu, 09 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/thursday-august-9-2007/</guid>
       <description>&lt;p&gt;I have this one day of work and then I leave for Harrisburg, PA. I&amp;rsquo;m flying through the night out to Josh Strickler&amp;rsquo;s wedding. I&amp;rsquo;m pretty excited about the whole trip. I guess I&amp;rsquo;ll pack tonight after work.
 Ryan
 Originally posted at classicalRyan.xanga.com&lt;/p&gt;
@@ -268,10 +269,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Friday July 20, 2007</title>
-      <link>http://www.ryanclarke.net/journal/friday-july-20-2007/</link>
-      <pubDate>Fri, 20 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/friday-july-20-2007/</guid>
+      <link>//www.ryanclarke.net/journal/friday-july-20-2007/</link>
+      <pubDate>Fri, 20 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/friday-july-20-2007/</guid>
       <description>&lt;p&gt;Whew, that was a long day. Oh, the humanity. Pain is weakness muscle leaving your body.
 Off to the hot tub&amp;hellip;
 Ryan
@@ -281,10 +282,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Wednesday July 18, 2007</title>
-      <link>http://www.ryanclarke.net/journal/wednesday-july-18-2007/</link>
-      <pubDate>Wed, 18 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/wednesday-july-18-2007/</guid>
+      <link>//www.ryanclarke.net/journal/wednesday-july-18-2007/</link>
+      <pubDate>Wed, 18 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/wednesday-july-18-2007/</guid>
       <description>&lt;p&gt;It was a long day, but we still have a few hours left. Off to the factory, again.
 It&amp;rsquo;s been a good trip so far.
 Ryan
@@ -294,10 +295,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Tuesday July 17, 2007</title>
-      <link>http://www.ryanclarke.net/journal/tuesday-july-17-2007/</link>
-      <pubDate>Tue, 17 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/tuesday-july-17-2007/</guid>
+      <link>//www.ryanclarke.net/journal/tuesday-july-17-2007/</link>
+      <pubDate>Tue, 17 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/tuesday-july-17-2007/</guid>
       <description>&lt;p&gt;Well, I made it here. And I just got off work. So I&amp;rsquo;m hitting the sack.
 Ryan
 Originally posted at classicalRyan.xanga.com&lt;/p&gt;
@@ -306,10 +307,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Monday July 16, 2007</title>
-      <link>http://www.ryanclarke.net/journal/monday-july-16-2007/</link>
-      <pubDate>Mon, 16 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/monday-july-16-2007/</guid>
+      <link>//www.ryanclarke.net/journal/monday-july-16-2007/</link>
+      <pubDate>Mon, 16 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/monday-july-16-2007/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m headed back to Vancouver tomorrow morning.
 Ryan
 Originally posted at classicalRyan.xanga.com&lt;/p&gt;
@@ -318,10 +319,10 @@ Originally posted at classicalRyan.xanga.com&lt;/p&gt;
     
     <item>
       <title>Saturday July 14, 2007</title>
-      <link>http://www.ryanclarke.net/journal/saturday-july-14-2007/</link>
-      <pubDate>Sat, 14 Jul 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/saturday-july-14-2007/</guid>
+      <link>//www.ryanclarke.net/journal/saturday-july-14-2007/</link>
+      <pubDate>Sat, 14 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/saturday-july-14-2007/</guid>
       <description>&lt;p&gt;To do:
 Sat. 8-Noon: fund raiser car wash with the church youth.
 Sat. 5-Midnight: trip to Chandler to hear an Answers in Genesis speaker
@@ -329,73 +330,6 @@ Sun. 7:30-11:30am: Church
 Sun. 6-7pm: Evangelism Explosion training
 Mon. 7am: Fly to Vancouver, BC to work 15+ hour days
 Just when things were beginning to calm down, they are as crazy as ever again. Wait, they were beginning to calm down? Since when? At least I&amp;rsquo;m doing what I enjoy.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Friday June 29, 2007</title>
-      <link>http://www.ryanclarke.net/journal/friday-june-29-2007/</link>
-      <pubDate>Fri, 29 Jun 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/friday-june-29-2007/</guid>
-      <description>&lt;p&gt;And so I&amp;rsquo;m settling in and preparing for tomorrow: my first day off in two weeks. Yeah, somehow I skipped last weekend.
-So my company is looking at this guy right out of ASU to hire. He might end up housing with me if he takes the job, so that could be interesting.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tuesday June 26, 2007</title>
-      <link>http://www.ryanclarke.net/journal/tuesday-june-26-2007-2/</link>
-      <pubDate>Tue, 26 Jun 2007 02:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/tuesday-june-26-2007-2/</guid>
-      <description>&lt;p&gt;So I leave for home tomorrow. My flight got canceled. So I&amp;rsquo;ll be hanging around the airport for a while for a later flight. But I&amp;rsquo;ll be home tomorrow night!
-Canada has been good, but I&amp;rsquo;m tired.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tuesday June 26, 2007</title>
-      <link>http://www.ryanclarke.net/journal/tuesday-june-26-2007/</link>
-      <pubDate>Tue, 26 Jun 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/tuesday-june-26-2007/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m back home!
-I flew through Seattle to Phoenix. Mount Ranier is HUGE! We flew just to the west of it, so I could look straight down on the summit.
-Business travel is not all glamorous. It&amp;rsquo;s tiring and a lot of work. But I&amp;rsquo;m home and I have one thing on my mind: a headache. And I need rest.
-Life is exciting and a whole lot like an unfinished story. Oh, that&amp;rsquo;s right, it IS an unfinished story.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Monday June 25, 2007</title>
-      <link>http://www.ryanclarke.net/journal/monday-june-25-2007/</link>
-      <pubDate>Mon, 25 Jun 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/monday-june-25-2007/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m pretty tired. I&amp;rsquo;m glad that I have only one more day in Canada. This week has been crazy. Fun, but crazy, and it&amp;rsquo;s wearing me out. Also, the hotel is not the same as being home.
-I tell you: it really can rain here.
-Ryan
-Originally posted at classicalRyan.xanga.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Saturday June 23, 2007</title>
-      <link>http://www.ryanclarke.net/journal/saturday-june-23-2007/</link>
-      <pubDate>Sat, 23 Jun 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/saturday-june-23-2007/</guid>
-      <description>&lt;p&gt;Well, it was a long day of work. And I need to get a few minutes sleep before we head back to the plant. Yes, we have a few things to do at work at midnight.
-Tomorrow I&amp;rsquo;m going to the Baptist church around the corner. So it&amp;rsquo;ll be nice to drop the work for a little while and do some worship.
 Ryan
 Originally posted at classicalRyan.xanga.com&lt;/p&gt;
 </description>

@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/tags/health/</link>
+    <title>Health on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/tags/health/</link>
+    <description>Recent content in Health on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Tue, 06 Oct 2009 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Tue, 06 Oct 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/tags/health/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Fable of Simon McDarpet</title>
-      <link>http://www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</link>
-      <pubDate>Tue, 06 Oct 2009 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</guid>
+      <link>//www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</link>
+      <pubDate>Tue, 06 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/the-fable-of-simon-mcdarpet/</guid>
       <description>&lt;p&gt;I give you the fable of Simon McDarpet,&lt;br /&gt;
 A boy, it would seem, with a hatred for carpet;&lt;br /&gt;
 And tables, of course, and most anything wooden&lt;br /&gt;
@@ -50,10 +51,10 @@ To never move food without using a cover.&lt;/p&gt;
     
     <item>
       <title>Tuesday May 8, 2007</title>
-      <link>http://www.ryanclarke.net/journal/tuesday-may-8-2007/</link>
-      <pubDate>Tue, 08 May 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/journal/tuesday-may-8-2007/</guid>
+      <link>//www.ryanclarke.net/journal/tuesday-may-8-2007/</link>
+      <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/journal/tuesday-may-8-2007/</guid>
       <description>&lt;p&gt;When I got back from my run, my sweat smelled like bleach. Have I been cleaning too much at work?
 Now to learn some Chinese&amp;hellip;
 Ryan

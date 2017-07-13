@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/frameworks/</link>
+    <title>Frameworks on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/frameworks/</link>
+    <description>Recent content in Frameworks on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Wed, 12 Nov 2014 10:19:31 EST</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Wed, 12 Nov 2014 10:19:31 -0500</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/frameworks/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>.Net 4.5</title>
-      <link>http://www.ryanclarke.net/frameworks/.net-4.5/</link>
-      <pubDate>Wed, 12 Nov 2014 10:19:31 EST</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/.net-4.5/</guid>
+      <link>//www.ryanclarke.net/frameworks/.net-4.5/</link>
+      <pubDate>Wed, 12 Nov 2014 10:19:31 -0500</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/.net-4.5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android Api Level 15</title>
-      <link>http://www.ryanclarke.net/frameworks/android-api-level-15/</link>
-      <pubDate>Fri, 25 Apr 2014 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/android-api-level-15/</guid>
+      <link>//www.ryanclarke.net/frameworks/android-api-level-15/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/android-api-level-15/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asp.Net Mvc 4</title>
-      <link>http://www.ryanclarke.net/frameworks/asp.net-mvc-4/</link>
-      <pubDate>Wed, 06 Feb 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/asp.net-mvc-4/</guid>
+      <link>//www.ryanclarke.net/frameworks/asp.net-mvc-4/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/asp.net-mvc-4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ie 11</title>
-      <link>http://www.ryanclarke.net/frameworks/ie-11/</link>
-      <pubDate>Mon, 23 Jun 2014 09:00:00 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/ie-11/</guid>
+      <link>//www.ryanclarke.net/frameworks/ie-11/</link>
+      <pubDate>Mon, 23 Jun 2014 09:00:00 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/ie-11/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows 8.1</title>
-      <link>http://www.ryanclarke.net/frameworks/windows-8.1/</link>
-      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/windows-8.1/</guid>
+      <link>//www.ryanclarke.net/frameworks/windows-8.1/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/windows-8.1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows Phone 8</title>
-      <link>http://www.ryanclarke.net/frameworks/windows-phone-8/</link>
-      <pubDate>Wed, 12 Nov 2014 10:19:31 EST</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/windows-phone-8/</guid>
+      <link>//www.ryanclarke.net/frameworks/windows-phone-8/</link>
+      <pubDate>Wed, 12 Nov 2014 10:19:31 -0500</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/windows-phone-8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows Phone 8.1</title>
-      <link>http://www.ryanclarke.net/frameworks/windows-phone-8.1/</link>
-      <pubDate>Wed, 18 Mar 2015 01:22:35 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/frameworks/windows-phone-8.1/</guid>
+      <link>//www.ryanclarke.net/frameworks/windows-phone-8.1/</link>
+      <pubDate>Wed, 18 Mar 2015 01:22:35 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/frameworks/windows-phone-8.1/</guid>
       <description></description>
     </item>
     

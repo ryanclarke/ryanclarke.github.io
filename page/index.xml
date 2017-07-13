@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/page/</link>
+    <title>Pages on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/page/</link>
+    <description>Recent content in Pages on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Tue, 07 Jun 2011 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <lastBuildDate>Tue, 07 Jun 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.ryanclarke.net/page/" rel="self" type="application/rss+xml" />
     
     <item>
       <title> About</title>
-      <link>http://www.ryanclarke.net/about/</link>
-      <pubDate>Tue, 07 Jun 2011 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/about/</guid>
+      <link>//www.ryanclarke.net/about/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/about/</guid>
       <description>&lt;p&gt;My name is Ryan Clarke. I live in Indianapolis with my wife and daughters.&lt;/p&gt;
 
-&lt;p&gt;I am a &lt;a href=&#34;http://www.ryanclarke.net/categories/christianity/&#34;&gt;follower of Christ&lt;/a&gt;. I am a software engineer at &lt;a href=&#34;http://sep.com&#34;&gt;SEP&lt;/a&gt;. I have a BA in Music Theory.&lt;/p&gt;
+&lt;p&gt;I am a &lt;a href=&#34;//www.ryanclarke.net/categories/christianity/&#34;&gt;follower of Christ&lt;/a&gt;. I am a software engineer at &lt;a href=&#34;http://sep.com&#34;&gt;SEP&lt;/a&gt;. I have a BA in Music Theory.&lt;/p&gt;
 </description>
     </item>
     

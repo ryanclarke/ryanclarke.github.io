@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan Clarke </title>
-    <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.ryanclarke.net/categories/</link>
+    <title>Categories on Ryan Clarke</title>
+    <link>//www.ryanclarke.net/categories/</link>
+    <description>Recent content in Categories on Ryan Clarke</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan Clarke</author>
-    <copyright>© 2015 Ryan Clarke</copyright>
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <copyright>© 2017 Ryan Clarke</copyright>
+    <atom:link href="//www.ryanclarke.net/categories/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Christianity</title>
-      <link>http://www.ryanclarke.net/categories/christianity/</link>
-      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/christianity/</guid>
+      <link>//www.ryanclarke.net/categories/christianity/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/christianity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Journal</title>
-      <link>http://www.ryanclarke.net/categories/journal/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/journal/</guid>
+      <link>//www.ryanclarke.net/categories/journal/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shared</title>
-      <link>http://www.ryanclarke.net/categories/shared/</link>
-      <pubDate>Fri, 21 Sep 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/shared/</guid>
+      <link>//www.ryanclarke.net/categories/shared/</link>
+      <pubDate>Fri, 21 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/shared/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>http://www.ryanclarke.net/categories/technology/</link>
-      <pubDate>Fri, 17 Jul 2015 19:11:19 EDT</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/technology/</guid>
+      <link>//www.ryanclarke.net/categories/technology/</link>
+      <pubDate>Fri, 17 Jul 2015 19:11:19 -0400</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>http://www.ryanclarke.net/categories/thoughts/</link>
-      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/thoughts/</guid>
+      <link>//www.ryanclarke.net/categories/thoughts/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>http://www.ryanclarke.net/categories/uncategorized/</link>
-      <pubDate>Sun, 10 Jun 2007 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/uncategorized/</guid>
+      <link>//www.ryanclarke.net/categories/uncategorized/</link>
+      <pubDate>Sun, 10 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/uncategorized/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writings</title>
-      <link>http://www.ryanclarke.net/categories/writings/</link>
-      <pubDate>Wed, 17 Apr 2013 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/writings/</guid>
+      <link>//www.ryanclarke.net/categories/writings/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/writings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xanga</title>
-      <link>http://www.ryanclarke.net/categories/xanga/</link>
-      <pubDate>Tue, 10 Nov 2009 00:00:00 UTC</pubDate>
-      <author>Ryan Clarke</author>
-      <guid>http://www.ryanclarke.net/categories/xanga/</guid>
+      <link>//www.ryanclarke.net/categories/xanga/</link>
+      <pubDate>Tue, 10 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>//www.ryanclarke.net/categories/xanga/</guid>
       <description></description>
     </item>
     
