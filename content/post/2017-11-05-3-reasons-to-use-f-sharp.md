@@ -4,7 +4,7 @@ slug: "3-reasons-to-use-f-sharp"
 date: 2019-11-05T19:45:00-05:00
 tags: ["SEP"]
 categories: ["Technology"]
-frameworks: ["F#", ".NET"]
+frameworks: ["F Sharp", ".NET"]
 description: ""
 featured: ""
 
