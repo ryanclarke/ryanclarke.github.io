@@ -7,7 +7,6 @@ categories: ["Technology"]
 frameworks: ["F#", ".NET"]
 description: ""
 featured: ""
-draft: true
 
 ---
 

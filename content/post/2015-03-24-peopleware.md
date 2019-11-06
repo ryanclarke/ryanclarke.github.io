@@ -7,7 +7,6 @@ categories: ["Technology"]
 frameworks: []
 description: ""
 featured: ""
-draft: false
 
 ---
 
