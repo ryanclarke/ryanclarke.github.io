@@ -5,8 +5,8 @@ date: 2019-11-05T19:45:00-05:00
 tags: ["SEP"]
 categories: ["Technology"]
 frameworks: ["F Sharp", ".NET"]
-description: ""
-featured: ""
+description: "In lieu of anything more objective, I will be using my opinions to explain why F# is such a wonderful language."
+featured: "featured"
 
 ---
 
