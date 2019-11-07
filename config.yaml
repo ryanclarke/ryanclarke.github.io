@@ -1,4 +1,3 @@
----
 BaseURL: "//www.ryanclarke.net/"
 LanguageCode: "en-us"
 Title: "Ryan Clarke"
@@ -6,6 +5,7 @@ MetaDataFormat: "yaml"
 Theme: "lagom"
 PublishDir: "public"
 Copyright: "© 2019 Ryan Clarke"
+RssLimit: 10
 Author:
   name: "Ryan Clarke"
 Params:
@@ -25,5 +25,3 @@ Menu:
     Name: "About"
 Blackfriday:
   PlainIDAnchors: true
-RssLimit: 10
-...

@@ -2,12 +2,11 @@
 title: "In Praise of File > New > Project"
 slug: "in-praise-of-file-new-project"
 date: 2016-02-06T10:58:00-05:00
-tags: ["SEP", "talk"]
+tags: ["SEP", "programming"]
 categories: ["Technology"]
-frameworks: []
+frameworks: ["F Sharp"]
 description: ""
 featured: ""
-draft: true
 
 ---
 
