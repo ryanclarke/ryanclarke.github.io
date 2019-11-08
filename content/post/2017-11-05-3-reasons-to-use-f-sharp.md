@@ -28,16 +28,18 @@ Let me add that impure functions are necessary and mutable data can be convenien
 
 ### Algebraic types for domain modeling
 
-F# has a powerful algebraic type system. It’s called algebraic because it includes both sum and multiplicative types. Sum types say that a type could be this OR that, so all the possibilities of this are added to that. Multiple types say that a type can be this AND that, so all the possibilities of this are multiplied with that. Additionally, there are alias types that wrap one type in another. This algebraic way of combining types is very conducive for domain modeling.
+F# has a powerful algebraic type system. It’s called algebraic because it includes both sum and multiplicative types. Sum types say that a type could be this OR that, so all the possibilities of this are added to that. Multiple types say that a type can be this AND that, so all the possibilities of this are multiplied with that. Additionally, there are types that wrap one type in another. This algebraic way of combining types is very conducive for domain modeling.
 
-F#’s alias types are wonderful for wrapping simple types in a more descriptive and compiler protected object. For instance, a string with an email address could be alias to `UnverifiedEmailAddress` and `VerifiedEmailAddress`. That way it couldn’t get used accidentally for the user name like it could with raw strings.
+F#’s single case union types are wonderful for wrapping simple types in a more descriptive and compiler protected object. For instance, a string with an email address could be wrapped with `UnverifiedEmailAddress` or `VerifiedEmailAddress`. That way it couldn’t get used accidentally for the user name like it could with raw strings.
 
-F#’s union types are useful for combining various states that can be quite diverse within a single type. For example, an `EmailAddress` type could be a union of `UnverifiedEmailAddress`, `VerifiedEmailAddress`, and `None`. When dealing with `EmailAddress` the compiler knows and enforces that you are handling the three valid options. This is far more expressive and safer than having an `emailAddress` string and a `isVerified` Boolean, either of which could be null, and which must be combined to figure out what the full story is. With the union types we are just summing together all the possibilities of `EmailAddress` into one compiler understood type. All this code looks like this:
+F#’s multiple case union types are useful for combining various states that can be quite diverse within a single type. For example, an `EmailAddress` type could be a union of `UnverifiedEmailAddress` and `VerifiedEmailAddress`. When dealing with `EmailAddress` the compiler knows and enforces that you are handling the three valid options. This is far more expressive and safer than having an `emailAddress` string and a `isVerified` Boolean, either of which could be null, and which must be combined to figure out what the full story is. With the union types we are just summing together all the possibilities of `EmailAddress` into one compiler understood type. All this code looks like this:
 
 ```fsharp
-type UnverifiedEmailAddress = string
-type VerifiedEmailAddress = string
-type EmailAddress = UnverifiedEmailAddress | VerifiedEmailAddress | None
+type UnverifiedEmailAddress = UnverifiedEmailAddress of string
+type VerifiedEmailAddress = VerifiedEmailAddress of string
+type EmailAddress =
+    | UnverifiedEmail of UnverifiedEmailAddress
+    | VerifiedEmail of VerifiedEmailAddress
 ```
 
 Where union types provide a way to sum a type by saying it could be this OR that OR something else, record and tuple types allow multiplication by saying this type contains this AND that. I don’t have space to fully explore F#’s record and tuple types, and they really aren’t much different from a conventional class. But where many languages have a lot of syntax involved in creating a class (many of them conventionally giving each class definition its own file) F# makes it easy to create very expressive data structures in a few lines of code. It’s even further out of scope of this article, but F# also includes syntax for creating standard C# objects with inheritance, interfaces, attributes, virtual methods and all that jazz, if you should need the go fully-fledged into OO programming in the middle of an F# project.
